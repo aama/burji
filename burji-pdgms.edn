@@ -1,6 +1,9 @@
 {
 :lang :burji
 :sgpref "bur"
+:datasource "WedekindC19"
+:geodemoURL "http://www.ethnologue.com/language/bji"
+:geodemoTXT "Varieties and subdialects of Burji are spoken in"
 :schemata {
 :case [:Absolutive, :Nominative]
 	  :caseHead [:Absolutive, :Nominative]
@@ -104,7 +107,7 @@
 	    [:Common, :Plural, :Person2, "inteys̆ingu"],
 	    [:Common, :Plural, :Person3, "inteyingu"]]
     }
-    {:label "burji-VAffSimplePerfect-ba’"
+    {:label "burji-VAffSimplePerfect-ba"
     :note "Sasse-Straube1977 pp. 255-258."
     :common {:lexeme :ba,
 	    :polarity :Affirmative,
@@ -436,7 +439,7 @@
 	    [:Common, :Plural, :Person3, :WPro, "(‘isinu) marinaa yeɗa"],
 	    [:Common, :Plural, :Person3, :WoPro, "- maringinaa yeɗingu"]]
     }
-    {:label "burji-VAffImperfect-ba’"
+    {:label "burji-VAffImperfect-ba"
     :note "Sasse-Straube1977 pp. 255-258."
     :common {:lexeme :ba,
 	    :polarity :Affirmative,
