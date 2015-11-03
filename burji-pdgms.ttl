@@ -632,7 +632,7 @@ bur:burji-VNegJuss-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 125" 
 	.
 
-aama:ID447d7c9d-d1e7-43da-a319-29068a59c743 a aamas:Term ;
+aama:ID9cd3e949-f322-400b-ae33-b0905bba497b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -645,7 +645,7 @@ aama:ID447d7c9d-d1e7-43da-a319-29068a59c743 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDaeb4ed41-a11f-42ef-9cb7-42ab00eaadd2 a aamas:Term ;
+aama:IDc0ac99a5-3aae-4159-8ab7-eac8efe44197 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -658,7 +658,7 @@ aama:IDaeb4ed41-a11f-42ef-9cb7-42ab00eaadd2 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID66823008-79d3-4fee-b66b-a27adab23ed5 a aamas:Term ;
+aama:ID33100a35-f2c6-4463-965d-7420e3d4fd0a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -671,7 +671,7 @@ aama:ID66823008-79d3-4fee-b66b-a27adab23ed5 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID6ec6aacc-80b7-496d-994f-0f94a0b9478b a aamas:Term ;
+aama:IDa98bf9a3-4199-461b-8b71-03ee1b998a1e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -691,7 +691,7 @@ bur:burji-VAffSimplePerfect-ba a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID02c8b0a5-d550-47c2-becd-413e5cfbb43a a aamas:Term ;
+aama:ID406cf0c4-6a29-4b0b-96f0-50b20bf975eb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -704,7 +704,7 @@ aama:ID02c8b0a5-d550-47c2-becd-413e5cfbb43a a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbbeb7f75-704b-4424-b65e-8425561013d4 a aamas:Term ;
+aama:ID59e7a801-baef-4060-a110-d6495dd4fcf4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -717,7 +717,7 @@ aama:IDbbeb7f75-704b-4424-b65e-8425561013d4 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID13652907-57e6-4526-b440-df5a802aa83e a aamas:Term ;
+aama:ID0d37eed6-1820-447f-a43b-7fc689fac725 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -730,7 +730,7 @@ aama:ID13652907-57e6-4526-b440-df5a802aa83e a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID7b026cbb-f2c2-4eba-ad80-30ac48bf5eef a aamas:Term ;
+aama:IDf24120ec-3089-413e-8fee-aa5ee08aeb5d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -743,7 +743,7 @@ aama:ID7b026cbb-f2c2-4eba-ad80-30ac48bf5eef a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID13fbe9ca-9480-43dd-bafd-317e43b40d58 a aamas:Term ;
+aama:IDa222c94c-8775-4641-84b1-493821461bfd a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -756,7 +756,7 @@ aama:ID13fbe9ca-9480-43dd-bafd-317e43b40d58 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID608058d0-d119-450a-acba-78e65485ce8f a aamas:Term ;
+aama:IDd94067df-46a8-4a3c-97cc-a328fb859374 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -769,7 +769,7 @@ aama:ID608058d0-d119-450a-acba-78e65485ce8f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID537d8e37-31a5-4bc5-bc4b-ef02d768e415 a aamas:Term ;
+aama:ID25064aa8-f089-45c9-be36-9df39563b4d8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -782,46 +782,6 @@ aama:ID537d8e37-31a5-4bc5-bc4b-ef02d768e415 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-#TERMCLUSTER:  burji-VAffInterrogative-mar
-
-bur:burji-VAffInterrogative-mar a aamas:Termcluster ;
-	rdfs:label "burji-VAffInterrogative-mar" ;
-	rdfs:comment "WedekindC1985 p. 125-126" 
-	.
-
-aama:ID8d642737-3abb-44c2-b64a-5eff8de51b9d a aamas:Term ;
-	aamas:lang aama:Burji ;
-	aamas:memberOf bur:burji-VAffInterrogative-mar ;
-	aamas:lexeme aama:Burji-mar ;
-	bur:polarity bur:Affirmative ;
-	bur:pos bur:Verb ;
-	bur:verbClass bur:Interrogative ;
-	bur:token-gloss "“Do I go?”" ;
-	bur:token "‘ani mara-daa?" ;
-	.
-
-aama:ID9f91f956-6d55-47e4-b965-2dd60a16eb00 a aamas:Term ;
-	aamas:lang aama:Burji ;
-	aamas:memberOf bur:burji-VAffInterrogative-mar ;
-	aamas:lexeme aama:Burji-mar ;
-	bur:polarity bur:Affirmative ;
-	bur:pos bur:Verb ;
-	bur:verbClass bur:Interrogative ;
-	bur:token-gloss "“Is if me to go?”" ;
-	bur:token "‘ee-daa mara?" ;
-	.
-
-aama:ID4ac3e036-d716-47db-94fb-0ea0b4532d8c a aamas:Term ;
-	aamas:lang aama:Burji ;
-	aamas:memberOf bur:burji-VAffInterrogative-mar ;
-	aamas:lexeme aama:Burji-mar ;
-	bur:polarity bur:Affirmative ;
-	bur:pos bur:Verb ;
-	bur:verbClass bur:Interrogative ;
-	bur:token-gloss "“Did I go?”" ;
-	bur:token "‘ani maranni" ;
-	.
-
 #TERMCLUSTER:  burji-VAffImperfect-duw
 
 bur:burji-VAffImperfect-duw a aamas:Termcluster ;
@@ -829,7 +789,7 @@ bur:burji-VAffImperfect-duw a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID7b0e9ca9-cc97-4cb9-833a-9358a4b76c28 a aamas:Term ;
+aama:IDbc33e125-ffa4-4956-870c-28aacbb27ad7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -842,7 +802,7 @@ aama:ID7b0e9ca9-cc97-4cb9-833a-9358a4b76c28 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf78eaba5-4197-42cb-8113-00ef7399f282 a aamas:Term ;
+aama:ID23a07b4b-5f79-4bf2-a689-d2248b91ffa5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -855,7 +815,7 @@ aama:IDf78eaba5-4197-42cb-8113-00ef7399f282 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID866430d1-e120-42d6-8514-48855e294e77 a aamas:Term ;
+aama:IDf6f3cbad-4125-4320-8e7b-1141babed75b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -868,7 +828,7 @@ aama:ID866430d1-e120-42d6-8514-48855e294e77 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDdd95fbb7-7ef6-47ef-9824-5c5b6a8725fb a aamas:Term ;
+aama:ID9f730eae-6c50-481e-ae30-232e429a26f2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -881,7 +841,7 @@ aama:IDdd95fbb7-7ef6-47ef-9824-5c5b6a8725fb a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDba1a9f3d-270a-48a8-861e-45563f68314a a aamas:Term ;
+aama:ID7a400da0-e123-400c-b823-713caac627a6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -894,7 +854,7 @@ aama:IDba1a9f3d-270a-48a8-861e-45563f68314a a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID4744e0d3-61c1-4d59-bb59-1ad041cd9dbe a aamas:Term ;
+aama:IDfe83bbf3-301b-4915-b438-ac928a0ba4aa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -907,7 +867,7 @@ aama:ID4744e0d3-61c1-4d59-bb59-1ad041cd9dbe a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID12d8f42c-9ae5-442a-a7e1-646ac0cd416a a aamas:Term ;
+aama:ID2179b3ad-02ad-421c-9e10-964ba0eb28bb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -927,7 +887,7 @@ bur:burji-VAffSimplePerfect-intey a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID76f9cdbc-fb19-4a5e-8605-33d3733c59f7 a aamas:Term ;
+aama:ID1fb93726-50b6-42df-8b01-10ce5d323da3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -940,7 +900,7 @@ aama:ID76f9cdbc-fb19-4a5e-8605-33d3733c59f7 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0bd90a9f-bc8c-492e-9b8e-c808acd5ede0 a aamas:Term ;
+aama:IDded9c9d4-9fd7-4e0f-a8b3-9c41fbeea8b9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -953,7 +913,7 @@ aama:ID0bd90a9f-bc8c-492e-9b8e-c808acd5ede0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0a63b27b-f5bf-4859-96a5-ed35217086cd a aamas:Term ;
+aama:ID90ce5946-71e7-4f31-92cc-ea3b59ab7fb5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -966,7 +926,7 @@ aama:ID0a63b27b-f5bf-4859-96a5-ed35217086cd a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID1c84e8c0-3139-455e-813e-aa01ac848bb7 a aamas:Term ;
+aama:IDaec71c3e-7cab-47f5-9f85-777e5e2bc534 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -979,7 +939,7 @@ aama:ID1c84e8c0-3139-455e-813e-aa01ac848bb7 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID837e34dd-950b-4d6b-832e-5a92ffb8fdce a aamas:Term ;
+aama:ID8cceaba5-a9e0-4002-b7cb-2bdf3cf277f2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -992,7 +952,7 @@ aama:ID837e34dd-950b-4d6b-832e-5a92ffb8fdce a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID9e2d26f7-c9c8-48b3-887d-36c8c947e5c7 a aamas:Term ;
+aama:IDd57070b3-538d-48d0-87c7-7abe087aea7b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -1005,7 +965,7 @@ aama:ID9e2d26f7-c9c8-48b3-887d-36c8c947e5c7 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDfb250651-28fe-420f-a0be-ddae41211ee3 a aamas:Term ;
+aama:ID1f3f2c60-c5c7-4c23-a390-88fa88bddd2a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -1025,7 +985,7 @@ bur:burji-VAffSimplePerf-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 114. Defective forms:for me/us to have gone" 
 	.
 
-aama:IDdc80a9de-8f00-4602-9745-902d79908291 a aamas:Term ;
+aama:IDa59cd720-1a31-4440-ab36-f02cd6f258d2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1040,7 +1000,7 @@ aama:IDdc80a9de-8f00-4602-9745-902d79908291 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:ID80667dd4-2265-4be7-acfe-eda19bbb8d18 a aamas:Term ;
+aama:ID79c139d1-32a9-47c4-9030-3b19e8621741 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1055,7 +1015,7 @@ aama:ID80667dd4-2265-4be7-acfe-eda19bbb8d18 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:ID1b4571f1-9bec-476e-b0a9-69dd1776de04 a aamas:Term ;
+aama:IDf0fb63b3-ae79-4c5d-a1a6-7c9ba9aafc47 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1070,7 +1030,7 @@ aama:ID1b4571f1-9bec-476e-b0a9-69dd1776de04 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:IDfa274c5d-7cb6-4258-a867-5ab09acfef47 a aamas:Term ;
+aama:IDad82426c-356f-4260-98e8-95de42c6169a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1085,7 +1045,7 @@ aama:IDfa274c5d-7cb6-4258-a867-5ab09acfef47 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:IDa6bf7a22-6d98-40e8-8ad7-148bcd9384b0 a aamas:Term ;
+aama:IDb4c8c61e-3695-4525-8da2-aa44632d8c1d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1100,7 +1060,7 @@ aama:IDa6bf7a22-6d98-40e8-8ad7-148bcd9384b0 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:IDf02223ff-3477-4284-982e-6c9435f34d94 a aamas:Term ;
+aama:IDcdb19bbe-f04e-40d6-80a6-65232056f421 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1115,7 +1075,7 @@ aama:IDf02223ff-3477-4284-982e-6c9435f34d94 a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:ID62cf79f8-96fd-4bf0-bb76-9834ebea437f a aamas:Term ;
+aama:ID597be923-0007-41e9-8007-6cba83d24e27 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1130,7 +1090,7 @@ aama:ID62cf79f8-96fd-4bf0-bb76-9834ebea437f a aamas:Term ;
 	bur:focus bur:Defective ;
 	.
 
-aama:IDf060cbd3-d4e1-4bf2-b667-3dcd4c16c496 a aamas:Term ;
+aama:ID26e3808f-51e5-47fa-9e62-89bd9301b94e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1145,7 +1105,7 @@ aama:IDf060cbd3-d4e1-4bf2-b667-3dcd4c16c496 a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID45a8e491-5d91-447a-825e-b44f7203432e a aamas:Term ;
+aama:ID169ceb44-69c2-4227-8b0b-4bb5fe6b06a7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1160,7 +1120,7 @@ aama:ID45a8e491-5d91-447a-825e-b44f7203432e a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID37d03adf-fcd3-44d6-89a7-983b94b00d7d a aamas:Term ;
+aama:IDe1b42ab2-f45e-4596-9a02-c895478d65ef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1175,7 +1135,7 @@ aama:ID37d03adf-fcd3-44d6-89a7-983b94b00d7d a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:IDd14d2825-6cff-49ea-b88f-345ed5c34bad a aamas:Term ;
+aama:ID496be77b-a3e9-4c2b-bec9-a72f385e0b5f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1190,7 +1150,7 @@ aama:IDd14d2825-6cff-49ea-b88f-345ed5c34bad a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID4879adb5-6361-4095-841e-ca8e5c851f8c a aamas:Term ;
+aama:ID42cf1c48-8000-4128-8b51-9801b9b29aa4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1205,7 +1165,7 @@ aama:ID4879adb5-6361-4095-841e-ca8e5c851f8c a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID2247b25b-40a7-42ce-8c14-6a9754d34bd2 a aamas:Term ;
+aama:ID493f90c5-6e78-405c-a4ad-a7d4a8cbb1a7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1220,7 +1180,7 @@ aama:ID2247b25b-40a7-42ce-8c14-6a9754d34bd2 a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID598bd437-9f8a-4030-903d-bf2bacc84763 a aamas:Term ;
+aama:IDb6f0310a-d59f-4245-b826-46fccbf2bf12 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1235,7 +1195,7 @@ aama:ID598bd437-9f8a-4030-903d-bf2bacc84763 a aamas:Term ;
 	bur:focus bur:Full ;
 	.
 
-aama:ID9499773f-9403-4995-8a7e-75d8bf54bab7 a aamas:Term ;
+aama:IDfcd0fd10-da4f-4662-977a-355a0c2a6c15 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1257,7 +1217,7 @@ bur:burji-VAffSimplePerfect-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID9b2b8a7c-ad44-4800-8211-0ccfeacf50b6 a aamas:Term ;
+aama:IDe578f654-12ee-4e9e-90a7-660e3df974a2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1270,7 +1230,7 @@ aama:ID9b2b8a7c-ad44-4800-8211-0ccfeacf50b6 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe1d1c0ef-cf8a-4033-a8b1-e206d3a9c505 a aamas:Term ;
+aama:ID2f874726-f15c-42b3-8304-8c4a82b8b77a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1283,7 +1243,7 @@ aama:IDe1d1c0ef-cf8a-4033-a8b1-e206d3a9c505 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDc9b66f08-d211-47d2-806b-9b79e646d9b1 a aamas:Term ;
+aama:ID2820d25e-faad-4fbb-9e45-aaa72f07e17c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1296,7 +1256,7 @@ aama:IDc9b66f08-d211-47d2-806b-9b79e646d9b1 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDfaf15678-54e9-4592-add6-c4a38537e542 a aamas:Term ;
+aama:IDcb0be4bc-9219-4d2a-b757-40b9a737e635 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1309,7 +1269,7 @@ aama:IDfaf15678-54e9-4592-add6-c4a38537e542 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDa84d7260-7ecf-493b-9ac9-8fb8780702d0 a aamas:Term ;
+aama:IDe7070e6b-8a8e-41b9-8e2e-d954eb04b882 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1322,7 +1282,7 @@ aama:IDa84d7260-7ecf-493b-9ac9-8fb8780702d0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID806a03ad-e6f5-4870-afbf-a17d1186b8c7 a aamas:Term ;
+aama:IDdc28bf13-58b2-430c-aace-033fe7defe6a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1335,7 +1295,7 @@ aama:ID806a03ad-e6f5-4870-afbf-a17d1186b8c7 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID92898d5c-4713-452e-80c8-01750dacbcd2 a aamas:Term ;
+aama:IDd28565ff-f1cf-46b1-8e94-a50db706e886 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1355,7 +1315,7 @@ bur:burji-VNegImprtv-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 116 (cf. also 124)" 
 	.
 
-aama:ID65e83e86-df86-4427-9376-3a858b81519b a aamas:Term ;
+aama:ID1cb6047c-e623-4b4f-ad57-7e117cbb2a18 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImprtv-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1366,7 +1326,7 @@ aama:ID65e83e86-df86-4427-9376-3a858b81519b a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID199ea250-49c6-4f2b-86a0-790e59bd378f a aamas:Term ;
+aama:IDd16da125-c265-4ab1-9326-bfd921e7a005 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImprtv-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1384,7 +1344,7 @@ bur:burji-VAffSimplePerfFocusType-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 119" 
 	.
 
-aama:IDc23317c1-ab7e-479c-863f-556f47c6ee3d a aamas:Term ;
+aama:ID4d798e50-9e55-4772-b1e4-f6a9fe99f46e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1400,7 +1360,7 @@ aama:IDc23317c1-ab7e-479c-863f-556f47c6ee3d a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:ID0adf0e84-9afa-43a8-a216-ae9d22820c1d a aamas:Term ;
+aama:ID50fe0e20-cc7b-41a9-aa28-65dc09c05a6d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1416,7 +1376,7 @@ aama:ID0adf0e84-9afa-43a8-a216-ae9d22820c1d a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:IDcbdba459-c016-468b-a209-1b870355284c a aamas:Term ;
+aama:IDa76ee46a-0503-4df7-b1d3-ad4a76a8647b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1432,7 +1392,7 @@ aama:IDcbdba459-c016-468b-a209-1b870355284c a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:IDe0d1251e-28ee-4ee8-ba99-eb42ab3db94d a aamas:Term ;
+aama:ID3c97ffa3-ef96-4059-812e-f5e099df6e95 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1448,7 +1408,7 @@ aama:IDe0d1251e-28ee-4ee8-ba99-eb42ab3db94d a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:ID92c5e679-0550-4be4-b3c8-2439776b80f6 a aamas:Term ;
+aama:IDb123b754-6b01-4176-97e9-64f66799f31d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1464,7 +1424,7 @@ aama:ID92c5e679-0550-4be4-b3c8-2439776b80f6 a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:IDbe938f93-be20-4b19-bba1-bd8374eba3f6 a aamas:Term ;
+aama:ID8a719f12-a56f-413f-8fff-ae8797829220 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1480,7 +1440,7 @@ aama:IDbe938f93-be20-4b19-bba1-bd8374eba3f6 a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:ID9c4c8c4b-b99a-44ff-809e-ef11647192e1 a aamas:Term ;
+aama:ID6eb7f8d0-7a0b-404a-8b59-79375c482689 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1496,7 +1456,7 @@ aama:ID9c4c8c4b-b99a-44ff-809e-ef11647192e1 a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:ID8ba1ab1c-231c-4edb-adbc-62bddd9ff34a a aamas:Term ;
+aama:ID2c6abf55-0f4a-443c-94d9-bf33c4e49778 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1512,7 +1472,7 @@ aama:ID8ba1ab1c-231c-4edb-adbc-62bddd9ff34a a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:ID6b957c1a-a0dd-478f-b6fd-7baa9a837e93 a aamas:Term ;
+aama:IDb4d8ad5b-c6f0-43fc-9744-5f5f030dd872 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1528,7 +1488,7 @@ aama:ID6b957c1a-a0dd-478f-b6fd-7baa9a837e93 a aamas:Term ;
 	bur:focus bur:Free ;
 	.
 
-aama:IDc021c753-fa18-439b-a038-6961280fc57f a aamas:Term ;
+aama:ID4d420fbe-bd3c-43dd-94c4-a06e3d8a8a09 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1544,7 +1504,7 @@ aama:IDc021c753-fa18-439b-a038-6961280fc57f a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:IDf18f9b8c-d943-4996-aa07-cbdac970cd6a a aamas:Term ;
+aama:IDd73d3f81-fd2b-4100-8404-86b30f9d84b1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1560,7 +1520,7 @@ aama:IDf18f9b8c-d943-4996-aa07-cbdac970cd6a a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:ID25b072c6-0755-44a2-aa42-c2d250480ddf a aamas:Term ;
+aama:IDefa76283-40d3-4589-979a-e32eaa4dc19b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1576,7 +1536,7 @@ aama:ID25b072c6-0755-44a2-aa42-c2d250480ddf a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:ID84e3ea10-ce92-49f3-b6bd-42cab0b2159c a aamas:Term ;
+aama:ID6e1e7170-87db-46c8-ba16-066b85470a4d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1592,7 +1552,7 @@ aama:ID84e3ea10-ce92-49f3-b6bd-42cab0b2159c a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:ID37a63074-f88f-49a8-bdc6-29cee28a3ede a aamas:Term ;
+aama:ID2e55499a-d1d2-452a-a783-1f9cf1397d83 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1608,7 +1568,7 @@ aama:ID37a63074-f88f-49a8-bdc6-29cee28a3ede a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:IDc785a4a1-100d-483d-ba03-38ec5deb39b5 a aamas:Term ;
+aama:IDe99c9ab8-ad62-4f49-94dd-c85f76727d17 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1624,7 +1584,7 @@ aama:IDc785a4a1-100d-483d-ba03-38ec5deb39b5 a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:ID79acddcf-7a29-4a55-b802-8ee3305c32ac a aamas:Term ;
+aama:ID350fa9c8-dca2-492c-8884-9400f3a6d397 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1640,7 +1600,7 @@ aama:ID79acddcf-7a29-4a55-b802-8ee3305c32ac a aamas:Term ;
 	bur:focus bur:Subject ;
 	.
 
-aama:ID87fdc1dd-160d-41f8-ad12-08e3cbce1274 a aamas:Term ;
+aama:ID1a5c61ab-4520-4190-bfb4-9ad77ecc4442 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1663,7 +1623,7 @@ bur:burji-VAffJuss-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 123. (cf. also p. 115). (33) Full forms would be%%for instance:haani maru-waa let me go!%%haani maru-waa-see let me go!" 
 	.
 
-aama:ID107c2ab4-670d-40de-8c94-436f09191947 a aamas:Term ;
+aama:ID5a2f2ef2-de61-4244-81f9-b3e1d6d5746c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1678,7 +1638,7 @@ aama:ID107c2ab4-670d-40de-8c94-436f09191947 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:IDaaa502a6-56ad-41e9-bda9-07503ece8da9 a aamas:Term ;
+aama:ID591b2068-11d6-4680-9713-71954e9909e1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1693,7 +1653,7 @@ aama:IDaaa502a6-56ad-41e9-bda9-07503ece8da9 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID07511f9d-54f8-4cc7-ae64-5fc85c29d7f1 a aamas:Term ;
+aama:ID6dacc2a9-2c6a-4f22-9b7b-4673ac1c49df a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1708,7 +1668,7 @@ aama:ID07511f9d-54f8-4cc7-ae64-5fc85c29d7f1 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID7ca1fbd7-e09a-42b2-812e-4b169a746a15 a aamas:Term ;
+aama:ID6a794fe8-d5e9-4870-8d5e-754e459f7c1d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1723,7 +1683,7 @@ aama:ID7ca1fbd7-e09a-42b2-812e-4b169a746a15 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID8c5f0f89-5a79-4294-8b5e-7589ec7d523b a aamas:Term ;
+aama:ID92153e5a-455e-4c53-92a8-ed9484bda312 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1738,7 +1698,7 @@ aama:ID8c5f0f89-5a79-4294-8b5e-7589ec7d523b a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID48decd5c-f52f-4582-b3c8-ffb549271966 a aamas:Term ;
+aama:ID172036af-aa59-4a9e-8fb0-c9489c6a83b7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1753,7 +1713,7 @@ aama:ID48decd5c-f52f-4582-b3c8-ffb549271966 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:ID426de8c9-124b-4748-b9e7-7eecd450cf0b a aamas:Term ;
+aama:IDf6e50922-6893-4dc5-913c-9faee2b7ce4a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1768,7 +1728,7 @@ aama:ID426de8c9-124b-4748-b9e7-7eecd450cf0b a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:IDb1127aeb-46fa-414b-9837-7a3ff62fd893 a aamas:Term ;
+aama:ID58f6f8f0-9480-4007-9233-a2b60a99db88 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1783,7 +1743,7 @@ aama:IDb1127aeb-46fa-414b-9837-7a3ff62fd893 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:IDf1431103-bdf6-4084-8f62-775337fed427 a aamas:Term ;
+aama:ID871f3f63-b393-42b7-9a9e-73eb90cc34db a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1798,7 +1758,7 @@ aama:IDf1431103-bdf6-4084-8f62-775337fed427 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:ID6512537d-a5ba-4f39-8874-5a015083db1b a aamas:Term ;
+aama:IDd0283c2e-70fc-4d86-89d1-f8cb838b14b1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1813,7 +1773,7 @@ aama:ID6512537d-a5ba-4f39-8874-5a015083db1b a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:ID51f32862-cc42-4d34-9ad4-ddbc69509bd5 a aamas:Term ;
+aama:ID643df15f-bb33-4cc3-8720-d876dba64d9c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1835,7 +1795,7 @@ bur:burji-VAffPresPerf-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDe4a04095-f9cb-4841-8e69-bc2941a51632 a aamas:Term ;
+aama:ID26fc88a3-3d76-40bd-8ace-27e10ee5fc15 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1848,7 +1808,7 @@ aama:IDe4a04095-f9cb-4841-8e69-bc2941a51632 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDb91d0958-72a3-44d0-8524-eca9b75a6311 a aamas:Term ;
+aama:ID5e9f2e8a-140e-4a2a-9ac2-9dbdf3a3e088 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1861,7 +1821,7 @@ aama:IDb91d0958-72a3-44d0-8524-eca9b75a6311 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID231843f9-a728-43f7-af48-b195e3db77db a aamas:Term ;
+aama:ID174a2569-0c6d-48fd-a304-54b883935e53 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1874,7 +1834,7 @@ aama:ID231843f9-a728-43f7-af48-b195e3db77db a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID0bed8bf3-1e9c-4214-bb17-5259d766a1f4 a aamas:Term ;
+aama:IDa941bfaa-3c0d-42dd-bb1b-fab40f7a6be4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1887,7 +1847,7 @@ aama:ID0bed8bf3-1e9c-4214-bb17-5259d766a1f4 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID8ceb2636-e904-4558-9abd-90bcd990798a a aamas:Term ;
+aama:ID114a96be-a18a-477f-96d2-4e99d674e129 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1900,7 +1860,7 @@ aama:ID8ceb2636-e904-4558-9abd-90bcd990798a a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbda98e2e-e332-4906-9557-94236cdb4d47 a aamas:Term ;
+aama:ID94311872-04a6-4c6c-9d69-86f8d369a13a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1913,7 +1873,7 @@ aama:IDbda98e2e-e332-4906-9557-94236cdb4d47 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbf28300a-5f9f-4492-a9e8-f2dbd1253e4e a aamas:Term ;
+aama:ID60680ddf-e919-431e-a74e-49a4104dd081 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -1933,7 +1893,7 @@ bur:burji-VAffPresPerfCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
 	.
 
-aama:IDdaffe760-3db9-4cdb-bfdc-74acc94f07b6 a aamas:Term ;
+aama:ID5e201e1e-e7c2-40c8-8da2-304764c46675 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1948,7 +1908,7 @@ aama:IDdaffe760-3db9-4cdb-bfdc-74acc94f07b6 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDdb9332f7-f3dc-4d7d-8da1-d3f54a8b1796 a aamas:Term ;
+aama:ID3abaefe7-0755-4a4f-876b-d6d643842c07 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1963,7 +1923,7 @@ aama:IDdb9332f7-f3dc-4d7d-8da1-d3f54a8b1796 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDcf9dac8c-ff1b-46dc-93ea-0e7e54b7807f a aamas:Term ;
+aama:ID3baed989-bbb3-49f9-8c02-6349d49069bc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1978,7 +1938,7 @@ aama:IDcf9dac8c-ff1b-46dc-93ea-0e7e54b7807f a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDb4ba1332-194f-428c-9c35-e7c2f5e0e5c1 a aamas:Term ;
+aama:ID912d927b-a346-440d-b1b6-fac095129844 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -1993,7 +1953,7 @@ aama:IDb4ba1332-194f-428c-9c35-e7c2f5e0e5c1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDafe57d31-8719-4f14-bb99-275e2b0ea0ab a aamas:Term ;
+aama:ID145c4781-f30c-4442-a1cc-048475a68a7e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2008,7 +1968,7 @@ aama:IDafe57d31-8719-4f14-bb99-275e2b0ea0ab a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID5da0478d-7290-416d-a993-c991628fee83 a aamas:Term ;
+aama:ID611103e2-cfbc-49db-bb12-9254a3f20d82 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2023,7 +1983,7 @@ aama:ID5da0478d-7290-416d-a993-c991628fee83 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID68206e74-9b49-461c-819d-209cb95bc36d a aamas:Term ;
+aama:ID40c50dee-8adb-4e7b-8c9a-55404246e4fc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2038,7 +1998,7 @@ aama:ID68206e74-9b49-461c-819d-209cb95bc36d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID45d668e1-a027-4155-903e-0845d839ca2d a aamas:Term ;
+aama:IDdbc9f774-8758-4b75-95bd-6cd36092f7fc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2053,7 +2013,7 @@ aama:ID45d668e1-a027-4155-903e-0845d839ca2d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDc39fcf0d-a83f-4cda-b4c3-48ccd7bdaef0 a aamas:Term ;
+aama:IDb45b62e5-f2c6-47ac-9d64-c87d3ef01ce6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2075,7 +2035,7 @@ bur:burji-VAffJuss-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDe8a8d50e-4f9a-4c6f-bac6-1ac796577b0b a aamas:Term ;
+aama:ID55167091-7fd6-4f98-a024-015e2763a216 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-it ;
 	bur:gender bur:Common ;
@@ -2088,7 +2048,7 @@ aama:IDe8a8d50e-4f9a-4c6f-bac6-1ac796577b0b a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDec013756-8577-41b3-bae0-03cdb4e86a9c a aamas:Term ;
+aama:ID849e82db-4134-42bd-bf0a-cc4a6e3177e8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-it ;
 	bur:gender bur:Common ;
@@ -2108,7 +2068,7 @@ bur:burji-VAffFutIntensiveCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 122" 
 	.
 
-aama:ID0fb0e910-cc7a-4e13-82f5-7302c808f0d1 a aamas:Term ;
+aama:ID3bff75f5-bcdb-40cf-85c1-234f62d71abe a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2123,7 +2083,7 @@ aama:ID0fb0e910-cc7a-4e13-82f5-7302c808f0d1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa175c041-58eb-4de4-8a77-915ddb6221bc a aamas:Term ;
+aama:IDb3409f62-a974-4497-949c-2f9e3cbf8ca9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2138,7 +2098,7 @@ aama:IDa175c041-58eb-4de4-8a77-915ddb6221bc a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDfb477276-4a68-4efe-9141-3916a397d2d4 a aamas:Term ;
+aama:IDcfc22e04-9e10-4bcf-bf4d-46c55c413daa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2153,7 +2113,7 @@ aama:IDfb477276-4a68-4efe-9141-3916a397d2d4 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID5b80c9db-31bc-47b9-9dc4-a6e65325bd86 a aamas:Term ;
+aama:ID6cfe979f-c173-47a8-b481-d93b2409fc91 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2168,7 +2128,7 @@ aama:ID5b80c9db-31bc-47b9-9dc4-a6e65325bd86 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID69596b24-31f0-42a2-9f5d-c7dc10b99d06 a aamas:Term ;
+aama:IDb11a0549-0898-49e5-b779-f2e9bfb0dfa5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2183,7 +2143,7 @@ aama:ID69596b24-31f0-42a2-9f5d-c7dc10b99d06 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0a2d16f2-1397-49ef-917c-5a8b68a72ba3 a aamas:Term ;
+aama:IDae4aaa82-06c6-4432-ba94-7fc6300dd4c0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2198,7 +2158,7 @@ aama:ID0a2d16f2-1397-49ef-917c-5a8b68a72ba3 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID14f47d55-3ef1-4591-85a6-cabb87c30fcf a aamas:Term ;
+aama:IDc5841f15-6ac2-40d5-8a52-0663d01e6be6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2213,7 +2173,7 @@ aama:ID14f47d55-3ef1-4591-85a6-cabb87c30fcf a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID53d4373f-3a6a-4949-8209-3233c86871f7 a aamas:Term ;
+aama:IDe79f2189-e36d-4d95-9168-52da2df98c9d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2235,7 +2195,7 @@ bur:burji-VNegSimplePerf-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDf3248acd-5da1-4590-81a3-e5e1fe7b7878 a aamas:Term ;
+aama:ID19136dfb-747f-432f-bb11-5da8e9a7e317 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2248,7 +2208,7 @@ aama:IDf3248acd-5da1-4590-81a3-e5e1fe7b7878 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf18bdf30-4174-413e-88b1-47d07acfdb25 a aamas:Term ;
+aama:ID17c75202-5550-4c1c-81b3-f3ae8be961e6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2261,7 +2221,7 @@ aama:IDf18bdf30-4174-413e-88b1-47d07acfdb25 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe3d3aab0-5b19-4dec-964e-3c1a6879c028 a aamas:Term ;
+aama:ID9a32d8ce-fe38-4f43-8f30-77fc23ea36f9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2274,7 +2234,7 @@ aama:IDe3d3aab0-5b19-4dec-964e-3c1a6879c028 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID7c78d44b-022a-4001-91eb-519b8ecdd760 a aamas:Term ;
+aama:ID10e219b1-18de-4784-b14a-bd76c0242a49 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2287,7 +2247,7 @@ aama:ID7c78d44b-022a-4001-91eb-519b8ecdd760 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID6526cca4-88b2-45a0-b248-c727f686c780 a aamas:Term ;
+aama:ID70cf21f2-de03-43a1-b475-ad6d4b8f21fc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2300,7 +2260,7 @@ aama:ID6526cca4-88b2-45a0-b248-c727f686c780 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID04ddde6a-3ab7-44b1-bf45-08ef6116db87 a aamas:Term ;
+aama:ID59fb8652-6977-4ada-8350-8f3281376371 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2313,7 +2273,7 @@ aama:ID04ddde6a-3ab7-44b1-bf45-08ef6116db87 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID7d96c4a3-f207-4be4-b782-b984378d6174 a aamas:Term ;
+aama:IDf96e6c6b-a8d1-4bf5-9731-5870558af297 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2333,7 +2293,7 @@ bur:burji-VAffPassPresPerf-nak a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDc5881af4-7e15-464a-9599-3c244c7da729 a aamas:Term ;
+aama:ID4b6cd5ed-24ae-4388-9ee6-96182b33b21f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2347,7 +2307,7 @@ aama:IDc5881af4-7e15-464a-9599-3c244c7da729 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbbbc9c5f-4be0-42dc-a13c-bfd07b17db7e a aamas:Term ;
+aama:ID9a3e536b-12f4-4655-9d8e-868d1e9df628 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2361,7 +2321,7 @@ aama:IDbbbc9c5f-4be0-42dc-a13c-bfd07b17db7e a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID14b947e1-86b0-458c-9348-7def43e05883 a aamas:Term ;
+aama:IDe2590397-d33c-4632-a362-fc0af67f802e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2375,7 +2335,7 @@ aama:ID14b947e1-86b0-458c-9348-7def43e05883 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDcc1fd328-faba-4ba6-9349-960041066ee0 a aamas:Term ;
+aama:ID81747046-fecd-417e-9766-fb7c49abfa1f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2389,7 +2349,7 @@ aama:IDcc1fd328-faba-4ba6-9349-960041066ee0 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID4f5e42ad-44a2-4e3f-9e56-8ab678afe58f a aamas:Term ;
+aama:ID5883f9aa-3f95-49ef-8104-af0be71e41f8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2403,7 +2363,7 @@ aama:ID4f5e42ad-44a2-4e3f-9e56-8ab678afe58f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa91c1905-2a0a-4a3c-a68e-ff72e9508fe7 a aamas:Term ;
+aama:ID9bd23163-a493-411d-903c-d257b73c0e63 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2417,7 +2377,7 @@ aama:IDa91c1905-2a0a-4a3c-a68e-ff72e9508fe7 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID90502655-0310-47a1-8158-4c0de25e865c a aamas:Term ;
+aama:IDda7aab8f-ca4b-49ab-a188-4ae7e8e8314e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:derivedStem bur:Passive ;
@@ -2431,6 +2391,46 @@ aama:ID90502655-0310-47a1-8158-4c0de25e865c a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
+#TERMCLUSTER:  burji-VAffInterrogative-mar
+
+bur:burji-VAffInterrogative-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffInterrogative-mar" ;
+	rdfs:comment "WedekindC1985 p. 125-126" 
+	.
+
+aama:ID3fce6518-ee04-440a-aa82-7660847e5253 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Do I go?”" ;
+	bur:token "‘ani mara-daa?" ;
+	.
+
+aama:ID32a7bd0a-27e4-413f-907d-3f244de2b05b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Is if me to go?”" ;
+	bur:token "‘ee-daa mara?" ;
+	.
+
+aama:ID8dcce080-9ae6-4d7b-9edf-1c2c3c633e76 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Did I go?”" ;
+	bur:token "‘ani maranni" ;
+	.
+
 #TERMCLUSTER:  burji-VAffImperfProgCompound-mar
 
 bur:burji-VAffImperfProgCompound-mar a aamas:Termcluster ;
@@ -2438,7 +2438,7 @@ bur:burji-VAffImperfProgCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 122." 
 	.
 
-aama:ID81160d05-abde-4ff5-a72a-0ed2401d0f44 a aamas:Term ;
+aama:ID4714ff88-eba4-4b4f-9f46-3dfe5af01b90 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2453,7 +2453,7 @@ aama:ID81160d05-abde-4ff5-a72a-0ed2401d0f44 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID187ffd9b-4470-446a-90a5-958e0e5790fd a aamas:Term ;
+aama:ID2e1ebffd-2311-4170-82b6-09422e0e147f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2468,7 +2468,7 @@ aama:ID187ffd9b-4470-446a-90a5-958e0e5790fd a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0802f502-5fd6-4fba-a258-bb5d7ff6eb18 a aamas:Term ;
+aama:ID770a9687-91c4-4a4f-b3f9-8e59432b4e91 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2483,7 +2483,7 @@ aama:ID0802f502-5fd6-4fba-a258-bb5d7ff6eb18 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDed663dc7-361a-46f9-aaa6-b85a510f8fcf a aamas:Term ;
+aama:IDc9e500c5-275d-478b-aa73-84be5be95889 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2498,7 +2498,7 @@ aama:IDed663dc7-361a-46f9-aaa6-b85a510f8fcf a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID06003162-f3fd-44f1-abb2-5256f1f571e1 a aamas:Term ;
+aama:IDf878c0e4-77e8-4c5c-b042-b1e0838bb1c3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2513,7 +2513,7 @@ aama:ID06003162-f3fd-44f1-abb2-5256f1f571e1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID070d13b1-3f2a-4b81-880e-427f17e32aa0 a aamas:Term ;
+aama:IDd86293c2-4e52-46e7-b908-567f604d10cf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2528,7 +2528,7 @@ aama:ID070d13b1-3f2a-4b81-880e-427f17e32aa0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf6e17c77-ff8a-482b-869c-08745b15e347 a aamas:Term ;
+aama:ID066f315f-75c5-4d97-97ad-87024ee73fef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2543,7 +2543,7 @@ aama:IDf6e17c77-ff8a-482b-869c-08745b15e347 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID59000765-4274-446b-ade0-d479744f56c5 a aamas:Term ;
+aama:IDc382201d-f07a-43ca-bc80-258bedd29b3c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -2565,7 +2565,7 @@ bur:burji-VAffImprtvIrreg-intey a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 124. The verb comehas both a suppletive and a nonsuppletive form" 
 	.
 
-aama:ID5bb72052-7a4b-4e8d-8514-fff652f7cbfd a aamas:Term ;
+aama:ID3ce00655-9ac9-4b66-8752-947c77b010dc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -2577,7 +2577,7 @@ aama:ID5bb72052-7a4b-4e8d-8514-fff652f7cbfd a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDfdda4c0c-88b0-48d4-ad31-040cff34c5aa a aamas:Term ;
+aama:IDd41ece01-f967-4a7b-8598-2b84ea737073 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -2589,7 +2589,7 @@ aama:IDfdda4c0c-88b0-48d4-ad31-040cff34c5aa a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID7a9609fb-f16a-456a-9d30-168e69acea05 a aamas:Term ;
+aama:IDff9cf6b3-c156-4455-b19a-d157e91f7e1f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -2601,7 +2601,7 @@ aama:ID7a9609fb-f16a-456a-9d30-168e69acea05 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID58a9cb10-3547-47db-87c3-a5ea392a03f7 a aamas:Term ;
+aama:ID418614f8-7469-40f3-b86e-a1efb8607e7a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -2620,7 +2620,7 @@ bur:burji-VAffImperfectReg-irreg a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 120%%paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
 	.
 
-aama:ID07fc96b9-5cab-40c5-b002-ce66977deb1a a aamas:Term ;
+aama:ID78b9a850-804b-4fef-817e-fc758bf67874 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2637,7 +2637,7 @@ aama:ID07fc96b9-5cab-40c5-b002-ce66977deb1a a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:IDbcf967f9-050b-4452-a7df-a30bbb7f67ca a aamas:Term ;
+aama:ID0d6fdca0-8f55-46b6-8537-10ef112c4dee a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2654,7 +2654,7 @@ aama:IDbcf967f9-050b-4452-a7df-a30bbb7f67ca a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID53257871-661a-4bca-87f5-63bc05fc5193 a aamas:Term ;
+aama:ID9de0a44f-2a64-485b-9894-7cf7492f827a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2671,7 +2671,7 @@ aama:ID53257871-661a-4bca-87f5-63bc05fc5193 a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID0c7dfedb-411d-46b3-a744-6c21fc3a4d7c a aamas:Term ;
+aama:ID825158ce-fcb5-4338-8256-c8b2c3c54d84 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2688,7 +2688,7 @@ aama:ID0c7dfedb-411d-46b3-a744-6c21fc3a4d7c a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:IDc8a6e9de-d10b-4f36-8502-2126addf7cd7 a aamas:Term ;
+aama:ID0faa2fd9-257f-4f88-bcf5-4851fdf735bb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2705,7 +2705,7 @@ aama:IDc8a6e9de-d10b-4f36-8502-2126addf7cd7 a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID9e54e10e-f536-41ef-89b0-d4573287f414 a aamas:Term ;
+aama:ID76dc46cc-9c39-4df5-bc2d-c2ef13a6dfbe a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2722,7 +2722,7 @@ aama:ID9e54e10e-f536-41ef-89b0-d4573287f414 a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID011d41ed-435e-4df4-8300-9427bb61d394 a aamas:Term ;
+aama:ID70ef843f-577b-4b7d-91a9-42aa5b08bcf7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2739,7 +2739,7 @@ aama:ID011d41ed-435e-4df4-8300-9427bb61d394 a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID7654a1c6-4307-4697-8fee-034647f64d31 a aamas:Term ;
+aama:ID59f95964-5b34-405b-8467-1ff317201c64 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2756,7 +2756,7 @@ aama:ID7654a1c6-4307-4697-8fee-034647f64d31 a aamas:Term ;
 	bur:conjClass bur:Regular ;
 	.
 
-aama:ID4e496488-f724-40a1-886e-e47c8a9d250d a aamas:Term ;
+aama:ID02d883e0-86f0-449f-a276-daf82d8330cb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2773,7 +2773,7 @@ aama:ID4e496488-f724-40a1-886e-e47c8a9d250d a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:ID311acf67-1230-41b3-b394-a76af5adb867 a aamas:Term ;
+aama:IDf1a536f2-52b6-4924-bcd8-a8169b177019 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2790,7 +2790,7 @@ aama:ID311acf67-1230-41b3-b394-a76af5adb867 a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:IDc0984487-c463-4fa2-94e3-61d6c18bb774 a aamas:Term ;
+aama:ID7f3133f6-3433-4106-89c3-9896b1e3ae6a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2807,7 +2807,7 @@ aama:IDc0984487-c463-4fa2-94e3-61d6c18bb774 a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:ID7cec9968-4bcb-4ac0-a392-9da9225d18c9 a aamas:Term ;
+aama:ID04d66341-0327-4cee-b6df-88d2960c46a5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2824,7 +2824,7 @@ aama:ID7cec9968-4bcb-4ac0-a392-9da9225d18c9 a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:IDea59a0d8-1175-4207-8c6e-b1fba59bd800 a aamas:Term ;
+aama:ID62413c2f-b30e-4bfc-9635-2c9e1b765d5b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2841,7 +2841,7 @@ aama:IDea59a0d8-1175-4207-8c6e-b1fba59bd800 a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:ID2ba0e483-09c2-4ce0-b033-f5840895cfdd a aamas:Term ;
+aama:IDa8e2b69f-8dea-4c29-a3b6-7457fc1e6d90 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2858,7 +2858,7 @@ aama:ID2ba0e483-09c2-4ce0-b033-f5840895cfdd a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:IDbd7d7e2a-1686-44ac-8b98-ed4d4e237cd7 a aamas:Term ;
+aama:ID7ee7708a-89ce-47f0-a45d-363c33088bd3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2875,7 +2875,7 @@ aama:IDbd7d7e2a-1686-44ac-8b98-ed4d4e237cd7 a aamas:Term ;
 	bur:conjClass bur:Irreg ;
 	.
 
-aama:IDac33c1b9-9fba-47bf-8e7b-2d3d35e31302 a aamas:Term ;
+aama:ID2058fd32-310b-4bf8-ada9-de2bbbbe9cf3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-irreg ;
 	bur:morphClass bur:IMPERFREG-IRREG ;
@@ -2899,7 +2899,7 @@ bur:burji-VNegPresProg-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDd8f99e7c-24ad-4b41-894a-ef03ca12227f a aamas:Term ;
+aama:IDd5d3b5b7-4ff2-4576-8adb-5cdb2ee441e4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2912,7 +2912,7 @@ aama:IDd8f99e7c-24ad-4b41-894a-ef03ca12227f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbce205d6-52e7-4271-bde6-3325dcf4db17 a aamas:Term ;
+aama:IDb284d1dc-2eac-4447-b883-46a3c877213f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2925,7 +2925,7 @@ aama:IDbce205d6-52e7-4271-bde6-3325dcf4db17 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDc0414978-507c-403a-927f-187a2e01a0ba a aamas:Term ;
+aama:IDdca9e08a-8756-438b-9e16-2edf64bce40d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2938,7 +2938,7 @@ aama:IDc0414978-507c-403a-927f-187a2e01a0ba a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID8013aa5c-8ad1-4226-9a90-dddd0238a74b a aamas:Term ;
+aama:ID7e31f9c9-703b-4722-bb5d-88b2127ce6ee a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2951,7 +2951,7 @@ aama:ID8013aa5c-8ad1-4226-9a90-dddd0238a74b a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID1cb00fce-4ad9-407f-b087-b661a091c445 a aamas:Term ;
+aama:ID824f274c-0451-48fc-8b3f-c4fdba1f3493 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2964,7 +2964,7 @@ aama:ID1cb00fce-4ad9-407f-b087-b661a091c445 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID6e3085fd-0e6d-4816-b813-edcbe5c1a88d a aamas:Term ;
+aama:ID8146de9c-b290-4068-8559-7815a1e86214 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2977,7 +2977,7 @@ aama:ID6e3085fd-0e6d-4816-b813-edcbe5c1a88d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0f4add3c-1e88-4a21-a860-25731cf684c5 a aamas:Term ;
+aama:ID002bcd92-2d28-4042-bd26-a54e5908ac23 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -2997,7 +2997,7 @@ bur:burji-VNegImperfect-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 116%%125." 
 	.
 
-aama:ID36929a7d-2b0a-4571-b1e3-652964e3570f a aamas:Term ;
+aama:ID5defa0bd-1582-4003-89ad-a5a541422543 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3011,7 +3011,7 @@ aama:ID36929a7d-2b0a-4571-b1e3-652964e3570f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0ffd239c-577c-4e69-93d9-12aa7f46be7a a aamas:Term ;
+aama:IDd054d3ae-2acc-4c8c-8ca8-b724c429484c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3025,7 +3025,7 @@ aama:ID0ffd239c-577c-4e69-93d9-12aa7f46be7a a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID8ef5e8c4-c631-4b55-857c-e874e9ed1db7 a aamas:Term ;
+aama:ID7eb32607-5400-437b-bc82-c0612948a53a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3039,7 +3039,7 @@ aama:ID8ef5e8c4-c631-4b55-857c-e874e9ed1db7 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID36eb0f63-6b3b-4a18-b0e6-1ce27a3a7325 a aamas:Term ;
+aama:ID45f4b504-489c-48ef-867a-d16cd7190ec3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3053,7 +3053,7 @@ aama:ID36eb0f63-6b3b-4a18-b0e6-1ce27a3a7325 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID5fae1ca8-1907-4e36-9681-b85b55a86f46 a aamas:Term ;
+aama:IDf1719590-d2f4-4bb3-b42c-16985706cdef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3067,7 +3067,7 @@ aama:ID5fae1ca8-1907-4e36-9681-b85b55a86f46 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDc5c072e0-24bd-4b98-bff4-54f4dfe81a7d a aamas:Term ;
+aama:ID43962d2a-05f2-4a37-aa15-d24ded08b8c2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3081,7 +3081,7 @@ aama:IDc5c072e0-24bd-4b98-bff4-54f4dfe81a7d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID2f61af20-c43a-4706-87a7-84f7a107a5f9 a aamas:Term ;
+aama:ID454f6ae2-1cb5-4203-8a6c-c154c8b68f8d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3095,7 +3095,7 @@ aama:ID2f61af20-c43a-4706-87a7-84f7a107a5f9 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID9c31b1f3-4685-427a-9bab-074760d6ed94 a aamas:Term ;
+aama:ID375d955d-2ea5-439d-ab9a-11377c6b7c50 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3116,7 +3116,7 @@ bur:burji-VAffPresProgCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 123" 
 	.
 
-aama:ID07258c63-808b-4795-a52a-e6fc9d7d63f3 a aamas:Term ;
+aama:ID7fec3e49-c949-4267-8db1-d765d657d72b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3131,7 +3131,7 @@ aama:ID07258c63-808b-4795-a52a-e6fc9d7d63f3 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf45f325c-54a5-4a4a-8928-133a276a768d a aamas:Term ;
+aama:ID9aa20853-84ba-467a-b774-81caa2b3ecdb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3146,7 +3146,7 @@ aama:IDf45f325c-54a5-4a4a-8928-133a276a768d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID151bc367-a0fe-4e35-b53b-b0c3ac57ee71 a aamas:Term ;
+aama:ID59b165a2-5c3e-4467-b7ca-6b7ac6703ba7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3161,7 +3161,7 @@ aama:ID151bc367-a0fe-4e35-b53b-b0c3ac57ee71 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID063984d0-9acd-4f82-adb7-ce8554f47ed1 a aamas:Term ;
+aama:IDe6fcaa63-9593-4754-877d-22bbd2ea9d1c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3176,7 +3176,7 @@ aama:ID063984d0-9acd-4f82-adb7-ce8554f47ed1 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID56a7589d-f2fe-4f8c-b0b1-f00770069482 a aamas:Term ;
+aama:ID8b9a211b-5c29-436e-928a-55fcea63b535 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3191,7 +3191,7 @@ aama:ID56a7589d-f2fe-4f8c-b0b1-f00770069482 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDaf2e6c13-a9bd-42a9-9706-64f9dc498e2f a aamas:Term ;
+aama:ID81b92b9a-55b2-4487-867d-3eb9778769b8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3206,7 +3206,7 @@ aama:IDaf2e6c13-a9bd-42a9-9706-64f9dc498e2f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID7ba2a805-96b1-4f59-b376-1fd8fddb8ca9 a aamas:Term ;
+aama:ID873904ef-8ee5-480f-94f9-2af5d4a51111 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3221,7 +3221,7 @@ aama:ID7ba2a805-96b1-4f59-b376-1fd8fddb8ca9 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID71f11106-4c71-485f-bc7a-e4090e24e4fd a aamas:Term ;
+aama:ID958c43af-9dda-4654-bd97-55b6fbfbecf8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3243,7 +3243,7 @@ bur:burji-VNegPerfect-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 125. [Not clear whether this is simply a negation of simplePerf%%or of anything perfect/past.]" 
 	.
 
-aama:ID7cd67f0a-9716-4f3f-b061-8931a16810f9 a aamas:Term ;
+aama:IDc4baeb56-be04-4827-9219-eb841883340f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3257,7 +3257,7 @@ aama:ID7cd67f0a-9716-4f3f-b061-8931a16810f9 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID55bd0494-e17a-47c2-b457-9bfec8c67fb0 a aamas:Term ;
+aama:ID565a5db0-713c-4728-8be4-ca54f405c562 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3271,7 +3271,7 @@ aama:ID55bd0494-e17a-47c2-b457-9bfec8c67fb0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDd781b84d-edf1-4616-8178-4c05159414c3 a aamas:Term ;
+aama:ID18edd30d-0096-4c7e-b4e2-d2f79f979bf5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3285,7 +3285,7 @@ aama:IDd781b84d-edf1-4616-8178-4c05159414c3 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID6f2aeb52-f861-4c74-b7da-ea406f5040c5 a aamas:Term ;
+aama:IDa4eb0f1a-4d72-4605-b608-eefce2354c62 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3299,7 +3299,7 @@ aama:ID6f2aeb52-f861-4c74-b7da-ea406f5040c5 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDf104947b-a4be-41ee-b2cb-8c6aaabe8e2b a aamas:Term ;
+aama:ID0846711c-ba92-4e48-b34f-d146d9cdb8f6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3313,7 +3313,7 @@ aama:IDf104947b-a4be-41ee-b2cb-8c6aaabe8e2b a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID9579028c-bf74-412a-92bf-892ca6821f7d a aamas:Term ;
+aama:ID96ee63a4-91f1-480a-9ddb-4ed955df7ec8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3327,7 +3327,7 @@ aama:ID9579028c-bf74-412a-92bf-892ca6821f7d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDd09a01ec-7a07-4632-b2de-8b7882bc3f13 a aamas:Term ;
+aama:IDbd12d63b-9b93-4af1-913f-9838698aa7e0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3341,7 +3341,7 @@ aama:IDd09a01ec-7a07-4632-b2de-8b7882bc3f13 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf782a7b3-7776-414c-9884-256368ec39b9 a aamas:Term ;
+aama:IDa738ef27-f9cc-4d12-a06b-5b819927cb85 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3362,7 +3362,7 @@ bur:burji-VAffImperfect-ba a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDfbc6e222-9632-4c25-a60a-1d365d830f10 a aamas:Term ;
+aama:ID66d79572-a8a9-4049-92cb-d9ebf9e3e97b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3375,7 +3375,7 @@ aama:IDfbc6e222-9632-4c25-a60a-1d365d830f10 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID5f7e80c0-78b4-4a67-ae12-3619289e885b a aamas:Term ;
+aama:IDb804fdbe-b3b3-4ab9-81dd-9f02a315799f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3388,7 +3388,7 @@ aama:ID5f7e80c0-78b4-4a67-ae12-3619289e885b a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID2f757bf1-64c2-4978-bb0d-498f7b3dc574 a aamas:Term ;
+aama:ID979e0942-8805-43f9-bbcf-c88f70e46ea0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3401,7 +3401,7 @@ aama:ID2f757bf1-64c2-4978-bb0d-498f7b3dc574 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDdd107d1e-1cbf-4aae-9b2a-5965aa822420 a aamas:Term ;
+aama:IDff0b4737-9d52-49d0-b41a-41b92f3657b4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3414,7 +3414,7 @@ aama:IDdd107d1e-1cbf-4aae-9b2a-5965aa822420 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDef9cc79d-7167-486c-bbcd-954f84e9c2af a aamas:Term ;
+aama:IDb55b7bb6-f525-43a5-a0d1-439dc35b3360 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3427,7 +3427,7 @@ aama:IDef9cc79d-7167-486c-bbcd-954f84e9c2af a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID61f629f8-8661-4c80-ad49-6efa4a1c934b a aamas:Term ;
+aama:ID60df73bf-71ab-4b26-bacc-162c2508627f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3440,7 +3440,7 @@ aama:ID61f629f8-8661-4c80-ad49-6efa4a1c934b a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID8b2c14cb-cf3f-46f3-9a08-5e0f1dc59b53 a aamas:Term ;
+aama:IDf8dd9bd3-4075-403e-8bb3-085b82ea327b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	aamas:lexeme aama:Burji-ba ;
@@ -3460,7 +3460,7 @@ bur:burji-VAffSimplePerfect-duw a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID74504d8b-e186-43b7-9657-d1cd4304631b a aamas:Term ;
+aama:ID7e3bd085-53c9-48bf-8d95-ac5c6e0ce5e6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3473,7 +3473,7 @@ aama:ID74504d8b-e186-43b7-9657-d1cd4304631b a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID03a3397d-f559-40d1-bbfc-31a3a167ff16 a aamas:Term ;
+aama:IDdd15337b-fc05-46f4-8b1b-e9a9ecf849c4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3486,7 +3486,7 @@ aama:ID03a3397d-f559-40d1-bbfc-31a3a167ff16 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID587b63bb-a38c-4baf-b703-9afad8f4325f a aamas:Term ;
+aama:IDf7c3f101-183a-403f-ab64-93fc52b10770 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3499,7 +3499,7 @@ aama:ID587b63bb-a38c-4baf-b703-9afad8f4325f a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID152454a6-9044-4354-b806-83a1c0bbcf93 a aamas:Term ;
+aama:ID2d55b2e8-9215-4688-8ac4-767fadb6e6b2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3512,7 +3512,7 @@ aama:ID152454a6-9044-4354-b806-83a1c0bbcf93 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID4396234d-27ce-4312-b90f-677e9c3c085d a aamas:Term ;
+aama:ID3df13aea-8da3-478a-860a-e7ef2ca22e9f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3525,7 +3525,7 @@ aama:ID4396234d-27ce-4312-b90f-677e9c3c085d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID01fbfd60-2003-427d-b4fb-fe04a1dd06c1 a aamas:Term ;
+aama:ID81fe33c9-448a-462a-aacf-eae2ef9ff672 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3538,7 +3538,7 @@ aama:ID01fbfd60-2003-427d-b4fb-fe04a1dd06c1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID833755ba-80d0-4dd0-9f36-f4e642698030 a aamas:Term ;
+aama:IDc1c9140c-be91-41fd-80eb-84fd7a370230 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	aamas:lexeme aama:Burji-duw ;
@@ -3558,7 +3558,7 @@ bur:burji-VAffImperfect-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDa3347820-7cc8-4b34-8535-821e8e6bfb75 a aamas:Term ;
+aama:ID237ed123-f468-4991-b2f7-5dd78414c782 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3571,7 +3571,7 @@ aama:IDa3347820-7cc8-4b34-8535-821e8e6bfb75 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID5965ebbd-89e7-42c5-8e96-e7d93878f3a5 a aamas:Term ;
+aama:ID17354672-cd53-4e50-a3cf-ccc63a254f07 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3584,7 +3584,7 @@ aama:ID5965ebbd-89e7-42c5-8e96-e7d93878f3a5 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbd034263-ca09-41eb-8d46-34e23eac0e72 a aamas:Term ;
+aama:IDee4d284d-fafe-4b69-93df-842d4e12c1d7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3597,7 +3597,7 @@ aama:IDbd034263-ca09-41eb-8d46-34e23eac0e72 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDe0c98bf4-8fb3-46b6-bd73-115e137a55ed a aamas:Term ;
+aama:IDa7072f6a-7799-4ed3-921b-47674ca788fa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3610,7 +3610,7 @@ aama:IDe0c98bf4-8fb3-46b6-bd73-115e137a55ed a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDd05f7ab4-0a95-43d4-bb53-7bc1f99c242b a aamas:Term ;
+aama:IDf2a0376a-5706-4a02-8d4b-05fc6d2b7494 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3623,7 +3623,7 @@ aama:IDd05f7ab4-0a95-43d4-bb53-7bc1f99c242b a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID1a463950-816f-472f-9356-54b624140ad7 a aamas:Term ;
+aama:IDc4fc8b27-6cfe-45e8-b7a8-13cbace9f161 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3636,7 +3636,7 @@ aama:ID1a463950-816f-472f-9356-54b624140ad7 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf95a518d-4bde-4391-8e71-8e58bb4f5ced a aamas:Term ;
+aama:IDdcce75a9-249c-4916-94e4-fd1eb878db80 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3656,7 +3656,7 @@ bur:burji-VAffSimplePerfIrreg-beeh a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 119. Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be%%exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)." 
 	.
 
-aama:ID70b7bdfa-e6cf-4e9c-aca0-fdb4ed8c0655 a aamas:Term ;
+aama:ID1e11bfc5-147c-4e32-8aac-eb43478b2561 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3670,7 +3670,7 @@ aama:ID70b7bdfa-e6cf-4e9c-aca0-fdb4ed8c0655 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID703c20cc-e207-4d24-86c3-71b60e902750 a aamas:Term ;
+aama:ID68837978-6d35-472d-bf8d-d74313e632a2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3684,7 +3684,7 @@ aama:ID703c20cc-e207-4d24-86c3-71b60e902750 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID3a2af97f-9751-44b1-9c34-f8106535d52d a aamas:Term ;
+aama:ID045270f6-a9e8-4f19-b219-d076c8772d99 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3698,7 +3698,7 @@ aama:ID3a2af97f-9751-44b1-9c34-f8106535d52d a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID9c39b567-ae32-4a71-a2a6-1ef05a4e69b3 a aamas:Term ;
+aama:ID23cc0f0d-1cef-431e-8833-1c2caabc345f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3712,7 +3712,7 @@ aama:ID9c39b567-ae32-4a71-a2a6-1ef05a4e69b3 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID31b3356a-3f66-41f8-a1d6-5bc6939b7505 a aamas:Term ;
+aama:IDccbee862-99f9-4016-98db-6242e3726df0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3726,7 +3726,7 @@ aama:ID31b3356a-3f66-41f8-a1d6-5bc6939b7505 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbebf84b1-a291-4ebb-abed-49bde08631c1 a aamas:Term ;
+aama:IDd4790d8f-daa5-4230-888d-028dd467ed49 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3740,7 +3740,7 @@ aama:IDbebf84b1-a291-4ebb-abed-49bde08631c1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf33318c9-66f5-4ffc-8a3a-b6798c8f16d0 a aamas:Term ;
+aama:ID878cb61d-9c09-468c-ae7c-08a2f03736d6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3754,7 +3754,7 @@ aama:IDf33318c9-66f5-4ffc-8a3a-b6798c8f16d0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID3136e3f5-feba-4c2c-9f80-74e69174e1e3 a aamas:Term ;
+aama:ID00a34e6e-26f2-4419-b3b4-01167daee2f8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	aamas:lexeme aama:Burji-beeh ;
@@ -3775,7 +3775,7 @@ bur:burji-VNegImperfect-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID7746d6ff-7218-44b0-86b3-c07821881f12 a aamas:Term ;
+aama:ID9bb32b68-237c-4948-b6d2-3e413399a911 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3788,7 +3788,7 @@ aama:ID7746d6ff-7218-44b0-86b3-c07821881f12 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDfed289d4-3d86-496c-b933-ba1429044fe1 a aamas:Term ;
+aama:ID34e8cac5-a436-4600-bfa5-7499c8046349 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3801,7 +3801,7 @@ aama:IDfed289d4-3d86-496c-b933-ba1429044fe1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID85b0061d-bd53-45dc-8756-a65e7aab8835 a aamas:Term ;
+aama:ID6d8036b5-b493-4362-855b-5a04ef2d735b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3814,7 +3814,7 @@ aama:ID85b0061d-bd53-45dc-8756-a65e7aab8835 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDe9584329-dcd0-411f-9416-47447fec4407 a aamas:Term ;
+aama:ID902ea1a8-8a2f-443f-bb63-7ffecde1af5e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3827,7 +3827,7 @@ aama:IDe9584329-dcd0-411f-9416-47447fec4407 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDe9c68c19-55d1-40ba-83f3-2d31ee5bc7dc a aamas:Term ;
+aama:IDd9085bb7-dc61-4c8c-9243-2578b9168133 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3840,7 +3840,7 @@ aama:IDe9c68c19-55d1-40ba-83f3-2d31ee5bc7dc a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID29164d29-076d-4eb9-b06b-d4b64aa0b5d0 a aamas:Term ;
+aama:ID365fe315-f13e-4344-9255-cfc8f494e0f7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3853,7 +3853,7 @@ aama:ID29164d29-076d-4eb9-b06b-d4b64aa0b5d0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe8515429-793a-4df9-aa3d-2cb8c28855bc a aamas:Term ;
+aama:ID86c997be-8393-4b93-829e-20cfc9510b97 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -3873,7 +3873,7 @@ bur:burji-VAffImperfect-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 115. Cf. Sass-Straube1977 p. 255." 
 	.
 
-aama:IDbad6833f-b5e6-4388-88fa-a19b26878610 a aamas:Term ;
+aama:ID5d45f88a-1efb-4101-9200-6faf6aa30b59 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3887,7 +3887,7 @@ aama:IDbad6833f-b5e6-4388-88fa-a19b26878610 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDc69d45e2-934b-4168-8e47-71860fea059d a aamas:Term ;
+aama:IDebe50893-95a9-4953-a55b-5358f70ace87 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3901,7 +3901,7 @@ aama:IDc69d45e2-934b-4168-8e47-71860fea059d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDdef06032-a48d-4be1-9f21-66085ca7ac62 a aamas:Term ;
+aama:IDbf74a636-4ad3-4022-8172-3299faccee47 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3915,7 +3915,7 @@ aama:IDdef06032-a48d-4be1-9f21-66085ca7ac62 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDa77e905d-25e5-4302-852f-17b38ee8e767 a aamas:Term ;
+aama:IDe7f5cd0f-54e5-440a-9b89-2f68dc694ffa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3929,7 +3929,7 @@ aama:IDa77e905d-25e5-4302-852f-17b38ee8e767 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID5d157dc2-7eae-4922-85cd-817ed81201f3 a aamas:Term ;
+aama:ID5f4aa32e-1971-4830-9b5d-fa3243143df3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3943,7 +3943,7 @@ aama:ID5d157dc2-7eae-4922-85cd-817ed81201f3 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID95c570a6-e3a0-44bf-a923-a89a25dd5412 a aamas:Term ;
+aama:IDae8ccbc5-dd4a-45ea-8e0e-a4bb87f93bcb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3957,7 +3957,7 @@ aama:ID95c570a6-e3a0-44bf-a923-a89a25dd5412 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID8387d836-36e4-40f5-b34d-407912f4a73f a aamas:Term ;
+aama:ID64327379-cf47-4d1f-9a87-653714430296 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3971,7 +3971,7 @@ aama:ID8387d836-36e4-40f5-b34d-407912f4a73f a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDd1e46fb7-22ef-407c-98e5-a7a327f557a7 a aamas:Term ;
+aama:ID5c0c0d4a-adc1-4209-8d63-6907cf52a9ce a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -3992,7 +3992,7 @@ bur:burji-VAffImperfect-intey a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDa6f37a8a-fc51-420d-b9e6-0ededdfd6430 a aamas:Term ;
+aama:ID8e6bee06-e00d-4e09-8af7-a3a3e9c8a173 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4005,7 +4005,7 @@ aama:IDa6f37a8a-fc51-420d-b9e6-0ededdfd6430 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID58d9afe6-1594-42ee-bdab-8e43122949e5 a aamas:Term ;
+aama:ID44de32d2-7cc2-44e6-ad7d-ca47c45d4bd1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4018,7 +4018,7 @@ aama:ID58d9afe6-1594-42ee-bdab-8e43122949e5 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDb0f1240b-1adf-4076-b105-45faa0c58728 a aamas:Term ;
+aama:ID26b585ba-0cbc-4784-b9d2-ef2acb30ed38 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4031,7 +4031,7 @@ aama:IDb0f1240b-1adf-4076-b105-45faa0c58728 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID95af5657-6ed1-4424-b4c9-f42923b43fbf a aamas:Term ;
+aama:ID3e75bcf0-0409-4b57-aab6-1b4766753848 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4044,7 +4044,7 @@ aama:ID95af5657-6ed1-4424-b4c9-f42923b43fbf a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID26ea9081-16d8-4f1f-8fab-a51d9e3d7b74 a aamas:Term ;
+aama:ID865a0c1c-482d-4f58-9b13-617f87f33948 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4057,7 +4057,7 @@ aama:ID26ea9081-16d8-4f1f-8fab-a51d9e3d7b74 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID889c94e4-ea83-42f7-ac3e-e2d6a6c9360c a aamas:Term ;
+aama:IDf696d237-faef-47ee-a320-d1a501a22e82 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4070,7 +4070,7 @@ aama:ID889c94e4-ea83-42f7-ac3e-e2d6a6c9360c a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID57e34130-d6f6-48de-a60e-e3f4de7f929b a aamas:Term ;
+aama:ID565f473c-86b0-4d45-8cca-7be3bb335cf5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	aamas:lexeme aama:Burji-intey ;
@@ -4090,7 +4090,7 @@ bur:burji-VNegPastProg-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:IDfe4727c0-d9a6-410a-9ae9-728c8930562e a aamas:Term ;
+aama:ID0401fb2f-2d6c-4715-9a02-e4f3de352bc9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4103,7 +4103,7 @@ aama:IDfe4727c0-d9a6-410a-9ae9-728c8930562e a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID6a78e13d-bc13-49b6-a347-afc376d26bc1 a aamas:Term ;
+aama:ID469f0fef-5ef6-4c75-9665-e3bb325797ce a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4116,7 +4116,7 @@ aama:ID6a78e13d-bc13-49b6-a347-afc376d26bc1 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe81fc06b-e57f-445e-8165-a0f64aad950a a aamas:Term ;
+aama:ID12d0e2fc-2059-454a-891b-5a3850563f6d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4129,7 +4129,7 @@ aama:IDe81fc06b-e57f-445e-8165-a0f64aad950a a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDc2e49561-e547-4114-9527-910fb78e7531 a aamas:Term ;
+aama:IDc3d8cd7e-d27f-4dbe-bccd-a8565b68d8b7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4142,7 +4142,7 @@ aama:IDc2e49561-e547-4114-9527-910fb78e7531 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID711112ba-613f-4165-a52e-acac961870b9 a aamas:Term ;
+aama:ID4b2aa6bb-8204-4958-8160-429b2f80a8fe a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4155,7 +4155,7 @@ aama:ID711112ba-613f-4165-a52e-acac961870b9 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID35d7ef06-d35b-4c96-bd8b-1dc4d521ee8d a aamas:Term ;
+aama:ID4fbdc99e-71bf-4f87-94c4-f0c0345fce43 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	aamas:lexeme aama:Burji-it ;
@@ -4175,7 +4175,7 @@ bur:burji-VAffPluPerfCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
 	.
 
-aama:ID90107efb-5c29-40ea-8170-ad7a6223b125 a aamas:Term ;
+aama:ID7f79856d-46a8-46de-9aa9-e8f44828ecd3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4190,7 +4190,7 @@ aama:ID90107efb-5c29-40ea-8170-ad7a6223b125 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa429907d-2773-4b7a-a47c-4024638c2332 a aamas:Term ;
+aama:ID081772fb-a84b-4270-89be-ceb8fb955e73 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4205,7 +4205,7 @@ aama:IDa429907d-2773-4b7a-a47c-4024638c2332 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID8e3525b7-a7a9-4121-a60e-6a64c87fac30 a aamas:Term ;
+aama:ID6aa2fb17-0ad4-4869-8e3f-88dd4eb30dd4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4220,7 +4220,7 @@ aama:ID8e3525b7-a7a9-4121-a60e-6a64c87fac30 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID07a33ee2-7c4c-44f9-89a9-fa7b4cd06fbc a aamas:Term ;
+aama:ID3774d5ad-b220-4758-b157-d2ec34384907 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4235,7 +4235,7 @@ aama:ID07a33ee2-7c4c-44f9-89a9-fa7b4cd06fbc a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDb28c5354-3802-46d1-8868-1781e5881ef1 a aamas:Term ;
+aama:IDa560bad8-ac4d-4065-9554-441cddc6d8df a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4250,7 +4250,7 @@ aama:IDb28c5354-3802-46d1-8868-1781e5881ef1 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID6021d686-c691-44a7-aee8-8ece50a5b47a a aamas:Term ;
+aama:ID82102cd8-3760-4af4-903e-74c3ede1cfc0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4265,7 +4265,7 @@ aama:ID6021d686-c691-44a7-aee8-8ece50a5b47a a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDae4d3fde-b393-476a-b44a-7a2dbdc834b3 a aamas:Term ;
+aama:ID1547195c-52d8-4e8b-aa4a-4c9d61abfdd5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4280,7 +4280,7 @@ aama:IDae4d3fde-b393-476a-b44a-7a2dbdc834b3 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDab590407-17f6-43b2-a691-23c834328548 a aamas:Term ;
+aama:IDf5504e9b-1f34-4d00-8279-ca8532f67567 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4295,7 +4295,7 @@ aama:IDab590407-17f6-43b2-a691-23c834328548 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDd2ef3468-dfa3-4a0b-9b9f-b262f1305171 a aamas:Term ;
+aama:IDcc902064-f8d9-4a80-b51f-70afcd2d4dae a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4317,7 +4317,7 @@ bur:burji-VAffPerfProgCompound-mar a aamas:Termcluster ;
 	rdfs:comment "WedekindC1985 p. 122." 
 	.
 
-aama:IDe2c53e36-7976-424b-94f8-650ca80c7eb2 a aamas:Term ;
+aama:IDca34ee1c-c753-459d-b7ac-13da6a3736e1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4332,7 +4332,7 @@ aama:IDe2c53e36-7976-424b-94f8-650ca80c7eb2 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID68e45b0b-1f51-4bbb-b1b4-8fdac66d719d a aamas:Term ;
+aama:ID3ec52ec2-7776-4160-bb8c-c17f69cf7853 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4347,7 +4347,7 @@ aama:ID68e45b0b-1f51-4bbb-b1b4-8fdac66d719d a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa002f51b-76bb-4f03-95f3-5180ab9eeb53 a aamas:Term ;
+aama:ID113af6f6-0f9e-4436-ac5e-865ca4c3d7be a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4362,7 +4362,7 @@ aama:IDa002f51b-76bb-4f03-95f3-5180ab9eeb53 a aamas:Term ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDa7caa8e7-9037-41e3-a52a-f3779b40bc67 a aamas:Term ;
+aama:ID6acce1d9-7da0-4aa6-8d83-966d1eb95bb2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4377,7 +4377,7 @@ aama:IDa7caa8e7-9037-41e3-a52a-f3779b40bc67 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID16a57953-f446-4180-b916-1a4cc69e1e10 a aamas:Term ;
+aama:IDe837a42e-3876-44a3-ba4e-f4d731872b9d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4392,7 +4392,7 @@ aama:ID16a57953-f446-4180-b916-1a4cc69e1e10 a aamas:Term ;
 	bur:gender bur:Fem ;
 	.
 
-aama:ID9d42e798-f1ed-4715-92f6-0e4b797e0660 a aamas:Term ;
+aama:ID6fc1e3a7-5e3c-4cb9-9b1b-f1fd97858f01 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4407,7 +4407,7 @@ aama:ID9d42e798-f1ed-4715-92f6-0e4b797e0660 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa97088d2-bb30-460e-9c56-3c7fad6a50a0 a aamas:Term ;
+aama:ID969589da-ded4-48ea-bf77-03284ed2f177 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4422,7 +4422,7 @@ aama:IDa97088d2-bb30-460e-9c56-3c7fad6a50a0 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID085d6a22-92ac-4ab3-bdb8-c7cfee42cd98 a aamas:Term ;
+aama:ID009ec9f1-469a-4323-9d2d-49a3158f9072 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4437,7 +4437,7 @@ aama:ID085d6a22-92ac-4ab3-bdb8-c7cfee42cd98 a aamas:Term ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID2311ba55-39a6-4be0-91a4-ccdea4fdc4c7 a aamas:Term ;
+aama:ID3c10ab45-0996-466e-8809-10d31ba83067 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	aamas:lexeme aama:Burji-mar ;
@@ -4459,7 +4459,7 @@ bur:burji-VAffImprtv-it a aamas:Termcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
 	.
 
-aama:ID85847fb0-480d-47a1-a4c8-4a1ae3e41914 a aamas:Term ;
+aama:ID0b059cba-d1a7-4df1-9a44-e62cff699be4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtv-it ;
 	bur:gender bur:Common ;
@@ -4472,7 +4472,7 @@ aama:ID85847fb0-480d-47a1-a4c8-4a1ae3e41914 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd59662a5-fee6-4890-934c-807ebe464267 a aamas:Term ;
+aama:ID761e8104-8be8-4e74-89ad-0e4179fb9885 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtv-it ;
 	bur:gender bur:Common ;
@@ -4485,6 +4485,251 @@ aama:IDd59662a5-fee6-4890-934c-807ebe464267 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
+#MUTERMCLUSTER:  burji-VSubjMarkers
+
+bur:burji-VSubjMarkers a aamas:MuTermcluster ;
+	rdfs:label "burji-VSubjMarkers" ;
+	rdfs:comment "WedekindC1985 p. 117. In the suffix%%The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse." 
+	.
+
+aama:ID1f30122d-8e1f-4c9c-80dd-87b9c993dd72 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘ani =&gt;  -anni/-annoo" ;
+	bur:token-note-proSuff "‘ani + -anni/-annoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Common ;
+	.
+
+aama:ID620fd0ca-41a6-4411-8004-e73405f810e7 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘as̆i =&gt;  -antu/-antoo" ;
+	bur:token-note-proSuff "‘as̆i + -antu/-antoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Common ;
+	.
+
+aama:ID669f86c1-8118-4db1-affb-35d8dcb05dd2 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘isi =&gt;  -anni/-annoo" ;
+	bur:token-note-proSuff "‘isi + -anni/-annoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Masc ;
+	.
+
+aama:ID9817e686-c604-478c-89d6-af72e42bfcc6 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘as̆i =&gt;  -anni/-annoo" ;
+	bur:token-note-proSuff "‘as̆i + -anni/-annoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Fem ;
+	.
+
+aama:ID308c5172-93f6-400a-ba59-ce99d92e30e2 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "naanu =&gt;  -anninu/-anninoo" ;
+	bur:token-note-proSuff "naanu + -anninu/-anninoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Common ;
+	.
+
+aama:IDc4b5747d-a871-4104-bef0-bd9296c3bd73 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘as̆inu =&gt;  -ancingu/-ancingoo" ;
+	bur:token-note-proSuff "‘as̆inu + -ancingu/-ancingoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Common ;
+	.
+
+aama:IDc88a0b9f-3050-41db-822d-bda7716cb20a a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "‘isinu =&gt;  -anni/-annoo" ;
+	bur:token-note-proSuff "‘isinu + -anni/-annoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Masc ;
+	.
+
+aama:ID5aed1cef-a09c-4675-bfd5-289815021469 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -anningu/-anningoo" ;
+	bur:token-note-proSuff "Common + -anningu/-anningoo" ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Fem ;
+	.
+
+aama:IDae67983b-98ad-43d7-bb35-260aaa389829 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -a" ;
+	bur:token-note-proSuff "Common + -a" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Common ;
+	.
+
+aama:ID3633c245-ae58-4f51-89dc-fc9e159b1634 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -ta" ;
+	bur:token-note-proSuff "Common + -ta" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Common ;
+	.
+
+aama:ID5765ff8f-a664-4411-8fc9-fbea6354468c a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -a" ;
+	bur:token-note-proSuff "Common + -a" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Masc ;
+	.
+
+aama:IDc316882f-c6ad-412b-81c6-d85f510312e2 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -a" ;
+	bur:token-note-proSuff "Common + -a" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Id ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Common ;
+	.
+
+aama:IDbcaefe6a-b300-492c-9c8e-d45fa3b64b57 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -ta" ;
+	bur:token-note-proSuff "Common + -ta" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:gender bur:Fem ;
+	.
+
+aama:IDaf1bbcc5-7b40-4dc3-9c84-69f79edd5d84 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -na" ;
+	bur:token-note-proSuff "Common + -na" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Common ;
+	.
+
+aama:IDf85a170a-2a7c-47ac-9201-0c847018c2d8 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -cingu/-cingoo" ;
+	bur:token-note-proSuff "Common + -cingu/-cingoo" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Common ;
+	.
+
+aama:ID84fecc41-99ac-42c9-8c06-e6373d755221 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -a" ;
+	bur:token-note-proSuff "Common + -a" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Masc ;
+	.
+
+aama:IDbcb09a3a-45d4-4b53-b539-cfd980d0d9f9 a aamas:Muterm ;
+	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
+	aamas:morpheme aama:Burji-SUBJMARKERS ;
+	bur:pos bur:Verb ;
+	bur:morphClass bur:SubjMarkers ;
+	bur:token "Common =&gt;  -ingu/-ingoo" ;
+	bur:token-note-proSuff "Common + -ingu/-ingoo" ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:gender bur:Fem ;
+	.
+
 #MUTERMCLUSTER:  burji-PInterr
 
 bur:burji-PInterr a aamas:MuTermcluster ;
@@ -4492,7 +4737,7 @@ bur:burji-PInterr a aamas:MuTermcluster ;
 	rdfs:comment "HudsonG1976 p. 259." 
 	.
 
-aama:ID13ff84c5-6869-4961-ac84-f9633958ae1a a aamas:Muterm ;
+aama:IDa292904b-4391-466c-8844-938309179fdc a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
@@ -4501,7 +4746,7 @@ aama:ID13ff84c5-6869-4961-ac84-f9633958ae1a a aamas:Muterm ;
 	bur:interrogClass bur:InterrogProWho ;
 	.
 
-aama:ID93a256e5-78b0-4153-a947-fd4606b0899f a aamas:Muterm ;
+aama:ID94dc9407-5551-4ff0-ace8-232a8775580a a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
@@ -4510,7 +4755,7 @@ aama:ID93a256e5-78b0-4153-a947-fd4606b0899f a aamas:Muterm ;
 	bur:interrogClass bur:InterrogProWhat ;
 	.
 
-aama:ID10cc87c7-240c-41e2-a6b1-f85934929cef a aamas:Muterm ;
+aama:ID08a3a311-33e9-4855-a311-6e8e69a2fa6b a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
@@ -4519,7 +4764,7 @@ aama:ID10cc87c7-240c-41e2-a6b1-f85934929cef a aamas:Muterm ;
 	bur:interrogClass bur:InterrogProWhen ;
 	.
 
-aama:IDc172557c-b389-4aa1-b3e3-64aea658ad31 a aamas:Muterm ;
+aama:ID44f01f83-7029-4138-931b-ba276a8f03c3 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
@@ -4528,7 +4773,7 @@ aama:IDc172557c-b389-4aa1-b3e3-64aea658ad31 a aamas:Muterm ;
 	bur:interrogClass bur:InterrogProWhere ;
 	.
 
-aama:IDec6276af-0705-4537-bc14-a0f9cc61927e a aamas:Muterm ;
+aama:IDc16a69e9-37e2-459c-96ea-0e498511a497 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
@@ -4537,275 +4782,13 @@ aama:IDec6276af-0705-4537-bc14-a0f9cc61927e a aamas:Muterm ;
 	bur:interrogClass bur:InterrogProHow ;
 	.
 
-aama:IDc9405e27-0559-4a39-b99d-da08c899851a a aamas:Muterm ;
+aama:ID75a3cab6-9002-44dc-a33b-a6bea49a00d0 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInterr ;
 	aamas:morpheme aama:Burji-PROINTERROG ;
 	bur:pos bur:Pronoun ;
 	bur:proClass bur:Interrogative ;
 	bur:token "mia" ;
 	bur:interrogClass bur:InterrogProHowMany ;
-	.
-
-#MUTERMCLUSTER:  burji-VSubjMarkers
-
-bur:burji-VSubjMarkers a aamas:MuTermcluster ;
-	rdfs:label "burji-VSubjMarkers" ;
-	rdfs:comment "WedekindC1985 p. 117. In the suffix%%The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse." 
-	.
-
-aama:IDfdd1fce5-03d5-45ab-b609-bf5eb1ea9503 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘ani =&gt;  -anni/-annoo" ;
-	bur:token-suff "-anni/-annoo" ;
-	bur:token-pro "‘ani" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person1 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Common ;
-	.
-
-aama:ID4cf88ac6-ba5e-4f2a-b06d-8406a64e496b a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘as̆i =&gt;  -antu/-antoo" ;
-	bur:token-suff "-antu/-antoo" ;
-	bur:token-pro "‘as̆i" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person2 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Common ;
-	.
-
-aama:IDc26a586e-7c6f-414c-995b-534c026eea94 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘isi =&gt;  -anni/-annoo" ;
-	bur:token-suff "-anni/-annoo" ;
-	bur:token-pro "‘isi" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Masc ;
-	.
-
-aama:ID6dda1d81-2572-4d3a-8c8c-3fe3692296af a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘as̆i =&gt;  -anni/-annoo" ;
-	bur:token-suff "-anni/-annoo" ;
-	bur:token-pro "‘as̆i" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Fem ;
-	.
-
-aama:IDbe729ed4-0192-4bef-8c76-9dcdf0df5c36 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "naanu =&gt;  -anninu/-anninoo" ;
-	bur:token-suff "-anninu/-anninoo" ;
-	bur:token-pro "naanu" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person1 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Common ;
-	.
-
-aama:IDdefc24ea-cf58-4f47-840b-4299d63f4cd8 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘as̆inu =&gt;  -ancingu/-ancingoo" ;
-	bur:token-suff "-ancingu/-ancingoo" ;
-	bur:token-pro "‘as̆inu" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person2 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Common ;
-	.
-
-aama:ID1ad1e369-8312-4c8c-b36e-a2cce4a8051b a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "‘isinu =&gt;  -anni/-annoo" ;
-	bur:token-suff "-anni/-annoo" ;
-	bur:token-pro "‘isinu" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Masc ;
-	.
-
-aama:ID5b94ed0f-86b4-4b36-8171-284379b07a99 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -anningu/-anningoo" ;
-	bur:token-suff "-anningu/-anningoo" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Perfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Fem ;
-	.
-
-aama:IDa66f5fd9-4cc4-414b-95d5-dd6094505003 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -a" ;
-	bur:token-suff "-a" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person1 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Common ;
-	.
-
-aama:IDe30fda4c-7167-40e3-bd3a-386dec32df38 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -ta" ;
-	bur:token-suff "-ta" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person2 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Common ;
-	.
-
-aama:IDac0d586d-08b8-43b4-89a8-de792b1fe79f a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -a" ;
-	bur:token-suff "-a" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Masc ;
-	.
-
-aama:ID1ceb2490-09cd-4e0c-8a0d-6ba8224ccb02 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -a" ;
-	bur:token-suff "-a" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Id ;
-	bur:person bur:Person3 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Common ;
-	.
-
-aama:ID6633d3f7-db29-45cf-8d12-72fb3c4550e7 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -ta" ;
-	bur:token-suff "-ta" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Singular ;
-	bur:gender bur:Fem ;
-	.
-
-aama:IDb7a428e6-2362-4bd6-9252-03f9a49e8fd5 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -na" ;
-	bur:token-suff "-na" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person1 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Common ;
-	.
-
-aama:ID0f1288b1-72bf-48c6-907f-7c7f2764dbf8 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -cingu/-cingoo" ;
-	bur:token-suff "-cingu/-cingoo" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person2 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Common ;
-	.
-
-aama:ID56b8afa9-9f1d-42a9-9ca0-7d348c7bd1a6 a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -a" ;
-	bur:token-suff "-a" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Masc ;
-	.
-
-aama:ID53a26b5b-da3c-47fc-8550-de939dd7787c a aamas:Muterm ;
-	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VSubjMarkers ;
-	aamas:morpheme aama:Burji-SUBJMARKERS ;
-	bur:pos bur:Verb ;
-	bur:morphClass bur:SubjMarkers ;
-	bur:token "Common =&gt;  -ingu/-ingoo" ;
-	bur:token-suff "-ingu/-ingoo" ;
-	bur:token-pro "Common" ;
-	bur:tam bur:Imperfect ;
-	bur:proType bur:Common ;
-	bur:person bur:Person3 ;
-	bur:number bur:Plural ;
-	bur:gender bur:Fem ;
 	.
 
 #MUTERMCLUSTER:  burji-PInd
@@ -4815,7 +4798,7 @@ bur:burji-PInd a aamas:MuTermcluster ;
 	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
 	.
 
-aama:ID7a4bb673-14e7-4d58-a52c-e56e7dfc66db a aamas:Muterm ;
+aama:IDac22f1e9-700d-4504-996b-49c14b174a71 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4827,7 +4810,7 @@ aama:ID7a4bb673-14e7-4d58-a52c-e56e7dfc66db a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID476ffd23-8592-4f95-8d0f-534c9b1fc2c8 a aamas:Muterm ;
+aama:ID541a67ed-4231-4ab8-83bd-f54715db7f81 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4839,7 +4822,7 @@ aama:ID476ffd23-8592-4f95-8d0f-534c9b1fc2c8 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID94d0e6d1-edd2-43c3-a00b-e832f2fc726d a aamas:Muterm ;
+aama:ID4bdfebe9-38e8-4980-9aa1-85ae43536ee0 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4851,7 +4834,7 @@ aama:ID94d0e6d1-edd2-43c3-a00b-e832f2fc726d a aamas:Muterm ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID57e89dea-ce20-462b-9a4d-64f36031adb3 a aamas:Muterm ;
+aama:ID575c9a0f-c375-4598-a1e8-9abe068d965d a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4863,7 +4846,7 @@ aama:ID57e89dea-ce20-462b-9a4d-64f36031adb3 a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDb8512645-a65b-4d3f-8ee9-b8977fa34cb2 a aamas:Muterm ;
+aama:IDb2fa7d65-90a6-4f46-a14a-9e73cada9089 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4875,7 +4858,7 @@ aama:IDb8512645-a65b-4d3f-8ee9-b8977fa34cb2 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID38e05bf8-5d9d-4081-8f11-b2563aaaeb70 a aamas:Muterm ;
+aama:ID22b5be7b-1cc8-4e94-bcbf-eeac1ba81568 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4887,7 +4870,7 @@ aama:ID38e05bf8-5d9d-4081-8f11-b2563aaaeb70 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe5e316d9-ddf0-407c-a2e3-d783026c95c1 a aamas:Muterm ;
+aama:IDb5ffe345-448e-4978-ad0f-3e25c09ffd8b a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4899,7 +4882,7 @@ aama:IDe5e316d9-ddf0-407c-a2e3-d783026c95c1 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID0f2da8f9-9fc1-4828-8209-afdffb04c204 a aamas:Muterm ;
+aama:IDd24d043a-5d16-446a-b2ca-066d53a7c759 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4911,7 +4894,7 @@ aama:ID0f2da8f9-9fc1-4828-8209-afdffb04c204 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID1553de20-6e66-4cde-973b-db33d227fbcb a aamas:Muterm ;
+aama:IDc25038aa-9e15-42b8-a0d6-929d078d9dd8 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4923,7 +4906,7 @@ aama:ID1553de20-6e66-4cde-973b-db33d227fbcb a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID8d746fb2-cbaa-4b37-85ac-4456f9822d3a a aamas:Muterm ;
+aama:IDdf016af9-7339-4bc3-a9d3-173a5b6a8818 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4935,7 +4918,7 @@ aama:ID8d746fb2-cbaa-4b37-85ac-4456f9822d3a a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDeda25331-c01d-46d5-aea3-b395c04d1eec a aamas:Muterm ;
+aama:ID61c8b1b7-f996-4758-b6c8-7ee3a7111887 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4947,7 +4930,7 @@ aama:IDeda25331-c01d-46d5-aea3-b395c04d1eec a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDeda77149-caad-4291-bd8a-6ec84ac71b94 a aamas:Muterm ;
+aama:ID8cab388d-2c50-4e81-9ba6-0d7863e458ba a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4959,7 +4942,7 @@ aama:IDeda77149-caad-4291-bd8a-6ec84ac71b94 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDba5b3c3d-b686-4bdf-a3db-e0a7d10c18ea a aamas:Muterm ;
+aama:IDb45f103f-de73-4f2f-a2cf-3749970d98f3 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4971,7 +4954,7 @@ aama:IDba5b3c3d-b686-4bdf-a3db-e0a7d10c18ea a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDaf5f328b-605b-48f1-8fb5-2b37e78c2be7 a aamas:Muterm ;
+aama:ID20c06382-f894-48fc-94d5-ed455f5ed9c1 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4983,7 +4966,7 @@ aama:IDaf5f328b-605b-48f1-8fb5-2b37e78c2be7 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDf8a40b5c-bdbc-4050-ad70-362321235c89 a aamas:Muterm ;
+aama:ID5100ea00-5a10-47a3-9534-1f82d66ab77f a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -4995,7 +4978,7 @@ aama:IDf8a40b5c-bdbc-4050-ad70-362321235c89 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID7a3f48de-78a2-486c-97b1-34b07072cd54 a aamas:Muterm ;
+aama:IDf8c72fda-a277-4f31-849f-91d7dc23a39d a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -5007,7 +4990,7 @@ aama:ID7a3f48de-78a2-486c-97b1-34b07072cd54 a aamas:Muterm ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDf87f97df-0bc1-4d9e-bd49-9784e52a1d97 a aamas:Muterm ;
+aama:IDd2b41cbe-f287-44ba-a1ef-81c5044ca313 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -5019,7 +5002,7 @@ aama:IDf87f97df-0bc1-4d9e-bd49-9784e52a1d97 a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDbac559ea-e5e6-46fb-a203-68e894c733c6 a aamas:Muterm ;
+aama:IDaf9c91bf-09d2-4531-9679-e8a4d661a0aa a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -5031,7 +5014,7 @@ aama:IDbac559ea-e5e6-46fb-a203-68e894c733c6 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID88e7b676-a2b0-42a1-aa35-fb04b458f889 a aamas:Muterm ;
+aama:IDd5a8c74a-6e75-4c0a-a864-cb33dec56581 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -5043,7 +5026,7 @@ aama:ID88e7b676-a2b0-42a1-aa35-fb04b458f889 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID4c5a175d-f665-4ea9-974f-de5a10130171 a aamas:Muterm ;
+aama:IDc0e94738-2c92-4acf-a74d-f25cda825628 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
 	aamas:morpheme aama:Burji-PROIND ;
@@ -5062,7 +5045,7 @@ bur:burji-PDemonstrative a aamas:MuTermcluster ;
 	rdfs:comment "Sasse-Straube1977 pp. 254-255. HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der %%%%hier’’ –Deixis (%%dieser’ etc.) belegt– far deixis form is from Hudson." 
 	.
 
-aama:ID0c83402a-4709-40ff-8cb1-341d4d29f71b a aamas:Muterm ;
+aama:IDe5490ca6-cc83-404a-b4fc-2a9c1d6921a5 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5074,7 +5057,7 @@ aama:ID0c83402a-4709-40ff-8cb1-341d4d29f71b a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDd60852b3-1041-430c-bd4c-2ee4946d463d a aamas:Muterm ;
+aama:ID22addf63-4693-40f8-aec3-ed73dd87b866 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5086,7 +5069,7 @@ aama:IDd60852b3-1041-430c-bd4c-2ee4946d463d a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDa615c38d-68eb-4a83-b058-35c6138ca00d a aamas:Muterm ;
+aama:IDd5c8b986-8f81-4663-aa8d-b9e39e7a33a5 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5098,7 +5081,7 @@ aama:IDa615c38d-68eb-4a83-b058-35c6138ca00d a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID62958b01-bd57-484b-a034-c56481e80af4 a aamas:Muterm ;
+aama:ID97838f80-7c13-46b9-bde5-df365a0ebfca a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5110,7 +5093,7 @@ aama:ID62958b01-bd57-484b-a034-c56481e80af4 a aamas:Muterm ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDa5854130-d388-4f4a-be66-a00b34c9be15 a aamas:Muterm ;
+aama:ID5f1b4979-40dc-4e34-8c0b-2f57ffb798db a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5122,7 +5105,7 @@ aama:IDa5854130-d388-4f4a-be66-a00b34c9be15 a aamas:Muterm ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDdf12673f-2017-4373-ab48-4c67472a9842 a aamas:Muterm ;
+aama:ID4f3e1d66-62f3-45c9-9a72-b72217b223a4 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5134,7 +5117,7 @@ aama:IDdf12673f-2017-4373-ab48-4c67472a9842 a aamas:Muterm ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDad33c837-586c-4b92-ac69-94a66c651a00 a aamas:Muterm ;
+aama:IDc930ce9f-d222-463e-8715-5f7f58074b1c a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5146,7 +5129,7 @@ aama:IDad33c837-586c-4b92-ac69-94a66c651a00 a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID3eaa7bf3-6051-43ed-94e0-11109e01052b a aamas:Muterm ;
+aama:ID8b7d6968-b0f2-4498-9465-8905b6cceba1 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5158,7 +5141,7 @@ aama:ID3eaa7bf3-6051-43ed-94e0-11109e01052b a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID457bbc6e-8c45-49d7-9955-b223274d0f4c a aamas:Muterm ;
+aama:IDc8bc3b57-c2f8-4c6f-8f63-c0d142263458 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5170,7 +5153,7 @@ aama:ID457bbc6e-8c45-49d7-9955-b223274d0f4c a aamas:Muterm ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID90bea189-1d9b-48a7-80fa-032c1e15a474 a aamas:Muterm ;
+aama:ID29d8bb69-4290-4884-bd82-19861aa1bf52 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5182,7 +5165,7 @@ aama:ID90bea189-1d9b-48a7-80fa-032c1e15a474 a aamas:Muterm ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDbffa9ed0-5257-4922-80c1-6569800ba3d6 a aamas:Muterm ;
+aama:ID0c10f766-0548-45ff-a278-219abe625176 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5194,7 +5177,7 @@ aama:IDbffa9ed0-5257-4922-80c1-6569800ba3d6 a aamas:Muterm ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID4b01f6f8-1d8d-4e46-9c9f-ad1833df0456 a aamas:Muterm ;
+aama:ID61e14f0e-91f1-417a-a3ea-c9710d3986bd a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PDemonstrative ;
 	aamas:morpheme aama:Burji-PRODEM ;
 	bur:pos bur:Pronoun ;
@@ -5213,7 +5196,7 @@ bur:burji-PPersonal a aamas:MuTermcluster ;
 	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
 	.
 
-aama:IDff437d15-6a95-4522-9ab5-b68da0bdaeaf a aamas:Muterm ;
+aama:ID5ed3de1c-99aa-49c0-b5c0-dc83c43cbb0e a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5225,7 +5208,7 @@ aama:IDff437d15-6a95-4522-9ab5-b68da0bdaeaf a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDe795826d-7b2c-481d-be6f-4aa1471ba52c a aamas:Muterm ;
+aama:IDdeb9b806-ec6a-4a26-a951-1d5611411680 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5237,7 +5220,7 @@ aama:IDe795826d-7b2c-481d-be6f-4aa1471ba52c a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDbf2acc43-d467-4829-9a68-da832e7b4e60 a aamas:Muterm ;
+aama:ID840d005d-dd65-4699-9a38-86bbc335c006 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5249,7 +5232,7 @@ aama:IDbf2acc43-d467-4829-9a68-da832e7b4e60 a aamas:Muterm ;
 	bur:gender bur:Masc ;
 	.
 
-aama:ID931914ac-e896-4c04-8273-abe738e79c5a a aamas:Muterm ;
+aama:ID1a1b9d09-dfea-4fea-8273-c49959866321 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5261,7 +5244,7 @@ aama:ID931914ac-e896-4c04-8273-abe738e79c5a a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDecbe57ad-dadf-44c5-b2a4-6f1166e35e37 a aamas:Muterm ;
+aama:ID4da8b695-1c31-4e28-848c-b5dacb46583c a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5273,7 +5256,7 @@ aama:IDecbe57ad-dadf-44c5-b2a4-6f1166e35e37 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDb09b53a2-d651-449c-a95f-140645c5ccab a aamas:Muterm ;
+aama:ID680a8e9f-f3eb-4359-8182-71082e89bf84 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5285,7 +5268,7 @@ aama:IDb09b53a2-d651-449c-a95f-140645c5ccab a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDac835092-48a4-44df-8a3b-52196e7d6019 a aamas:Muterm ;
+aama:ID88ea0c0a-2038-49b0-83a8-386f5fcf5cc4 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5297,7 +5280,7 @@ aama:IDac835092-48a4-44df-8a3b-52196e7d6019 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDcba58ae6-537b-4ef1-90e6-a41be3d35604 a aamas:Muterm ;
+aama:IDe606a529-570f-4044-9493-d171deafc147 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5309,7 +5292,7 @@ aama:IDcba58ae6-537b-4ef1-90e6-a41be3d35604 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:IDa0a9ccb0-219a-4442-8f92-8a258dc15dad a aamas:Muterm ;
+aama:IDc90aaaf9-2d2c-4e77-8b3f-11b90915588f a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5321,7 +5304,7 @@ aama:IDa0a9ccb0-219a-4442-8f92-8a258dc15dad a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID86ad31f5-e418-46e4-8cfc-3c8bef945b87 a aamas:Muterm ;
+aama:ID48531f36-eb9d-4739-a621-d33a68307bd8 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5333,7 +5316,7 @@ aama:ID86ad31f5-e418-46e4-8cfc-3c8bef945b87 a aamas:Muterm ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDac400b63-4809-4dec-90ba-994e5fb6b467 a aamas:Muterm ;
+aama:IDf66846e6-fd34-4374-add9-c612d9b2e74f a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5345,7 +5328,7 @@ aama:IDac400b63-4809-4dec-90ba-994e5fb6b467 a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDaa425f48-decc-47ec-81e3-1a149f5a3a78 a aamas:Muterm ;
+aama:ID32cbe399-813d-4172-a4c7-e705dbd54968 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5357,7 +5340,7 @@ aama:IDaa425f48-decc-47ec-81e3-1a149f5a3a78 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID67a3ccac-ecde-471d-bba5-b2c396f003a4 a aamas:Muterm ;
+aama:IDe94c0cfa-33b6-40ff-923f-5a79b6813221 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5369,7 +5352,7 @@ aama:ID67a3ccac-ecde-471d-bba5-b2c396f003a4 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID38cfe774-0ea6-4044-9a50-1ddb761a70f3 a aamas:Muterm ;
+aama:ID52738483-2443-47ed-9c0d-8067a2631fa8 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5381,7 +5364,7 @@ aama:ID38cfe774-0ea6-4044-9a50-1ddb761a70f3 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID73b82e5b-faed-4996-8a0e-27cd12583efe a aamas:Muterm ;
+aama:ID8f47e671-05fb-410b-be86-b54d64fc3e9e a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5393,7 +5376,7 @@ aama:ID73b82e5b-faed-4996-8a0e-27cd12583efe a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID739004f8-4b71-4aca-98f3-7738f493ee02 a aamas:Muterm ;
+aama:ID2f8ed4f7-125a-44e7-8d05-19b4b26f39f0 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5405,7 +5388,7 @@ aama:ID739004f8-4b71-4aca-98f3-7738f493ee02 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID709b0420-2294-4cf9-acee-2fce599b72ed a aamas:Muterm ;
+aama:IDd8a4b61d-bdaf-4587-8a17-b11158f37362 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5417,7 +5400,7 @@ aama:ID709b0420-2294-4cf9-acee-2fce599b72ed a aamas:Muterm ;
 	bur:gender bur:Masc ;
 	.
 
-aama:IDba25940d-722c-43e2-8aa1-e075a2657810 a aamas:Muterm ;
+aama:ID7328925a-4670-49ad-ae7e-9bc8c436f1b8 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5429,7 +5412,7 @@ aama:IDba25940d-722c-43e2-8aa1-e075a2657810 a aamas:Muterm ;
 	bur:gender bur:Fem ;
 	.
 
-aama:IDd981f27a-9189-47a4-bab1-a4d76e5f6b20 a aamas:Muterm ;
+aama:IDa872379b-337c-4f0c-9f94-d2054ecfb18e a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5441,7 +5424,7 @@ aama:IDd981f27a-9189-47a4-bab1-a4d76e5f6b20 a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID1a509255-8bcd-4623-a56f-600d593a3f8c a aamas:Muterm ;
+aama:IDa7c26c7e-b1a5-4e27-ac66-a5ede9f14a50 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5453,7 +5436,7 @@ aama:ID1a509255-8bcd-4623-a56f-600d593a3f8c a aamas:Muterm ;
 	bur:gender bur:Common ;
 	.
 
-aama:ID1201bb2f-6488-439d-aced-12d8c335aa21 a aamas:Muterm ;
+aama:ID4b3b5778-8ff6-4014-88dd-3ced3ddedf25 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPersonal ;
 	aamas:morpheme aama:Burji-PROPERSONAL ;
 	bur:pos bur:Pronoun ;
@@ -5472,7 +5455,7 @@ bur:burji-PPoss a aamas:MuTermcluster ;
 	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
 	.
 
-aama:IDb7406ccf-dfde-4cdd-a6da-5afbe20d3ab2 a aamas:Muterm ;
+aama:IDd919dac5-c7f4-46f4-8a34-72b8985e60d0 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5485,7 +5468,7 @@ aama:IDb7406ccf-dfde-4cdd-a6da-5afbe20d3ab2 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID6538703f-f3a6-4282-9627-7147044fd580 a aamas:Muterm ;
+aama:IDd9a08ab4-a451-407e-b4d2-cb53fe7369b1 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5498,7 +5481,7 @@ aama:ID6538703f-f3a6-4282-9627-7147044fd580 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID4ff479d0-6283-40fe-819b-720cc0b22bb0 a aamas:Muterm ;
+aama:ID3f0d41d2-5776-48bc-9059-f5e549473fe5 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5511,7 +5494,7 @@ aama:ID4ff479d0-6283-40fe-819b-720cc0b22bb0 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDff10966a-915e-4a9b-b37a-837a39346320 a aamas:Muterm ;
+aama:ID3e3189eb-b7be-4108-bb91-bd47838801e6 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5524,7 +5507,7 @@ aama:IDff10966a-915e-4a9b-b37a-837a39346320 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID26cf1f2f-c70a-4461-bc3d-e7cede31a21d a aamas:Muterm ;
+aama:ID2ab27332-d689-4d70-be01-2b0c3c8a7be8 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5537,7 +5520,7 @@ aama:ID26cf1f2f-c70a-4461-bc3d-e7cede31a21d a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID960a17f7-8129-4ce8-b9f3-a5e9e3b768db a aamas:Muterm ;
+aama:ID493fdbb4-98c6-4df0-981a-4875414a2b30 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5550,7 +5533,7 @@ aama:ID960a17f7-8129-4ce8-b9f3-a5e9e3b768db a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID1bd1fc53-d378-4ed4-ad5a-b82451305596 a aamas:Muterm ;
+aama:ID0e8ce820-0820-44da-9b57-9a76ffcfef22 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5563,7 +5546,7 @@ aama:ID1bd1fc53-d378-4ed4-ad5a-b82451305596 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDb05ae750-a76c-4cbe-9028-cd25cfada065 a aamas:Muterm ;
+aama:IDb8a9a785-7208-483f-9dc5-513abfd7d877 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5576,7 +5559,7 @@ aama:IDb05ae750-a76c-4cbe-9028-cd25cfada065 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID85a64d06-fcd4-4bd7-8bb1-f1f67df36d9f a aamas:Muterm ;
+aama:ID3fa906a5-a106-47d5-b18d-165ce7208361 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5589,7 +5572,7 @@ aama:ID85a64d06-fcd4-4bd7-8bb1-f1f67df36d9f a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID8b7fa8a7-81cb-4ecd-9b94-cf1eaa79b72f a aamas:Muterm ;
+aama:ID3cbdf6bc-deff-4248-b37c-5c612ef1724d a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5602,7 +5585,7 @@ aama:ID8b7fa8a7-81cb-4ecd-9b94-cf1eaa79b72f a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:IDbfaa5beb-83e6-42e1-9ce6-8c637d3c538b a aamas:Muterm ;
+aama:IDa8769cb6-e4cb-4281-bd72-dc3a43397059 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5615,7 +5598,7 @@ aama:IDbfaa5beb-83e6-42e1-9ce6-8c637d3c538b a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID3e6b4a93-b005-4f7a-bae7-cd8848c68289 a aamas:Muterm ;
+aama:IDe371200b-a876-452a-ad01-b600904ed1c0 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5628,7 +5611,7 @@ aama:ID3e6b4a93-b005-4f7a-bae7-cd8848c68289 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID93950279-8550-4d60-85a8-d5dbe6076a56 a aamas:Muterm ;
+aama:ID91299782-2333-42cc-933b-942f586d1a25 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5641,7 +5624,7 @@ aama:ID93950279-8550-4d60-85a8-d5dbe6076a56 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID0c4e43d3-bcbd-4ae1-8fa3-6582b25e1ad0 a aamas:Muterm ;
+aama:ID679e14fb-b160-45bc-a276-cbb8c75e1d51 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5654,7 +5637,7 @@ aama:ID0c4e43d3-bcbd-4ae1-8fa3-6582b25e1ad0 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:IDa19fd258-6a38-41c1-9fe0-6db6234a1c6a a aamas:Muterm ;
+aama:ID841731af-2040-4976-96b8-984a907e1c87 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5667,7 +5650,7 @@ aama:IDa19fd258-6a38-41c1-9fe0-6db6234a1c6a a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDe82b32ad-dbde-4c8a-a0cf-a0667a04a607 a aamas:Muterm ;
+aama:IDba8e464e-c168-4699-b263-e63dc719e2ce a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5680,7 +5663,7 @@ aama:IDe82b32ad-dbde-4c8a-a0cf-a0667a04a607 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDfd0df302-889a-4d81-9411-446a9164e17b a aamas:Muterm ;
+aama:ID334579b8-8dc8-44f9-a121-9930f43cee9c a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5693,7 +5676,7 @@ aama:IDfd0df302-889a-4d81-9411-446a9164e17b a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID9559cf0a-2515-47e2-ae8f-79b6d710b5f6 a aamas:Muterm ;
+aama:IDc31415ae-1579-4a1a-9ec4-5a746f6492d6 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5706,7 +5689,7 @@ aama:ID9559cf0a-2515-47e2-ae8f-79b6d710b5f6 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDcee6f48b-92c1-4a8c-be64-38509add17b1 a aamas:Muterm ;
+aama:ID02a19b2e-18bc-453f-8acb-454319a2a32b a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5719,7 +5702,7 @@ aama:IDcee6f48b-92c1-4a8c-be64-38509add17b1 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:IDde783d2d-130d-41f8-87f4-db6b54fda17c a aamas:Muterm ;
+aama:IDeb70df66-a110-42ec-8f3d-b84c7a4657f1 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5732,7 +5715,7 @@ aama:IDde783d2d-130d-41f8-87f4-db6b54fda17c a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID7fe1e64c-196a-4975-a6d3-ff74d8678fb6 a aamas:Muterm ;
+aama:ID36b4fbed-e90b-4a13-8023-d1d2be16924c a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5745,7 +5728,7 @@ aama:ID7fe1e64c-196a-4975-a6d3-ff74d8678fb6 a aamas:Muterm ;
 	bur:caseHead bur:Absolutive ;
 	.
 
-aama:ID8d09f1b3-73a9-415e-a382-23cb1a7285b5 a aamas:Muterm ;
+aama:IDd1492b06-a1fe-4a61-bb99-9470d09695fe a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5758,7 +5741,7 @@ aama:ID8d09f1b3-73a9-415e-a382-23cb1a7285b5 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID9d318947-5dae-489b-9792-dfff56bb231e a aamas:Muterm ;
+aama:IDf2e09ba3-da9b-4fa3-bff8-30a4bdfa5171 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5771,7 +5754,7 @@ aama:ID9d318947-5dae-489b-9792-dfff56bb231e a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID2e756510-da28-47aa-b19d-0937c207c3cd a aamas:Muterm ;
+aama:ID4d794235-8b4f-45dc-bd1f-d2f0213fd1de a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5784,7 +5767,7 @@ aama:ID2e756510-da28-47aa-b19d-0937c207c3cd a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID07b0ffd9-9295-4b41-a380-352934de12c0 a aamas:Muterm ;
+aama:ID3a1c4448-62a2-4778-bf29-b7839968bc74 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5797,7 +5780,7 @@ aama:ID07b0ffd9-9295-4b41-a380-352934de12c0 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:IDe778d24d-5adc-495f-8986-7b0813e03fb9 a aamas:Muterm ;
+aama:ID15f49463-9cba-44ae-853a-96de70142f12 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5810,7 +5793,7 @@ aama:IDe778d24d-5adc-495f-8986-7b0813e03fb9 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID79c7306c-e125-41ca-a73d-cd0893238366 a aamas:Muterm ;
+aama:ID67971675-6b30-4c6f-a8a1-d778e4d68b3b a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5823,7 +5806,7 @@ aama:ID79c7306c-e125-41ca-a73d-cd0893238366 a aamas:Muterm ;
 	bur:caseHead bur:Nominative ;
 	.
 
-aama:ID7845285d-6bc2-4b5b-90a6-b15948e56957 a aamas:Muterm ;
+aama:ID3daa3117-984f-406e-bd28-5e7c4e0fbae5 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-PPoss ;
 	aamas:morpheme aama:Burji-PROPOSS ;
 	bur:pos bur:Pronoun ;
@@ -5843,7 +5826,7 @@ bur:burji-VDervStem a aamas:MuTermcluster ;
 	rdfs:comment "WedekindC1985 pp. 133-139 Note discussions of consonant assimilations for causative –s- pp. 133-136%%for benefactive pp. 136-137." 
 	.
 
-aama:IDe83bc261-8662-4f41-a17c-c3c9d4a21676 a aamas:Muterm ;
+aama:ID7d83ad4a-3e88-4fd0-9430-f9400d9bf27a a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5853,7 +5836,7 @@ aama:IDe83bc261-8662-4f41-a17c-c3c9d4a21676 a aamas:Muterm ;
 	bur:derivedStem bur:Causative1 ;
 	.
 
-aama:IDdfde5921-ca81-4bed-8495-decb555f7680 a aamas:Muterm ;
+aama:ID6e0621cc-a7f6-4342-9535-2d86cf542893 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5863,7 +5846,7 @@ aama:IDdfde5921-ca81-4bed-8495-decb555f7680 a aamas:Muterm ;
 	bur:derivedStem bur:Causative2 ;
 	.
 
-aama:ID02a64266-4876-4dfa-bb67-e0202f4ab590 a aamas:Muterm ;
+aama:ID7c0f0307-0375-4f31-872f-d48cd2f8bea6 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5873,7 +5856,7 @@ aama:ID02a64266-4876-4dfa-bb67-e0202f4ab590 a aamas:Muterm ;
 	bur:derivedStem bur:Benefactive ;
 	.
 
-aama:ID11098174-f577-4be4-813d-91a3f8d4095f a aamas:Muterm ;
+aama:ID7cbedc2c-bfe0-4db8-b281-907af7615b0f a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5883,7 +5866,7 @@ aama:ID11098174-f577-4be4-813d-91a3f8d4095f a aamas:Muterm ;
 	bur:derivedStem bur:Passive ;
 	.
 
-aama:ID36a9321e-80fc-45d3-8843-952237b6cd2a a aamas:Muterm ;
+aama:ID883427bd-e929-465c-9fc3-782e0ce3644c a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5893,7 +5876,7 @@ aama:ID36a9321e-80fc-45d3-8843-952237b6cd2a a aamas:Muterm ;
 	bur:derivedStem bur:Combo ;
 	.
 
-aama:IDd0a7125c-2249-4826-bed2-c635ca307017 a aamas:Muterm ;
+aama:IDf523ffe1-d415-44e5-b6ee-393bd8dd2033 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;
@@ -5903,7 +5886,7 @@ aama:IDd0a7125c-2249-4826-bed2-c635ca307017 a aamas:Muterm ;
 	bur:derivedStem bur:Denominal ;
 	.
 
-aama:IDe386eafc-28c1-4622-8f6a-cdb6f95aacfd a aamas:Muterm ;
+aama:ID06bab8de-2a9e-468f-a822-bacc81d53c48 a aamas:Muterm ;
 	aamas:lang aama:Burji ;	aamas:memberOf bur:burji-VDervStem ;
 	aamas:morpheme aama:Burji-DERVSTEM ;
 	bur:pos bur:Verb ;

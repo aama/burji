@@ -213,7 +213,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :verbClass :Interrogative}
-    :terms [[:token, :token-gloss]  ;; schema
+    :terms [[:token, :token-note]  ;; schema
 	    ["‘ani mara-daa?", "“Do I go?”"],
 	    ["‘ee-daa mara?", "“Is if me to go?”"],
 	    ["‘ani maranni", "“Did I go?”"]]
@@ -662,24 +662,24 @@
     :common {:morpheme :SUBJMARKERS,
 	    :pos :Verb,
 	    :morphClass :SubjMarkers}
-    :terms [[:gender, :number, :person, :proType, :tam, :token-pro, :token-suff, :token, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Common, :Perfect, "‘ani", "-anni/-annoo", "‘ani =>  -anni/-annoo", "‘ani =>  -anni/-annoo"],
-	    [:Common, :Singular, :Person2, :Common, :Perfect, "‘as̆i", "-antu/-antoo", "‘as̆i =>  -antu/-antoo"],
-	    [:Masc, :Singular, :Person3, :Common, :Perfect, "‘isi", "-anni/-annoo", "‘isi =>  -anni/-annoo"],
-	    [:Fem, :Singular, :Person3, :Common, :Perfect, "‘as̆i", "-anni/-annoo", "‘as̆i =>  -anni/-annoo"],
-	    [:Common, :Plural, :Person1, :Common, :Perfect, "naanu", "-anninu/-anninoo", "naanu =>  -anninu/-anninoo"],
-	    [:Common, :Plural, :Person2, :Common, :Perfect, "‘as̆inu", "-ancingu/-ancingoo", "‘as̆inu =>  -ancingu/-ancingoo"],
-	    [:Masc, :Plural, :Person3, :Common, :Perfect, "‘isinu", "-anni/-annoo", "‘isinu =>  -anni/-annoo"],
-	    [:Fem, :Plural, :Person3, :Common, :Perfect, "Common", "-anningu/-anningoo", "Common =>  -anningu/-anningoo"],
-	    [:Common, :Singular, :Person1, :Common, :Imperfect, "Common", "-a", "Common =>  -a"],
-	    [:Common, :Singular, :Person2, :Common, :Imperfect, "Common", "-ta", "Common =>  -ta"],
-	    [:Masc, :Singular, :Person3, :Common, :Imperfect, "Common", "-a", "Common =>  -a"],
-	    [:Common, :Singular, :Person3, :Id, :Imperfect, "Common", "-a", "Common =>  -a"],
-	    [:Fem, :Singular, :Person3, :Common, :Imperfect, "Common", "-ta", "Common =>  -ta"],
-	    [:Common, :Plural, :Person1, :Common, :Imperfect, "Common", "-na", "Common =>  -na"],
-	    [:Common, :Plural, :Person2, :Common, :Imperfect, "Common", "-cingu/-cingoo", "Common =>  -cingu/-cingoo"],
-	    [:Masc, :Plural, :Person3, :Common, :Imperfect, "Common", "-a", "Common =>  -a"],
-	    [:Fem, :Plural, :Person3, :Common, :Imperfect, "Common", "-ingu/-ingoo", "Common =>  -ingu/-ingoo"]]
+    :terms [[:gender, :number, :person, :proType, :tam, :token-note-proSuff, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Common, :Perfect, "‘ani + -anni/-annoo", "‘ani =>  -anni/-annoo"],
+	    [:Common, :Singular, :Person2, :Common, :Perfect, "‘as̆i + -antu/-antoo", "‘as̆i =>  -antu/-antoo"],
+	    [:Masc, :Singular, :Person3, :Common, :Perfect, "‘isi + -anni/-annoo", "‘isi =>  -anni/-annoo"],
+	    [:Fem, :Singular, :Person3, :Common, :Perfect, "‘as̆i + -anni/-annoo", "‘as̆i =>  -anni/-annoo"],
+	    [:Common, :Plural, :Person1, :Common, :Perfect, "naanu + -anninu/-anninoo", "naanu =>  -anninu/-anninoo"],
+	    [:Common, :Plural, :Person2, :Common, :Perfect, "‘as̆inu + -ancingu/-ancingoo", "‘as̆inu =>  -ancingu/-ancingoo"],
+	    [:Masc, :Plural, :Person3, :Common, :Perfect, "‘isinu + -anni/-annoo", "‘isinu =>  -anni/-annoo"],
+	    [:Fem, :Plural, :Person3, :Common, :Perfect, "Common + -anningu/-anningoo", "Common =>  -anningu/-anningoo"],
+	    [:Common, :Singular, :Person1, :Common, :Imperfect, "Common + -a", "Common =>  -a"],
+	    [:Common, :Singular, :Person2, :Common, :Imperfect, "Common + -ta", "Common =>  -ta"],
+	    [:Masc, :Singular, :Person3, :Common, :Imperfect, "Common + -a", "Common =>  -a"],
+	    [:Common, :Singular, :Person3, :Id, :Imperfect, "Common + -a", "Common =>  -a"],
+	    [:Fem, :Singular, :Person3, :Common, :Imperfect, "Common + -ta", "Common =>  -ta"],
+	    [:Common, :Plural, :Person1, :Common, :Imperfect, "Common + -na", "Common =>  -na"],
+	    [:Common, :Plural, :Person2, :Common, :Imperfect, "Common + -cingu/-cingoo", "Common =>  -cingu/-cingoo"],
+	    [:Masc, :Plural, :Person3, :Common, :Imperfect, "Common + -a", "Common =>  -a"],
+	    [:Fem, :Plural, :Person3, :Common, :Imperfect, "Common + -ingu/-ingoo", "Common =>  -ingu/-ingoo"]]
     }
     {:label "burji-PInterr"
     :note "HudsonG1976 p. 259."
