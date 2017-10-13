@@ -5,28 +5,27 @@
 :datasource "WedekindC1985"
 :geodemoURL "http://www.ethnologue.com/language/bji"
 :geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations, Nationalities, and Peoples’ region: south of Lake Chamo; into the Oromia state'."
-:schemata{:gender [:Common :Fem :Masc],
-          :genderHead [:HeadFem :HeadMasc],
-          :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
-          :pdgmType [:Exemplary],
-          :clauseMarker [:NoParticle :Particle],
-          :polarity [:Affirmative :Negative],
-          :case [:Absolutive :Nominative :Object],
-          :conjClass [:Irreg :Regular],
-          :caseHead [:HeadAbsolutive :HeadNominative],
-          :focusType [:Defective :Free :Full :Subject],
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :suppletion [:NonSuppletive :Suppletive],
-          :derivedStem [:Benefactive :Causative1 :Causative2 :Combo :Denominal :Passive :Reduplicated],
-          :proType [:CPro :IdPro :WPro :WoPro],
-          :morphClass [:DervStem :SubjMarkers :IMPERFREG_IRREG :VADJ :VINFINITIVEAFF],
-          :formType [:Compound :Suffix],
-          :proClass [:Demonstrative :Independent :Interrogative :Personal :Possessive],
-          :tam [:FutureIntensive :Imperative :Imperfect :ImperfectProgressive :Jussive :PastProgressive :Perfect :PerfectProgressive :Pluperfect :PresentPerfect :PresentProgressive :SimplePerfect],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near],
-          :verbClass [:Focus :Interrogative]}
+ :schemata {:case [:Absolutive  :Nominative :Object],
+            :caseHead [:HeadAbsolutive :HeadNominative],
+            :clauseMarker [:NoParticle :Particle],
+            :conjClass [:Irreg :Regular],
+            :deixis [:Far :Near],
+            :derivedStem [:Benefactive :Causative1 :Causative2 :Combo :Denominal :Passive :Reduplicated],
+            :focusType [:Defective :Free :Full :Subject],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadFem :HeadMasc],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interrogative :Possessive],
+            :proType [:CPro :IdPro :WPro :WoPro],
+            :suppletion [:NonSuppletive :Suppletive],
+            :tam [:FutureIntensive :Imperative :Imperfect :ImperfectProgressive :Jussive :PastProgressive :Perfect :PerfectProgressive :Pluperfect :PresentPerfect :PresentProgressive :SimplePerfect],
+            :tknType [:Compound :Suffix],
+            :verbClass [:Focus :Interrogative]
+            :pdgmType [:DervStem :Finite :FiniteCompound :SubjMarkers :IMPERFREG-IRREG :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :clauseMarker :deixis :derivedStem :focus :interrogClass :polarity :pos :proClass :proType :tam :verbClass],
           :inflClass [:conjClass :suppletion],
@@ -68,12 +67,12 @@
     }
     {:label "burji-VAffImperfProgCompound-mar"
     :note "WedekindC1985 p. 122."
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :ImperfectProgressive,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "‘ani maranaa mara"],
             [:CPro :Singular :Person2 :Common "‘as̆I maranaa marda"],
@@ -101,12 +100,12 @@
     }
     {:label "burji-VAffPresPerfCompound-mar"
     :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresentPerfect,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "(‘ani) marinaa yeɗu"],
             [:CPro :Singular :Person2 :Common "(‘as̆i) mardinaa yettu"],
@@ -161,7 +160,7 @@
     }
     {:label "burji-VNegSimplePerf-it"
     :note "Sasse-Straube1977 pp. 255-258."
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :it,
              :polarity :Negative,
              :pos :Verb,
@@ -177,12 +176,12 @@
     }
     {:label "burji-VAffPluPerfCompound-mar"
     :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Pluperfect,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "(‘ani) marinaa yeɗaɗanni/oo"],
             [:CPro :Singular :Person2 :Common "(‘asi) mardinaa yettooɗandu/oo"],
@@ -213,11 +212,9 @@
     }
     {:label "burji-VAffImperfectIrreg-hayy"
     :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
-    :pdgmType :IMPERFREG-IRREG
-    :common {:morphClass :IMPERFREG-IRREG,
-             :conjClass :Irreg,
+    :pdgmType :Finite
+    :common {             :conjClass :Irreg,
              :lexeme :hayy,
-             :pdgmType :Exemplary,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect}
@@ -265,9 +262,9 @@
     :pdgmType :DervStem
     :common {:lexeme :DERVSTEM,
              :pos :Verb,
-             :formType :Suffix,
-             :morphClass :DervStem}
-    :terms [[:derivedStem :token],
+             :tknType :Suffix,
+             }
+     :terms [[:derivedStem :token],
             [:Benefactive "-aɗ-"],
             [:Causative1 "-(is)s-"],
             [:Causative2 "-(is)siis(s)-"],
@@ -408,7 +405,7 @@
     }
     {:label "burji-PInd"
     :note "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:pos :Pronoun,
              :lexeme :PROIND,
              :proClass :Independent}
@@ -475,8 +472,8 @@
     :pdgmType :SubjMarkers
     :common {:lexeme :SUBJMARKERS,
              :pos :Verb,
-             :morphClass :SubjMarkers}
-    :terms [[:proType :tam :number :person :gender :token],
+             }
+     :terms [[:proType :tam :number :person :gender :token],
             [:CPro :Imperfect :Singular :Person1 :Common "-a"],
             [:CPro :Imperfect :Singular :Person2 :Common "-ta"],
             [:CPro :Imperfect :Singular :Person3 :Masc "-a"],
@@ -510,12 +507,12 @@
     }
     {:label "burji-VAffPresProgCompound-mar"
     :note "WedekindC1985 p. 123"
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresentProgressive,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "(‘ani) maraaddinaa yeɗu"],
             [:CPro :Singular :Person2 :Common "(‘as̆i) maraadddinaa yettu"],
@@ -528,12 +525,12 @@
     }
     {:label "burji-VAffPerfProgCompound-mar"
     :note "WedekindC1985 p. 122."
-    :pdgmType :Finite
+    :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PerfectProgressive,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "‘ani maraaɗannoo"],
             [:CPro :Singular :Person2 :Common "‘as̆I martaaɗandoo"],
@@ -547,12 +544,12 @@
     }
     {:label "burji-VAffFutIntensiveCompound-mar"
     :note "WedekindC1985 p. 122"
-    :pdgmType :Finite
+     :pdgmType :FiniteCompound
     :common {:lexeme :mar,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutureIntensive,
-             :formType :Compound}
+             :tknType :Compound}
     :terms [[:proType :number :person :gender :token],
             [:CPro :Singular :Person1 :Common "‘ee mara mara"],
             [:CPro :Singular :Person2 :Common "s̆ee mara marda"],
@@ -565,11 +562,9 @@
     }
     {:label "burji-VAffImperfectReg-mar"
     :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
-    :pdgmType :IMPERFREG-IRREG
-    :common {:morphClass :IMPERFREG-IRREG,
-             :conjClass :Reular,
+    :pdgmType :Finite
+    :common {:conjClass :Regular,
              :lexeme :mar,
-             :pdgmType :Exemplary,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect}
@@ -601,7 +596,7 @@
     }
     {:label "burji-PInterr"
     :note "HudsonG1976 p. 259."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROINTERROG,
              :pos :Pronoun,
              :proClass :Interrogative}
@@ -707,7 +702,7 @@
     }
     {:label "burji-PDemonstrative"
     :note "Sasse-Straube1977 pp. 254-255. HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der ,,hier’’ –Deixis (,dieser’ etc.) belegt– far deixis form is from Hudson."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEM,
              :pos :Pronoun,
              :proClass :Demonstrative}
@@ -727,7 +722,7 @@
     }
     {:label "burji-PPoss"
     :note "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROPOSS,
              :pos :Pronoun,
              :proClass :Possessive}
@@ -782,6 +777,3 @@
 :muterms [
 ]
 }
- 
- 
-:pdgmType [ #{#<Atom@69997e9d: #{:DervStem :Finite :IMPERFREG-IRREG :NA :SubjMarkers}>} ]
