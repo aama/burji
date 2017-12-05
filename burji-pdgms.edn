@@ -5,7 +5,8 @@
 :datasource "WedekindC1985"
 :geodemoURL "http://www.ethnologue.com/language/bji"
 :geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations, Nationalities, and Peoples’ region: south of Lake Chamo; into the Oromia state'."
- :schemata {:case [:Absolutive  :Nominative :Object],
+ :schemata {:vmorphClass [:DervStem  :SubjMarkers],
+            :case [:Absolutive :Nominative :Object],
             :caseHead [:HeadAbsolutive :HeadNominative],
             :clauseMarker [:NoParticle :Particle],
             :conjClass [:Irreg :Regular],
@@ -25,7 +26,7 @@
             :tam [:FutureIntensive :Imperative :Imperfect :ImperfectProgressive :Jussive :PastProgressive :Perfect :PerfectProgressive :Pluperfect :PresentPerfect :PresentProgressive :SimplePerfect],
             :tknType [:Compound :Suffix],
             :verbClass [:Focus :Interrogative]
-            :pdgmType [:DervStem :Finite :FiniteCompound :SubjMarkers :IMPERFREG-IRREG :PRO]}
+            :pdgmType [:Finite :FiniteCompound :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :clauseMarker :deixis :derivedStem :focus :interrogClass :polarity :pos :proClass :proType :tam :verbClass],
           :inflClass [:conjClass :suppletion],
@@ -259,8 +260,9 @@
     }
     {:label "burji-VDervStem"
     :note "WedekindC1985 pp. 133-139 Note discussions of consonant assimilations for causative –s- pp. 133-136,for benefactive pp. 136-137."
-    :pdgmType :DervStem
-    :common {:lexeme :DERVSTEM,
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStem
+             :lexeme :DERVSTEM,
              :pos :Verb,
              :tknType :Suffix,
              }
@@ -469,8 +471,9 @@
     }
     {:label "burji-VSubjMarkers"
     :note "WedekindC1985 p. 117. In the suffix,The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse."
-    :pdgmType :SubjMarkers
-    :common {:lexeme :SUBJMARKERS,
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkers
+             :lexeme :SUBJMARKERS,
              :pos :Verb,
              }
      :terms [[:proType :tam :number :person :gender :token],
