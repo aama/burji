@@ -45,7 +45,7 @@
  :termclusters [
                 {:label "burji-VAffImperfect-intey"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :intey,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -61,7 +61,7 @@
                  }
                 {:label "burji-VAffImperfProgCompound-mar"
                  :note "WedekindC1985 p. 122."
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -79,7 +79,7 @@
                  }
                 {:label "burji-VNegPastProg-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Negative,
                           :pos :Verb,
@@ -94,7 +94,7 @@
                  }
                 {:label "burji-VAffPresPerfCompound-mar"
                  :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -113,7 +113,7 @@
                  }
                 {:label "burji-VAffImprtv-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :gender :Common,
                           :lexeme :it,
                           :person :Person2,
@@ -126,7 +126,7 @@
                  }
                 {:label "burji-VAffInterrogative-mar"
                  :note "WedekindC1985 p. 125-126"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -138,7 +138,7 @@
                  }
                 {:label "burji-VNegImperfect-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Negative,
                           :pos :Verb,
@@ -154,7 +154,7 @@
                  }
                 {:label "burji-VNegSimplePerf-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :it,
                           :polarity :Negative,
                           :pos :Verb,
@@ -170,7 +170,7 @@
                  }
                 {:label "burji-VAffPluPerfCompound-mar"
                  :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -189,7 +189,7 @@
                  }
                 {:label "burji-VAffPassPresPerf-nak"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :derivedStem :Passive,
                           :lexeme :nak,
                           :polarity :Affirmative,
@@ -206,7 +206,7 @@
                  }
                 {:label "burji-VAffImperfectIrreg-hayy"
                  :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
              :conjClass :Irreg,
                           :lexeme :hayy,
                           :polarity :Affirmative,
@@ -224,7 +224,7 @@
                  }
                 {:label "burji-VAffSimplePerfect-ba"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :ba,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -240,7 +240,7 @@
                  }
                 {:label "burji-VAffImprtvIrreg-intey"
                  :note "WedekindC1985 p. 124. The verb comehas both a suppletive and a nonsuppletive form"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :intey,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -269,7 +269,7 @@
                  }
                 {:label "burji-VNegPresProg-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Negative,
                           :pos :Verb,
@@ -285,7 +285,7 @@
                  }
                 {:label "burji-VNegImperfect-mar"
                  :note "WedekindC1985 p. 116,125."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Negative,
                           :pos :Verb,
@@ -302,7 +302,7 @@
                  }
                 {:label "burji-VAffSimplePerf-mar"
                  :note "WedekindC1985 p. 114. Defective forms:for me/us to have gone"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -326,7 +326,7 @@
                  }
                 {:label "burji-VAffSimplePerfFocusType-mar"
                  :note "WedekindC1985 p. 119"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -353,7 +353,7 @@
                  }
                 {:label "burji-VAffSimplePerfIrreg-beeh"
                  :note "WedekindC1985 p. 119. Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be,exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :beeh,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -370,7 +370,7 @@
                  }
                 {:label "burji-VAffSimplePerfect-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -386,7 +386,7 @@
                  }
                 {:label "burji-VAffJuss-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :gender :Common,
                           :lexeme :it,
                           :person :Person3,
@@ -426,7 +426,7 @@
                  }
                 {:label "burji-VAffPresPerf-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -442,7 +442,7 @@
                  }
                 {:label "burji-VAffJuss-mar"
                  :note "WedekindC1985 p. 123. (cf. also p. 115). (33) Full forms would be,for instance:haani maru-waa let me go!,haani maru-waa-see let me go!"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -487,7 +487,7 @@
                  }
                 {:label "burji-VNegJuss-mar"
                  :note "WedekindC1985 p. 125"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Negative,
                           :pos :Verb,
@@ -500,7 +500,7 @@
                  }
                 {:label "burji-VAffPresProgCompound-mar"
                  :note "WedekindC1985 p. 123"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -518,7 +518,7 @@
                  }
                 {:label "burji-VAffPerfProgCompound-mar"
                  :note "WedekindC1985 p. 122."
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -537,7 +537,7 @@
                  }
                 {:label "burji-VAffFutIntensiveCompound-mar"
                  :note "WedekindC1985 p. 122"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -555,7 +555,7 @@
                  }
                 {:label "burji-VAffImperfectReg-mar"
                  :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :conjClass :Regular,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -573,7 +573,7 @@
                  }
                 {:label "burji-VAffImperfect-duw"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :duw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -602,7 +602,7 @@
                  }
                 {:label "burji-VAffSimplePerfect-duw"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :duw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -618,7 +618,7 @@
                  }
                 {:label "burji-VAffImperfect-it"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :it,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -634,7 +634,7 @@
                  }
                 {:label "burji-VNegPerfect-mar"
                  :note "WedekindC1985 p. 125. [Not clear whether this is simply a negation of simplePerf,or of anything perfect/past.]"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Negative,
                           :pos :Verb,
@@ -651,7 +651,7 @@
                  }
                 {:label "burji-VAffSimplePerfect-intey"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :intey,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -667,7 +667,7 @@
                  }
                 {:label "burji-VAffImperfect-ba"
                  :note "Sasse-Straube1977 pp. 255-258."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :ba,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -683,7 +683,7 @@
                  }
                 {:label "burji-VNegImprtv-mar"
                  :note "WedekindC1985 p. 116 (cf. also 124)"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Negative,
                           :pos :Verb,
@@ -748,7 +748,7 @@
                  }
                 {:label "burji-VAffImperfect-mar"
                  :note "WedekindC1985 p. 115. Cf. Sass-Straube1977 p. 255."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
 :lexeme :mar,
                           :polarity :Affirmative,
                           :pos :Verb,
