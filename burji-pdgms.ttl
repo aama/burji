@@ -1,0 +1,5935 @@
+#TTL FROM INPUT FILE:
+#../aama-data/data//burji/burji-pdgms.edn
+
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements>.
+@prefix dcterms:    <http://purl.org/dc/terms>.
+@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+@prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
+@prefix bur:   <http://id.oi.uchicago.edu/aama/2013/burji/> .
+
+#LANG INFO:
+
+aama:Burji a aamas:Language .
+aama:Burji rdfs:label "Burji" .
+aama:Burji aamas:subfamily "Highland East Cushitic" .
+aama:Burji aamas:lpref "bur" .
+aama:Burji aamas:dataSource "WedekindC1985" .
+aama:Burji aamas:dataSourceNotes "" .
+aama:Burji aamas:geodemoURL "http://www.ethnologue.com/language/bji" .
+aama:Burji aamas:geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations%% Nationalities%% and Peoples’ region: south of Lake Chamo; into the Oromia state'." .
+
+
+#SCHEMATA: suppletion
+bur:suppletion aamas:lang aama:Burji .
+bur:Suppletion aamas:lang aama:Burji .
+bur:suppletion rdfs:domain aamas:Term .
+bur:Suppletion rdfs:label "suppletion exponents" .
+bur:suppletion rdfs:label "suppletion" .
+bur:suppletion rdfs:range bur:Suppletion .
+bur:Suppletion rdfs:subClassOf bur:MuExponent .
+bur:suppletion rdfs:subPropertyOf bur:muProperty .
+bur:NonSuppletive aamas:lang aama:Burji .
+bur:NonSuppletive rdf:type bur:Suppletion .
+bur:NonSuppletive rdfs:label "NonSuppletive" .
+bur:Suppletive aamas:lang aama:Burji .
+bur:Suppletive rdf:type bur:Suppletion .
+bur:Suppletive rdfs:label "Suppletive" .
+
+#SCHEMATA: clauseMarker
+bur:clauseMarker aamas:lang aama:Burji .
+bur:Clausemarker aamas:lang aama:Burji .
+bur:clauseMarker rdfs:domain aamas:Term .
+bur:Clausemarker rdfs:label "clauseMarker exponents" .
+bur:clauseMarker rdfs:label "clauseMarker" .
+bur:clauseMarker rdfs:range bur:Clausemarker .
+bur:Clausemarker rdfs:subClassOf bur:MuExponent .
+bur:clauseMarker rdfs:subPropertyOf bur:muProperty .
+bur:NoParticle aamas:lang aama:Burji .
+bur:NoParticle rdf:type bur:Clausemarker .
+bur:NoParticle rdfs:label "NoParticle" .
+bur:Particle aamas:lang aama:Burji .
+bur:Particle rdf:type bur:Clausemarker .
+bur:Particle rdfs:label "Particle" .
+
+#SCHEMATA: person
+bur:person aamas:lang aama:Burji .
+bur:Person aamas:lang aama:Burji .
+bur:person rdfs:domain aamas:Term .
+bur:Person rdfs:label "person exponents" .
+bur:person rdfs:label "person" .
+bur:person rdfs:range bur:Person .
+bur:Person rdfs:subClassOf bur:MuExponent .
+bur:person rdfs:subPropertyOf bur:muProperty .
+bur:Person1 aamas:lang aama:Burji .
+bur:Person1 rdf:type bur:Person .
+bur:Person1 rdfs:label "Person1" .
+bur:Person2 aamas:lang aama:Burji .
+bur:Person2 rdf:type bur:Person .
+bur:Person2 rdfs:label "Person2" .
+bur:Person3 aamas:lang aama:Burji .
+bur:Person3 rdf:type bur:Person .
+bur:Person3 rdfs:label "Person3" .
+
+#SCHEMATA: derivedStem
+bur:derivedStem aamas:lang aama:Burji .
+bur:Derivedstem aamas:lang aama:Burji .
+bur:derivedStem rdfs:domain aamas:Term .
+bur:Derivedstem rdfs:label "derivedStem exponents" .
+bur:derivedStem rdfs:label "derivedStem" .
+bur:derivedStem rdfs:range bur:Derivedstem .
+bur:Derivedstem rdfs:subClassOf bur:MuExponent .
+bur:derivedStem rdfs:subPropertyOf bur:muProperty .
+bur:Benefactive aamas:lang aama:Burji .
+bur:Benefactive rdf:type bur:Derivedstem .
+bur:Benefactive rdfs:label "Benefactive" .
+bur:Causative1 aamas:lang aama:Burji .
+bur:Causative1 rdf:type bur:Derivedstem .
+bur:Causative1 rdfs:label "Causative1" .
+bur:Causative2 aamas:lang aama:Burji .
+bur:Causative2 rdf:type bur:Derivedstem .
+bur:Causative2 rdfs:label "Causative2" .
+bur:Combo aamas:lang aama:Burji .
+bur:Combo rdf:type bur:Derivedstem .
+bur:Combo rdfs:label "Combo" .
+bur:Denominal aamas:lang aama:Burji .
+bur:Denominal rdf:type bur:Derivedstem .
+bur:Denominal rdfs:label "Denominal" .
+bur:Passive aamas:lang aama:Burji .
+bur:Passive rdf:type bur:Derivedstem .
+bur:Passive rdfs:label "Passive" .
+bur:Reduplicated aamas:lang aama:Burji .
+bur:Reduplicated rdf:type bur:Derivedstem .
+bur:Reduplicated rdfs:label "Reduplicated" .
+
+#SCHEMATA: number
+bur:number aamas:lang aama:Burji .
+bur:Number aamas:lang aama:Burji .
+bur:number rdfs:domain aamas:Term .
+bur:Number rdfs:label "number exponents" .
+bur:number rdfs:label "number" .
+bur:number rdfs:range bur:Number .
+bur:Number rdfs:subClassOf bur:MuExponent .
+bur:number rdfs:subPropertyOf bur:muProperty .
+bur:Plural aamas:lang aama:Burji .
+bur:Plural rdf:type bur:Number .
+bur:Plural rdfs:label "Plural" .
+bur:Singular aamas:lang aama:Burji .
+bur:Singular rdf:type bur:Number .
+bur:Singular rdfs:label "Singular" .
+
+#SCHEMATA: vmorphClass
+bur:vmorphClass aamas:lang aama:Burji .
+bur:Vmorphclass aamas:lang aama:Burji .
+bur:vmorphClass rdfs:domain aamas:Term .
+bur:Vmorphclass rdfs:label "vmorphClass exponents" .
+bur:vmorphClass rdfs:label "vmorphClass" .
+bur:vmorphClass rdfs:range bur:Vmorphclass .
+bur:Vmorphclass rdfs:subClassOf bur:MuExponent .
+bur:vmorphClass rdfs:subPropertyOf bur:muProperty .
+bur:DervStem aamas:lang aama:Burji .
+bur:DervStem rdf:type bur:Vmorphclass .
+bur:DervStem rdfs:label "DervStem" .
+bur:SubjMarkers aamas:lang aama:Burji .
+bur:SubjMarkers rdf:type bur:Vmorphclass .
+bur:SubjMarkers rdfs:label "SubjMarkers" .
+bur:Finite aamas:lang aama:Burji .
+bur:Finite rdf:type bur:Vmorphclass .
+bur:Finite rdfs:label "Finite" .
+bur:IMPERFREG-IRREG aamas:lang aama:Burji .
+bur:IMPERFREG-IRREG rdf:type bur:Vmorphclass .
+bur:IMPERFREG-IRREG rdfs:label "IMPERFREG-IRREG" .
+
+#SCHEMATA: caseHead
+bur:caseHead aamas:lang aama:Burji .
+bur:Casehead aamas:lang aama:Burji .
+bur:caseHead rdfs:domain aamas:Term .
+bur:Casehead rdfs:label "caseHead exponents" .
+bur:caseHead rdfs:label "caseHead" .
+bur:caseHead rdfs:range bur:Casehead .
+bur:Casehead rdfs:subClassOf bur:MuExponent .
+bur:caseHead rdfs:subPropertyOf bur:muProperty .
+bur:HeadAbsolutive aamas:lang aama:Burji .
+bur:HeadAbsolutive rdf:type bur:Casehead .
+bur:HeadAbsolutive rdfs:label "HeadAbsolutive" .
+bur:HeadNominative aamas:lang aama:Burji .
+bur:HeadNominative rdf:type bur:Casehead .
+bur:HeadNominative rdfs:label "HeadNominative" .
+
+#SCHEMATA: genderHead
+bur:genderHead aamas:lang aama:Burji .
+bur:Genderhead aamas:lang aama:Burji .
+bur:genderHead rdfs:domain aamas:Term .
+bur:Genderhead rdfs:label "genderHead exponents" .
+bur:genderHead rdfs:label "genderHead" .
+bur:genderHead rdfs:range bur:Genderhead .
+bur:Genderhead rdfs:subClassOf bur:MuExponent .
+bur:genderHead rdfs:subPropertyOf bur:muProperty .
+bur:HeadFem aamas:lang aama:Burji .
+bur:HeadFem rdf:type bur:Genderhead .
+bur:HeadFem rdfs:label "HeadFem" .
+bur:HeadMasc aamas:lang aama:Burji .
+bur:HeadMasc rdf:type bur:Genderhead .
+bur:HeadMasc rdfs:label "HeadMasc" .
+
+#SCHEMATA: verbClass
+bur:verbClass aamas:lang aama:Burji .
+bur:Verbclass aamas:lang aama:Burji .
+bur:verbClass rdfs:domain aamas:Term .
+bur:Verbclass rdfs:label "verbClass exponents" .
+bur:verbClass rdfs:label "verbClass" .
+bur:verbClass rdfs:range bur:Verbclass .
+bur:Verbclass rdfs:subClassOf bur:MuExponent .
+bur:verbClass rdfs:subPropertyOf bur:muProperty .
+bur:Focus aamas:lang aama:Burji .
+bur:Focus rdf:type bur:Verbclass .
+bur:Focus rdfs:label "Focus" .
+bur:Interrogative aamas:lang aama:Burji .
+bur:Interrogative rdf:type bur:Verbclass .
+bur:Interrogative rdfs:label "Interrogative" .
+
+#SCHEMATA: focusType
+bur:focusType aamas:lang aama:Burji .
+bur:Focustype aamas:lang aama:Burji .
+bur:focusType rdfs:domain aamas:Term .
+bur:Focustype rdfs:label "focusType exponents" .
+bur:focusType rdfs:label "focusType" .
+bur:focusType rdfs:range bur:Focustype .
+bur:Focustype rdfs:subClassOf bur:MuExponent .
+bur:focusType rdfs:subPropertyOf bur:muProperty .
+bur:Defective aamas:lang aama:Burji .
+bur:Defective rdf:type bur:Focustype .
+bur:Defective rdfs:label "Defective" .
+bur:Free aamas:lang aama:Burji .
+bur:Free rdf:type bur:Focustype .
+bur:Free rdfs:label "Free" .
+bur:Full aamas:lang aama:Burji .
+bur:Full rdf:type bur:Focustype .
+bur:Full rdfs:label "Full" .
+bur:Subject aamas:lang aama:Burji .
+bur:Subject rdf:type bur:Focustype .
+bur:Subject rdfs:label "Subject" .
+
+#SCHEMATA: interrogClass
+bur:interrogClass aamas:lang aama:Burji .
+bur:Interrogclass aamas:lang aama:Burji .
+bur:interrogClass rdfs:domain aamas:Term .
+bur:Interrogclass rdfs:label "interrogClass exponents" .
+bur:interrogClass rdfs:label "interrogClass" .
+bur:interrogClass rdfs:range bur:Interrogclass .
+bur:Interrogclass rdfs:subClassOf bur:MuExponent .
+bur:interrogClass rdfs:subPropertyOf bur:muProperty .
+bur:InterrogProHow aamas:lang aama:Burji .
+bur:InterrogProHow rdf:type bur:Interrogclass .
+bur:InterrogProHow rdfs:label "InterrogProHow" .
+bur:InterrogProHowMany aamas:lang aama:Burji .
+bur:InterrogProHowMany rdf:type bur:Interrogclass .
+bur:InterrogProHowMany rdfs:label "InterrogProHowMany" .
+bur:InterrogProWhat aamas:lang aama:Burji .
+bur:InterrogProWhat rdf:type bur:Interrogclass .
+bur:InterrogProWhat rdfs:label "InterrogProWhat" .
+bur:InterrogProWhen aamas:lang aama:Burji .
+bur:InterrogProWhen rdf:type bur:Interrogclass .
+bur:InterrogProWhen rdfs:label "InterrogProWhen" .
+bur:InterrogProWhere aamas:lang aama:Burji .
+bur:InterrogProWhere rdf:type bur:Interrogclass .
+bur:InterrogProWhere rdfs:label "InterrogProWhere" .
+bur:InterrogProWho aamas:lang aama:Burji .
+bur:InterrogProWho rdf:type bur:Interrogclass .
+bur:InterrogProWho rdfs:label "InterrogProWho" .
+
+#SCHEMATA: pos
+bur:pos aamas:lang aama:Burji .
+bur:Pos aamas:lang aama:Burji .
+bur:pos rdfs:domain aamas:Term .
+bur:Pos rdfs:label "pos exponents" .
+bur:pos rdfs:label "pos" .
+bur:pos rdfs:range bur:Pos .
+bur:Pos rdfs:subClassOf bur:MuExponent .
+bur:pos rdfs:subPropertyOf bur:muProperty .
+bur:Pronoun aamas:lang aama:Burji .
+bur:Pronoun rdf:type bur:Pos .
+bur:Pronoun rdfs:label "Pronoun" .
+bur:Verb aamas:lang aama:Burji .
+bur:Verb rdf:type bur:Pos .
+bur:Verb rdfs:label "Verb" .
+
+#SCHEMATA: proClass
+bur:proClass aamas:lang aama:Burji .
+bur:Proclass aamas:lang aama:Burji .
+bur:proClass rdfs:domain aamas:Term .
+bur:Proclass rdfs:label "proClass exponents" .
+bur:proClass rdfs:label "proClass" .
+bur:proClass rdfs:range bur:Proclass .
+bur:Proclass rdfs:subClassOf bur:MuExponent .
+bur:proClass rdfs:subPropertyOf bur:muProperty .
+bur:Demonstrative aamas:lang aama:Burji .
+bur:Demonstrative rdf:type bur:Proclass .
+bur:Demonstrative rdfs:label "Demonstrative" .
+bur:Independent aamas:lang aama:Burji .
+bur:Independent rdf:type bur:Proclass .
+bur:Independent rdfs:label "Independent" .
+bur:Interrogative aamas:lang aama:Burji .
+bur:Interrogative rdf:type bur:Proclass .
+bur:Interrogative rdfs:label "Interrogative" .
+bur:Possessive aamas:lang aama:Burji .
+bur:Possessive rdf:type bur:Proclass .
+bur:Possessive rdfs:label "Possessive" .
+
+#SCHEMATA: formType
+bur:formType aamas:lang aama:Burji .
+bur:Formtype aamas:lang aama:Burji .
+bur:formType rdfs:domain aamas:Term .
+bur:Formtype rdfs:label "formType exponents" .
+bur:formType rdfs:label "formType" .
+bur:formType rdfs:range bur:Formtype .
+bur:Formtype rdfs:subClassOf bur:MuExponent .
+bur:formType rdfs:subPropertyOf bur:muProperty .
+bur:Compound aamas:lang aama:Burji .
+bur:Compound rdf:type bur:Formtype .
+bur:Compound rdfs:label "Compound" .
+bur:Suffix aamas:lang aama:Burji .
+bur:Suffix rdf:type bur:Formtype .
+bur:Suffix rdfs:label "Suffix" .
+
+#SCHEMATA: lexeme
+bur:lexeme aamas:lang aama:Burji .
+bur:Lexeme aamas:lang aama:Burji .
+bur:lexeme rdfs:domain aamas:Term .
+bur:Lexeme rdfs:label "lexeme exponents" .
+bur:lexeme rdfs:label "lexeme" .
+bur:lexeme rdfs:range bur:Lexeme .
+bur:Lexeme rdfs:subClassOf bur:MuExponent .
+bur:lexeme rdfs:subPropertyOf bur:muProperty .
+bur:ba aamas:lang aama:Burji .
+bur:ba rdf:type bur:Lexeme .
+bur:ba rdfs:label "ba" .
+bur:beeh aamas:lang aama:Burji .
+bur:beeh rdf:type bur:Lexeme .
+bur:beeh rdfs:label "beeh" .
+bur:duw aamas:lang aama:Burji .
+bur:duw rdf:type bur:Lexeme .
+bur:duw rdfs:label "duw" .
+bur:hayy aamas:lang aama:Burji .
+bur:hayy rdf:type bur:Lexeme .
+bur:hayy rdfs:label "hayy" .
+bur:intey aamas:lang aama:Burji .
+bur:intey rdf:type bur:Lexeme .
+bur:intey rdfs:label "intey" .
+bur:it aamas:lang aama:Burji .
+bur:it rdf:type bur:Lexeme .
+bur:it rdfs:label "it" .
+bur:mar aamas:lang aama:Burji .
+bur:mar rdf:type bur:Lexeme .
+bur:mar rdfs:label "mar" .
+bur:nak aamas:lang aama:Burji .
+bur:nak rdf:type bur:Lexeme .
+bur:nak rdfs:label "nak" .
+
+#SCHEMATA: conjClass
+bur:conjClass aamas:lang aama:Burji .
+bur:Conjclass aamas:lang aama:Burji .
+bur:conjClass rdfs:domain aamas:Term .
+bur:Conjclass rdfs:label "conjClass exponents" .
+bur:conjClass rdfs:label "conjClass" .
+bur:conjClass rdfs:range bur:Conjclass .
+bur:Conjclass rdfs:subClassOf bur:MuExponent .
+bur:conjClass rdfs:subPropertyOf bur:muProperty .
+bur:Irreg aamas:lang aama:Burji .
+bur:Irreg rdf:type bur:Conjclass .
+bur:Irreg rdfs:label "Irreg" .
+bur:Reular aamas:lang aama:Burji .
+bur:Reular rdf:type bur:Conjclass .
+bur:Reular rdfs:label "Reular" .
+
+#SCHEMATA: pmorphClass
+bur:pmorphClass aamas:lang aama:Burji .
+bur:Pmorphclass aamas:lang aama:Burji .
+bur:pmorphClass rdfs:domain aamas:Term .
+bur:Pmorphclass rdfs:label "pmorphClass exponents" .
+bur:pmorphClass rdfs:label "pmorphClass" .
+bur:pmorphClass rdfs:range bur:Pmorphclass .
+bur:Pmorphclass rdfs:subClassOf bur:MuExponent .
+bur:pmorphClass rdfs:subPropertyOf bur:muProperty .
+bur:ProMorph aamas:lang aama:Burji .
+bur:ProMorph rdf:type bur:Pmorphclass .
+bur:ProMorph rdfs:label "ProMorph" .
+
+#SCHEMATA: case
+bur:case aamas:lang aama:Burji .
+bur:Case aamas:lang aama:Burji .
+bur:case rdfs:domain aamas:Term .
+bur:Case rdfs:label "case exponents" .
+bur:case rdfs:label "case" .
+bur:case rdfs:range bur:Case .
+bur:Case rdfs:subClassOf bur:MuExponent .
+bur:case rdfs:subPropertyOf bur:muProperty .
+bur:Absolutive aamas:lang aama:Burji .
+bur:Absolutive rdf:type bur:Case .
+bur:Absolutive rdfs:label "Absolutive" .
+bur:Nominative aamas:lang aama:Burji .
+bur:Nominative rdf:type bur:Case .
+bur:Nominative rdfs:label "Nominative" .
+bur:Object aamas:lang aama:Burji .
+bur:Object rdf:type bur:Case .
+bur:Object rdfs:label "Object" .
+
+#SCHEMATA: polarity
+bur:polarity aamas:lang aama:Burji .
+bur:Polarity aamas:lang aama:Burji .
+bur:polarity rdfs:domain aamas:Term .
+bur:Polarity rdfs:label "polarity exponents" .
+bur:polarity rdfs:label "polarity" .
+bur:polarity rdfs:range bur:Polarity .
+bur:Polarity rdfs:subClassOf bur:MuExponent .
+bur:polarity rdfs:subPropertyOf bur:muProperty .
+bur:Affirmative aamas:lang aama:Burji .
+bur:Affirmative rdf:type bur:Polarity .
+bur:Affirmative rdfs:label "Affirmative" .
+bur:Negative aamas:lang aama:Burji .
+bur:Negative rdf:type bur:Polarity .
+bur:Negative rdfs:label "Negative" .
+
+#SCHEMATA: tam
+bur:tam aamas:lang aama:Burji .
+bur:Tam aamas:lang aama:Burji .
+bur:tam rdfs:domain aamas:Term .
+bur:Tam rdfs:label "tam exponents" .
+bur:tam rdfs:label "tam" .
+bur:tam rdfs:range bur:Tam .
+bur:Tam rdfs:subClassOf bur:MuExponent .
+bur:tam rdfs:subPropertyOf bur:muProperty .
+bur:FutureIntensive aamas:lang aama:Burji .
+bur:FutureIntensive rdf:type bur:Tam .
+bur:FutureIntensive rdfs:label "FutureIntensive" .
+bur:Imperative aamas:lang aama:Burji .
+bur:Imperative rdf:type bur:Tam .
+bur:Imperative rdfs:label "Imperative" .
+bur:Imperfect aamas:lang aama:Burji .
+bur:Imperfect rdf:type bur:Tam .
+bur:Imperfect rdfs:label "Imperfect" .
+bur:ImperfectProgressive aamas:lang aama:Burji .
+bur:ImperfectProgressive rdf:type bur:Tam .
+bur:ImperfectProgressive rdfs:label "ImperfectProgressive" .
+bur:Jussive aamas:lang aama:Burji .
+bur:Jussive rdf:type bur:Tam .
+bur:Jussive rdfs:label "Jussive" .
+bur:PastProgressive aamas:lang aama:Burji .
+bur:PastProgressive rdf:type bur:Tam .
+bur:PastProgressive rdfs:label "PastProgressive" .
+bur:Perfect aamas:lang aama:Burji .
+bur:Perfect rdf:type bur:Tam .
+bur:Perfect rdfs:label "Perfect" .
+bur:PerfectProgressive aamas:lang aama:Burji .
+bur:PerfectProgressive rdf:type bur:Tam .
+bur:PerfectProgressive rdfs:label "PerfectProgressive" .
+bur:Pluperfect aamas:lang aama:Burji .
+bur:Pluperfect rdf:type bur:Tam .
+bur:Pluperfect rdfs:label "Pluperfect" .
+bur:PresentPerfect aamas:lang aama:Burji .
+bur:PresentPerfect rdf:type bur:Tam .
+bur:PresentPerfect rdfs:label "PresentPerfect" .
+bur:PresentProgressive aamas:lang aama:Burji .
+bur:PresentProgressive rdf:type bur:Tam .
+bur:PresentProgressive rdfs:label "PresentProgressive" .
+bur:SimplePerfect aamas:lang aama:Burji .
+bur:SimplePerfect rdf:type bur:Tam .
+bur:SimplePerfect rdfs:label "SimplePerfect" .
+
+#SCHEMATA: proType
+bur:proType aamas:lang aama:Burji .
+bur:Protype aamas:lang aama:Burji .
+bur:proType rdfs:domain aamas:Term .
+bur:Protype rdfs:label "proType exponents" .
+bur:proType rdfs:label "proType" .
+bur:proType rdfs:range bur:Protype .
+bur:Protype rdfs:subClassOf bur:MuExponent .
+bur:proType rdfs:subPropertyOf bur:muProperty .
+bur:CPro aamas:lang aama:Burji .
+bur:CPro rdf:type bur:Protype .
+bur:CPro rdfs:label "CPro" .
+bur:IdPro aamas:lang aama:Burji .
+bur:IdPro rdf:type bur:Protype .
+bur:IdPro rdfs:label "IdPro" .
+bur:WPro aamas:lang aama:Burji .
+bur:WPro rdf:type bur:Protype .
+bur:WPro rdfs:label "WPro" .
+bur:WoPro aamas:lang aama:Burji .
+bur:WoPro rdf:type bur:Protype .
+bur:WoPro rdfs:label "WoPro" .
+
+#SCHEMATA: gender
+bur:gender aamas:lang aama:Burji .
+bur:Gender aamas:lang aama:Burji .
+bur:gender rdfs:domain aamas:Term .
+bur:Gender rdfs:label "gender exponents" .
+bur:gender rdfs:label "gender" .
+bur:gender rdfs:range bur:Gender .
+bur:Gender rdfs:subClassOf bur:MuExponent .
+bur:gender rdfs:subPropertyOf bur:muProperty .
+bur:Common aamas:lang aama:Burji .
+bur:Common rdf:type bur:Gender .
+bur:Common rdfs:label "Common" .
+bur:Fem aamas:lang aama:Burji .
+bur:Fem rdf:type bur:Gender .
+bur:Fem rdfs:label "Fem" .
+bur:Masc aamas:lang aama:Burji .
+bur:Masc rdf:type bur:Gender .
+bur:Masc rdfs:label "Masc" .
+
+#SCHEMATA: deixis
+bur:deixis aamas:lang aama:Burji .
+bur:Deixis aamas:lang aama:Burji .
+bur:deixis rdfs:domain aamas:Term .
+bur:Deixis rdfs:label "deixis exponents" .
+bur:deixis rdfs:label "deixis" .
+bur:deixis rdfs:range bur:Deixis .
+bur:Deixis rdfs:subClassOf bur:MuExponent .
+bur:deixis rdfs:subPropertyOf bur:muProperty .
+bur:Far aamas:lang aama:Burji .
+bur:Far rdf:type bur:Deixis .
+bur:Far rdfs:label "Far" .
+bur:Near aamas:lang aama:Burji .
+bur:Near rdf:type bur:Deixis .
+bur:Near rdfs:label "Near" .
+
+#PCLASSES:
+
+bur:person aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+bur:number aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+bur:gender aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+bur:case aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:clauseMarker aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:deixis aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:derivedStem aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:focus aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:interrogClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:polarity aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:pos aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:proClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:proType aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:tam aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:verbClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+bur:conjClass aamas:pclass aamas:inflClass .
+aamas:inflClass rdfs:label "inflClass" .
+bur:suppletion aamas:pclass aamas:inflClass .
+aamas:inflClass rdfs:label "inflClass" .
+
+#LEXEMES:
+aama:Burji-nak a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "nak" ;
+	aamas:lemma "nak-" ;
+	aamas:gloss "strike" ;
+	.
+aama:Burji-ba a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "ba" ;
+	aamas:lemma "ba’-" ;
+	aamas:gloss "go out" ;
+	.
+aama:Burji-VINFINITIVEAFF a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "VINFINITIVEAFF" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Burji-it a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "it" ;
+	aamas:lemma "it-" ;
+	aamas:gloss "eat" ;
+	.
+aama:Burji-intey a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "intey" ;
+	aamas:lemma "intey-" ;
+	aamas:gloss "come" ;
+	.
+aama:Burji-VADJ a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "VADJ" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Burji-IMPERFREG-IRREG a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "IMPERFREG-IRREG" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Burji-hayy a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "hayy" ;
+	aamas:lemma "hayy-" ;
+	aamas:gloss "want" ;
+	bur:conjClass bur:Irreg ;
+	bur:pos bur:Verb ;
+	.
+aama:Burji-mar a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "mar" ;
+	aamas:lemma "mar-" ;
+	aamas:gloss "go" ;
+	.
+aama:Burji-duw a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "duw" ;
+	aamas:lemma "ɗuw-" ;
+	aamas:gloss "drink" ;
+	.
+aama:Burji-beeh a aamas:Lexeme ;
+	aamas:lang aama:Burji ;
+	rdfs:label "beeh" ;
+	aamas:lemma "beeh-" ;
+	aamas:gloss "know" ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfect-intey
+
+bur:burji-VAffImperfect-intey a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfect-intey" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDe8afadea-d9d6-4bae-a017-2362d1da90bf a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteya" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID9dac22d5-7619-4f10-8a7a-50342991f29e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteyda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID8a69763a-d722-46db-973e-eba13c111d61 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteya" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID94045ca8-f59a-4a1e-94b6-6dcebcc26cde a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteyda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID865def21-3d5f-4455-b194-c419b5634303 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteyna" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID963d0d75-daa7-4b05-b420-9f137f7eb5d2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteys̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID9915b735-f93d-4ad2-83a0-a7bf3305aefe a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "inteyingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfProgCompound-mar
+
+bur:burji-VAffImperfProgCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfProgCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 122." 
+	.
+
+aama:IDffe1bd0f-2b51-4442-8e40-d2fe5637f993 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘ani maranaa mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID480baa14-7ec4-4a5a-b8fd-bbcb3ea3a928 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘as̆I maranaa marda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID16a1d040-6135-4423-be77-cdfcd42d8508 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isi maranaa mara" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDea3c5241-79d8-45ae-a1d0-c962459cb4b8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘is̆I maranaa marda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDe6328828-efa2-4105-a36b-d5e0372e3aaa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "naanu maranaa marra" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDef5c471e-aaf9-4c6c-bbe8-42e48382ca0b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘as̆inu maranaa mars̆ingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDe723f35f-4012-4d8b-bb45-4a6befe9fa37 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isinu maranaa mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID9205e083-7c23-4759-852f-c587f339e453 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:ImperfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "maranaa marringoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VNegPastProg-it
+
+bur:burji-VNegPastProg-it a aamas:Termcluster ;
+	rdfs:label "burji-VNegPastProg-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID088eb077-f929-4751-bf3c-7ec1947ea9a9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yed’oonn-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDc71bd67f-f01b-45c6-988c-47d3e6a39719 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yettoond-éyneg" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDfb878d11-a880-4152-bdae-d5667a51522f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yettaan-éy" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID9aeae0f3-237b-461b-a253-292ceb202d98 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yennoonnin-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID164649bb-2420-4007-98cf-d57ec1ec5e98 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yec̆c̆ingoonc̆ing-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID273ee7dc-1407-44ae-a8dc-e41bf5f8bd86 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPastProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PastProgressive ;
+	bur:token "itaad’i yed’ingoonning-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffPresPerfCompound-mar
+
+bur:burji-VAffPresPerfCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffPresPerfCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
+	.
+
+aama:ID8726a74a-e0f9-4c42-b8d1-8e6e4ef3df68 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘ani) marinaa yeɗu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID5d9525c3-66e2-408a-b948-a6e06e36aaa9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘as̆i) mardinaa yettu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID60cb19ba-2ef6-4dcd-b2a2-c2c020dde172 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isi) marinaa yeɗa" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDcf067e51-cf20-4a6f-87d2-734a05f01262 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘is̆i) mardina yetta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDcb9f942a-d364-4f63-a2c1-1f0e5d5f2b7b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(naanu) marrinaa yennu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd85b7380-de2b-49b3-8e8a-18a59b381381 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘as̆inu) mars̆inginaa yeccingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID9a037d72-bacc-436f-934b-a21e3ad460dd a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘issi) marinaa yeɗa" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:IdPro ;
+	.
+
+aama:IDbbeb25f4-01d0-4914-9c53-61630eab3f8e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isinu) marinaa yeɗa" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID33bdd1e2-3df2-4fd1-a028-b57b319c93a5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:formType bur:Compound ;
+	bur:token "- maringinaa yeɗingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffImprtv-it
+
+bur:burji-VAffImprtv-it a aamas:Termcluster ;
+	rdfs:label "burji-VAffImprtv-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDf78710ac-1a20-4a77-a27f-1d8d88bdbeed a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtv-it ;
+	bur:vmorphClass bur:Finite ;
+	bur:gender bur:Common ;
+	aamas:lexeme aama:Burji-it ;
+	bur:person bur:Person2 ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "it(i)" ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID4c73cee2-dfbb-4ee8-9c5e-877512cb12a4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtv-it ;
+	bur:vmorphClass bur:Finite ;
+	bur:gender bur:Common ;
+	aamas:lexeme aama:Burji-it ;
+	bur:person bur:Person2 ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "it-ee" ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffInterrogative-mar
+
+bur:burji-VAffInterrogative-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffInterrogative-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 125-126" 
+	.
+
+aama:ID3ac7cb39-0da0-43c0-8bb8-e03594aa46c1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Do I go?”" ;
+	bur:token "‘ani mara-daa?" ;
+	.
+
+aama:ID1c15e686-3efc-4bc7-8813-d1bcac436565 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Is if me to go?”" ;
+	bur:token "‘ee-daa mara?" ;
+	.
+
+aama:IDcfcdc87f-b320-462f-a7c2-167bb04a7fce a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffInterrogative-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:verbClass bur:Interrogative ;
+	bur:token-note "“Did I go?”" ;
+	bur:token "‘ani maranni" ;
+	.
+
+#TERMCLUSTER:  burji-VNegImperfect-it
+
+bur:burji-VNegImperfect-it a aamas:Termcluster ;
+	rdfs:label "burji-VNegImperfect-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDa2dae935-11d5-4b98-b07b-725aa4992419 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "it-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID350ef2ce-3067-4751-a660-df2acf0aac94 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID1360fed6-f10a-455d-be78-2f6bea41fb3e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "it-éy" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID1d13f316-936b-4bf2-a022-15b80adddfbb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆-éy" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID3fc6bbdd-028c-406d-8625-5f6237705112 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "itin-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDf03643bb-2ab6-40fa-a8c7-c3f7bbdc0332 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆ing-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID4cd7d695-ad31-46c0-9d77-6e58b72da7f0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "iting-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VNegSimplePerf-it
+
+bur:burji-VNegSimplePerf-it a aamas:Termcluster ;
+	rdfs:label "burji-VNegSimplePerf-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID76d8d007-f561-43c3-afab-db0c1a689530 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itann-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID9336a816-89a2-402f-b0ef-4cd74a3bf026 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itand-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID04fcd359-982c-4a31-aeb3-af6ccff5772e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itann-éy" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID0de641be-7a51-4c3d-8c52-358af3b09c72 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itann-éy" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDd7f16159-9ffe-4640-8c70-63e15027de6a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itannin-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID5ca6e947-7840-4e36-b661-48a9b47382af a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanc̆ing-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID100b6883-cde7-4147-8935-7ad11ab360fa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegSimplePerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanning-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffPluPerfCompound-mar
+
+bur:burji-VAffPluPerfCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffPluPerfCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
+	.
+
+aama:IDd05435db-ec20-4d16-b981-1131354516b5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘ani) marinaa yeɗaɗanni/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID6acca8df-01b8-4129-928c-d34a021265c8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘asi) mardinaa yettooɗandu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd527453e-cd8d-4646-a5d4-a70ed159c5e8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isi) marinaa yeɗaɗdanni/oo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID0eb6a643-6dee-498a-9cb3-aa6f5cfb630f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isi) mardinaa yettaɗanni/oo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDa1d7d4cc-77ab-4c80-ab99-3a6ee25d25aa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(naanu) marrinaa yennooɗanninu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID419bd457-851e-4a4b-be13-4e3defcfbca1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘asinu) maringinaa yeɗingooɗancingu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDddfdbbe1-fb4b-4159-ab7b-915db5f59c98 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘issi) marinaa yeɗaɗanni/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:IdPro ;
+	.
+
+aama:IDfea2dd65-432e-478b-b45a-d23e581a16ae a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isinu) maringinaa yeɗingooɗanningu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID890c786b-43a2-4cb5-84bd-c5a4605d4221 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Pluperfect ;
+	bur:formType bur:Compound ;
+	bur:token "- marinaa yeɗaɗanni/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffPassPresPerf-nak
+
+bur:burji-VAffPassPresPerf-nak a aamas:Termcluster ;
+	rdfs:label "burji-VAffPassPresPerf-nak" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDa4f3eaa1-3d6e-401a-bf24-e24f6034f363 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-eed’u" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDccc2dda8-e6f0-4a8b-ad8d-68de4a06ff86 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-c̆-eettu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID97658f2e-550f-429f-9051-e94f283567aa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-eed’a" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDe4d24dc9-3ea9-450d-8350-efadbe1d2519 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-c̆-eetta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID4c423ada-7fe3-495a-bc67-dfb87a8aed17 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-n-eennu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID0f767743-9472-410d-9614-df838864994b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-c̆-eec̆c̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDd99e3154-7b30-4dad-973d-da25caf436ef a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
+	bur:vmorphClass bur:Finite ;
+	bur:derivedStem bur:Passive ;
+	aamas:lexeme aama:Burji-nak ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "nak’am-eed’ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfectIrreg-hayy
+
+bur:burji-VAffImperfectIrreg-hayy a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfectIrreg-hayy" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 120%%paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
+	.
+
+aama:IDcff272eb-4a0e-422a-a6ac-0838f62aaa76 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayy/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID32e06c72-2678-43bc-945a-acda6be9525c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayyidu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID616d80ae-2e87-42b4-935e-95539381fbd4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayya" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID7287e800-7540-4a34-8517-6c9d1001d060 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayyida" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDee7c4ac3-c53b-4141-bfff-b4d0636d6bdf a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayyinu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID5c11749b-8da6-4556-a401-a39ea3798c22 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayyis̆ingu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID77f0d68b-e325-40de-a4a8-e655bb7addf9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayyingu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID4c2426b6-0d74-4a38-8938-0974c7ca49d2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Irreg ;
+	aamas:lexeme aama:Burji-hayy ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "hayya" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfect-ba
+
+bur:burji-VAffSimplePerfect-ba a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfect-ba" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID6734db14-3ea9-469e-abe3-422b9a59126a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID530881e6-e09e-42ce-9cac-77e4a40335db a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baandu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDfd1c46e1-0b44-4e16-b8b9-006e7feed4b3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDa1a4e328-7ed2-4e85-9895-fada05babf7a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID1c319c08-0cc8-464e-8c9d-138f1e8566be a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanninu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID95c3ef54-4110-4b7a-9c56-97ed4d7cefd0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanc̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID5f732d5e-582b-46a7-9042-f66266da02cb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "baanningu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffImprtvIrreg-intey
+
+bur:burji-VAffImprtvIrreg-intey a aamas:Termcluster ;
+	rdfs:label "burji-VAffImprtvIrreg-intey" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 124. The verb comehas both a suppletive and a nonsuppletive form" 
+	.
+
+aama:IDd700a511-1d7b-40c9-8aa4-78badacd1710 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "‘inteyi!" ;
+	bur:number bur:Singular ;
+	bur:suppletion bur:NonSuppletive ;
+	.
+
+aama:ID91559b6a-8e13-430d-9aee-1c4bc8eaebe4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "‘inteyee!" ;
+	bur:number bur:Plural ;
+	bur:suppletion bur:NonSuppletive ;
+	.
+
+aama:ID75eae8a1-b7de-4af6-8315-9fa235c91430 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "‘aamu!" ;
+	bur:number bur:Singular ;
+	bur:suppletion bur:Suppletive ;
+	.
+
+aama:ID4f41187d-1ee9-4601-8674-ddb684c6e136 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "‘aamonee!" ;
+	bur:number bur:Plural ;
+	bur:suppletion bur:Suppletive ;
+	.
+
+#TERMCLUSTER:  burji-VDervStem
+
+bur:burji-VDervStem a aamas:Termcluster ;
+	rdfs:label "burji-VDervStem" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 pp. 133-139 Note discussions of consonant assimilations for causative –s- pp. 133-136%%for benefactive pp. 136-137." 
+	.
+
+aama:ID5998fd29-6575-4399-897d-92c5d50cbaa3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-aɗ-" ;
+	bur:derivedStem bur:Benefactive ;
+	.
+
+aama:IDfadda8e8-e088-40f6-82a4-0040cbaa35d2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-(is)s-" ;
+	bur:derivedStem bur:Causative1 ;
+	.
+
+aama:IDe1ee33c0-9657-4295-a51e-cb6d0c4ab9db a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-(is)siis(s)-" ;
+	bur:derivedStem bur:Causative2 ;
+	.
+
+aama:IDa9dbcf89-c506-4b5e-a326-1b0c349e6293 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-s-aɗ-" ;
+	bur:derivedStem bur:Combo ;
+	.
+
+aama:ID7d834da9-5571-4f5e-bb57-524a00059512 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-aw-" ;
+	bur:derivedStem bur:Denominal ;
+	.
+
+aama:IDf78c3489-e591-4174-9676-5b2ed832a7f6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "-am-" ;
+	bur:derivedStem bur:Passive ;
+	.
+
+aama:ID9e1f26e9-95fb-4165-b923-870c6776ceab a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VDervStem ;
+	bur:pos bur:Verb ;
+	bur:formType bur:Suffix ;
+	bur:vmorphClass bur:DervStem ;
+	bur:token "_NULL" ;
+	bur:derivedStem bur:Reduplicated ;
+	.
+
+#TERMCLUSTER:  burji-VNegPresProg-it
+
+bur:burji-VNegPresProg-it a aamas:Termcluster ;
+	rdfs:label "burji-VNegPresProg-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID9ffb5911-4deb-4df0-bbdd-2bd7dc316728 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yed’-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID76bdc31d-42c6-4665-b4fc-17f3f819315c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yett-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDa650b7cb-9876-45e4-999a-ea4e747b9f42 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yed’-éy" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDf89f8fe6-3f1c-4687-bfb1-f44d3a76598e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yett-éy" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDc3e88761-82a4-43b8-9013-f638e6a273c7 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yenn-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID611edbd3-9173-4e8e-8da6-932d73ebc6b9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yec̆c̆ing-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID0f4b8f38-7aff-4893-af23-bc134a1cfe94 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPresProg-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:token "itadd’i yed’ing-éy" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VNegImperfect-mar
+
+bur:burji-VNegImperfect-mar a aamas:Termcluster ;
+	rdfs:label "burji-VNegImperfect-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 116%%125." 
+	.
+
+aama:ID2778988b-f04f-4293-b085-d12c9beea982 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID53a2fd37-779b-414d-9cec-1a0c9adbca33 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "mardeyi" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDebdd4d0a-5040-4d4a-a901-28035513a062 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marey’i" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDa76d5250-3a76-4e35-8af1-1e4d6a616c13 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "mardey’i" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDf3e9b1d9-ff03-4b55-b826-b3cc5f785891 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marrey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDb0f32027-ca67-42f6-ae46-b3010b15adf7 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marcingey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDdfa4d5d2-0489-47a4-9071-e8ba8f6213e6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marrey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID43940220-4d87-4c91-a132-e73c0a461b91 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marringey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerf-mar
+
+bur:burji-VAffSimplePerf-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerf-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 114. Defective forms:for me/us to have gone" 
+	.
+
+aama:IDf3b08130-5d00-4c9e-8f96-2875c16b8033 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID04590517-0a35-4d5d-81bf-211c929f2073 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "marandu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID4ebdb909-023e-490f-bdb3-bcc0b2d5f262 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID6a463970-c431-492c-88f0-3de1f69bacfa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID61a0afa7-1076-4f88-8f68-6b52a1136d5e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranninu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID54548de7-47a1-4772-816a-8eaa6f5bb99b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "marancingu/maransinku" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:ID5aaa298e-9c69-469b-8a99-7aa08520cfe1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Defective ;
+	.
+
+aama:IDc6d73262-be51-45bc-96ad-8c3f940ffc3c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranno" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID47d98241-9ce9-4b05-aa47-a065c0fd642f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "marandoo/marantoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID9da2a5f2-96d8-4a6c-991a-3dbcb59f971e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranno" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID5b79294d-181f-42e1-9131-c5a0e14b4b13 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranno" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:IDaee941a8-9829-48fe-831b-be00692c8889 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranninoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID05ebd0be-b6e8-4c41-afee-cff4020b8f0c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "marancingoo/maransinkoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID4ac93a47-9dbd-4745-9e52-3fd46afec07f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "marannoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	bur:focusType bur:Full ;
+	.
+
+aama:ID9a8841b2-c56c-40b0-8f1d-982de8c5b8e4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "maranningoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	bur:focusType bur:Full ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfFocusType-mar
+
+bur:burji-VAffSimplePerfFocusType-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfFocusType-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 119" 
+	.
+
+aama:ID49c4fe43-ffe3-410e-a05c-14e17c18118d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘ani ‘inaa maranni/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:ID714aeb48-d312-4c92-9d4f-2b611b2e05a4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘as̆I ‘inaa marandu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:ID90938dd4-5dce-4a0e-afac-ee6f65ad624f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘isi ‘inaa maranni/oo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:IDa9c05513-22d6-4e6c-903b-21cc9e53c5f8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘is̆I ‘inaa maranni/oo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:IDc522ebb8-63f3-455e-8d95-e6b38b9261ef a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "naanu ‘inaa maranninu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:IDb0ef0fc4-b47a-4712-8dab-c27511d96d59 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "marancingu/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:ID4bf5a694-b206-4f55-be3a-b1806997d529 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘isinu ‘inaa marammi/oo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:IDf6169e01-3bf7-48ca-be03-1c4a62b6d273 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "- ‘inaa maranningu/oo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:ID056770cc-d023-4509-a5c7-bb530b18033a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘I’issi ‘inaa maranni/oo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:IdPro ;
+	bur:focusType bur:Free ;
+	.
+
+aama:IDc371be22-aab7-468b-ad10-4535f9bd4453 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘ee(k’aa) marannoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:ID48c5ffd0-2c34-4e1d-87e3-2de3447a9064 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "s̆ee(k’aa) marandoo/-antoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:ID253568e4-4151-45fb-8f65-0146319fad4e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘isa(k’aa) marannoo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:ID292adbcb-5ee7-4152-8235-c7de240df0ea a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘is̆ee(k’aa) marannoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:IDeb9b1056-bcc9-44ea-a506-909952f7dc46 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "ninsa(k’aa) maranninoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:ID9893df55-13f9-4873-b0ec-9b44d020058f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "s̆insa(k’aa) marancingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:IDb4ee7981-3172-4a86-9bf0-6fb53e780268 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "‘isinoo(k’aa) marannoo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+aama:ID971b7776-645c-4f95-adbb-ff18deecf9f9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:verbClass bur:Focus ;
+	bur:token "maranningoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:focusType bur:Subject ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfIrreg-beeh
+
+bur:burji-VAffSimplePerfIrreg-beeh a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfIrreg-beeh" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 119. Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be%%exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)." 
+	.
+
+aama:ID9112e131-a33e-4131-8d3c-54ffda5faf63 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "‘ee beehoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID86db7e63-4af6-49bc-802c-d96623d9dc17 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "s̆ee beettoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDb8ec04e6-e43c-4664-9ac1-4d68771c8600 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "‘isa beeha" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID67e095d8-85ef-43e8-b347-05809744ab8e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "‘is̆ee beetta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID2c3e02ef-445a-4911-817a-558803b84841 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "ninsa beehinnoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4c82e92a-c7be-4f48-b523-d36eab637dda a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "s̆insa beeccingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4c649c35-383b-4485-ace6-c010785ba002 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "‘isinoo beeha" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:IDcfe52358-7f7e-4963-b27c-6fb7edfc7b76 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-beeh ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "- beenningoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfect-it
+
+bur:burji-VAffSimplePerfect-it a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfect-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDf3b4ecd2-717a-4633-aa75-f6a2c1041a0c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDf6596770-2e2b-42fa-b802-f9286abe6b4c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itandu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDb28fcf1a-cb54-4903-8bf1-08d78d924a91 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID03a2e387-df51-491e-922b-1438f0ac54a4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID7098a483-c82a-4d9b-bbd2-f645e1e767f8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanninu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID6da192bd-7707-4532-bacf-3b79ecab03e6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanc̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID781470dc-1a1a-486e-9171-194126a40380 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "itanningu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffJuss-it
+
+bur:burji-VAffJuss-it a aamas:Termcluster ;
+	rdfs:label "burji-VAffJuss-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDae6350b5-3d6f-42a8-b542-21c7db420d5b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-it ;
+	bur:vmorphClass bur:Finite ;
+	bur:gender bur:Common ;
+	aamas:lexeme aama:Burji-it ;
+	bur:person bur:Person3 ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "it-oo(ni)" ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID9e807c03-39eb-4cb0-8966-cea6cd8a5748 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-it ;
+	bur:vmorphClass bur:Finite ;
+	bur:gender bur:Common ;
+	aamas:lexeme aama:Burji-it ;
+	bur:person bur:Person3 ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "is̆s̆-oo(ni)" ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-PInd
+
+bur:burji-PInd a aamas:Termcluster ;
+	rdfs:label "burji-PInd" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
+	.
+
+aama:IDff235eca-9d08-49ba-bda2-1e965ad6dde8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "ee" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:IDfac10986-9bf0-40e8-a3ef-c543de4f57d5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "s̆eeabs" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:IDfe98e481-c439-4de7-b732-a1def01fc854 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "is̆ee (GH isee)" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:IDe06c4d05-9f46-4ed3-a7b9-fbdd05753446 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "ninsi" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID20b4f712-5b76-4cca-9489-069433265dfb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "s̆insi" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID4f1975e3-599a-4165-a5d1-ae7158159ff1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "isinoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID1c9999fd-3e34-43d8-b074-30ff63d73f9f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "ani" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID1baa1465-469c-44b3-a895-e6c3c66f90ab a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "as̆i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:case bur:Nominative ;
+	.
+
+aama:IDd3dafe3f-3b8a-4a0a-8b01-13b256cb315e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "isi" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID93d99ad3-4bd8-47f8-a6b5-18a4ac908e52 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "is̆I (GH išee)" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:case bur:Nominative ;
+	.
+
+aama:IDeaf1e9c6-0e93-4759-b580-2547ad93394c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "naanu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID3b5e796a-2cc7-4a29-a259-abecf66114ea a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "as̆inu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID80f3bc5d-8bfd-4a3c-a9de-5104c36a9825 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "isinu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID4886ef09-df33-45c8-afc9-80a1aca6c112 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "ee-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:case bur:Object ;
+	.
+
+aama:IDa8a35653-c430-429e-a267-073140474392 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "s̆ee-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:case bur:Object ;
+	.
+
+aama:ID4960ef0f-ad9a-4cc2-8e5d-9d0269ba5f41 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "isi-na" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:case bur:Object ;
+	.
+
+aama:ID785e15a5-8b99-43ca-947d-0323f0ef59ce a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "is̆ee-na" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:case bur:Object ;
+	.
+
+aama:ID4086eb1c-c68b-4a04-a89f-2585378fb3ba a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "ninsi-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:case bur:Object ;
+	.
+
+aama:IDdd8d4bdc-dbe9-4145-9ad6-9aab1033946f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "s̆insi-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:case bur:Object ;
+	.
+
+aama:ID91f91f79-4f55-42e3-a1a8-d0c0f04b42b4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInd ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Independent ;
+	bur:token "isinoo-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:case bur:Object ;
+	.
+
+#TERMCLUSTER:  burji-VAffPresPerf-it
+
+bur:burji-VAffPresPerf-it a aamas:Termcluster ;
+	rdfs:label "burji-VAffPresPerf-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID58894d93-0d64-4889-a5eb-e10ca87fe635 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "ani it-ina yed’u" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID15428fbe-ddfc-4bf3-b05b-e6985675694a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "as̆I is̆s̆-ina yetttu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID80ed99de-4ba4-460d-bcbf-62dfb82ee043 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "isi it-ina yed’a" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID5a869aea-618e-46ab-840a-fc99e41fd71e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "is̆I is̆s̆-ina yetta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID46b5d902-c163-4389-81f8-caf827547ab3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "naanu itin-ina yennu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDa939b7b1-f4f3-4326-9ec4-0c1b7ed6e1d1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "as̆inu is̆s̆ing-ina yec̆c̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID526d0406-34c9-458d-9475-cbf0f02b6bac a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresPerf-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentPerfect ;
+	bur:token "isinu iting-ina yed’ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffJuss-mar
+
+bur:burji-VAffJuss-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffJuss-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 123. (cf. also p. 115). (33) Full forms would be%%for instance:haani maru-waa let me go!%%haani maru-waa-see let me go!" 
+	.
+
+aama:IDef9a153c-e754-4d98-8696-e53da7fd98c1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘ani) maru" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:NoParticle ;
+	.
+
+aama:ID5e877a2f-3923-4507-9bcc-69e9a5a704a6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘isi) maru" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:NoParticle ;
+	.
+
+aama:ID8245c61d-0d99-4cf3-a602-cef2f3619f4a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘is̆i) mardu" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:NoParticle ;
+	.
+
+aama:ID8ce52408-40e3-49e1-b241-1a9b3cc3c776 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(naanu) marru" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:NoParticle ;
+	.
+
+aama:ID2e63a5a1-16a1-49da-aa05-719cacf29732 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘isinu) maringu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:NoParticle ;
+	.
+
+aama:ID0298ca67-06d3-4a80-bbcc-ae9fb07d17bb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘ani) maru(waa)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+aama:ID112ec96b-2cdc-41f8-80ee-4c4ede5f23f1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘isi) marooni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+aama:IDd4890ed9-e379-4ea6-beec-ce11f8651b7e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘is̆i) marooni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+aama:IDbffdcc1c-292c-4af4-9d26-010ced61c828 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(naanu) marrooni/maroonee" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+aama:ID4547fb08-6537-4a04-9fb6-58b3444bc2cc a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘isinu) maringooni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+aama:ID8c885dac-8edf-4dd5-9cd6-2f38ba4a8c9e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "(‘isinu) mardooni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	bur:clauseMarker bur:Particle ;
+	.
+
+#TERMCLUSTER:  burji-VSubjMarkers
+
+bur:burji-VSubjMarkers a aamas:Termcluster ;
+	rdfs:label "burji-VSubjMarkers" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 117. In the suffix%%The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse." 
+	.
+
+aama:ID87fd4215-c641-4b30-a3d5-3ece914a7501 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-a" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDfbfe68e2-336b-4102-a8ae-f00504407bbd a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-ta" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID545c4cb8-b8dc-474c-8b65-084b695912fa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-a" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID98a87c22-7b35-4017-9d46-0005de08450a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-ta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4f498e2a-8b8b-4c7b-b955-b8f49321c1ed a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-na" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4884bd85-af00-480c-8366-dce9addab8a3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-cingu/-cingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID1a603bce-cedc-4686-a90e-d0a8ff76eb20 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-a" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd4d61563-66a3-4b09-b4f7-c4a1c5dcac56 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-ingu/-ingoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID456f1ec0-0005-4eb2-88f4-3a4764bf2148 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-anni/-annoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID1745c904-772d-48af-8d1c-7baf3416217b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-antu/-antoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID2cb9cdb5-0787-4c49-980e-b4cc1406e0d6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-anni/-annoo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4da06264-ba94-4c1b-a59c-4ce7346c003d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-anni/-annoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID0778a4b5-6fef-400f-b93e-70ab68fc204e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-anninu/-anninoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID2befcd96-6262-47e4-b1da-875628a253af a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-ancingu/-ancingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDfc837d2e-f0fd-420b-b06e-3e57d6a9cb34 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "‘-anni/-annoo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDff681a54-b3aa-4724-87ac-c85503fb0ce2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-anningu/-anningoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:tam bur:Perfect ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDdb22beb5-16f7-4b22-a351-cb94e4b7d621 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VSubjMarkers ;
+	bur:pos bur:Verb ;
+	bur:vmorphClass bur:SubjMarkers ;
+	bur:token "-a" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:tam bur:Imperfect ;
+	bur:proType bur:IdPro ;
+	.
+
+#TERMCLUSTER:  burji-VNegJuss-mar
+
+bur:burji-VNegJuss-mar a aamas:Termcluster ;
+	rdfs:label "burji-VNegJuss-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 125" 
+	.
+
+aama:ID16185fb6-16f0-432d-96b0-307da99d139f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "‘ee marakki" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID719ca93a-d5e9-433b-a79d-9f303251006f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "‘isi marakki" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID8cf4787e-5410-4440-97f5-1b79ed78056d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "‘is̆ee marakki" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID574f29b4-88c2-4fd8-a755-b5a44771ff6b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegJuss-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Jussive ;
+	bur:token "‘isinoo marakki" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffPresProgCompound-mar
+
+bur:burji-VAffPresProgCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffPresProgCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 123" 
+	.
+
+aama:ID00de5401-0394-4223-9b9a-29701145e9fe a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(‘ani) maraaddinaa yeɗu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID2d188ee4-8a92-44cf-8a61-9d6eef522002 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(‘as̆i) maraadddinaa yettu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID96112eb3-1eb7-4f2e-b713-b9370f1952e6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(‘isi) maraaddinaa yeɗa" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID79592ecf-7215-4f1c-b84e-9b6eef09e4d6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(‘is̆i) maraadinaa yetta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd4c48f28-5ffe-450f-a000-eb294304d37d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(naanu) maraaddinaa yennu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID940c0693-d600-4aef-a7cd-da01cafd4138 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(‘as̆inu) maraaddinaa yeccingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd10674fa-8735-4438-8c61-31f32f7122c3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "(’isinu) maraaddinaa yeɗa" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID2949e023-dbcc-40ec-8dd4-7f5c6c4a6136 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PresentProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "maraaddinaa yeɗingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffPerfProgCompound-mar
+
+bur:burji-VAffPerfProgCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffPerfProgCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 122." 
+	.
+
+aama:IDe1b68346-5e52-40f1-99d4-e09f146ad41c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘ani maraaɗannoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd12d5a90-28a9-4610-ad19-de3011e3d1ff a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘as̆I martaaɗandoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID0052375f-5920-4a4d-aa91-c50d8cbdf891 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isi maraaɗannoo" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID69c95f85-468a-42b0-9712-717d0458be04 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘is̆I martaaɗannoo" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID26c62712-fb26-41ee-a0ec-a86208711509 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "naanu marraaanninoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID1dcb7d35-ae03-4b29-8be8-a87e5a741fd0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘as̆inu mars̆ingooɗancingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID1578fb47-e65e-4a4e-8e4e-3fde36c97edc a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘issi maraaɗannoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:IdPro ;
+	.
+
+aama:IDad9f68cd-e281-47fa-92e4-cdd79c5cfd89 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isinu maraaɗannoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:IDbe9ce23c-baa3-47e2-9af1-f20899a9df48 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:PerfectProgressive ;
+	bur:formType bur:Compound ;
+	bur:token "maringooɗanningoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffFutIntensiveCompound-mar
+
+bur:burji-VAffFutIntensiveCompound-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffFutIntensiveCompound-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 122" 
+	.
+
+aama:ID701796f8-3978-4bde-b934-0a6bb8027a29 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "‘ee mara mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID55dbb231-e034-4f25-b8b5-a77baca24900 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "s̆ee mara marda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDd88bc484-b9e1-482c-90ef-4395ed2acaf1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isaa mara mara" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID485f20c6-6ecf-4ab0-bc2f-06c40c13f1a2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "‘is̆ee mara marda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID8c2fa7f9-527b-445f-85e7-5a18e0861aff a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "ninsa mara marra" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID4a871fd6-feea-4f72-8898-53b20d9d207f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "s̆insa mara mars̆ingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID9c71874f-1d08-4b4f-ae7e-9ad8846814fa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "‘isinoo mara mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID9a9485e0-385a-449f-97d2-ab320cc432e1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:FutureIntensive ;
+	bur:formType bur:Compound ;
+	bur:token "mara marringu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfectReg-mar
+
+bur:burji-VAffImperfectReg-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfectReg-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 120%%paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
+	.
+
+aama:ID953239aa-f2e3-4e72-8f66-4a35f38c0ee7 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "‘ee mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID01a90432-bb6c-47e8-9a12-6028e4d6f975 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "s̆ee marda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID63606df2-c281-4127-ba1d-fbd883b03bb1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "‘isa mara" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID46121bdc-5edb-4907-a24a-e13db0a3be23 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "‘is̆ee marda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID6c743919-b5aa-404b-8a0b-6a7eaf69dd04 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "ninsa marra" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDe34b2826-ef32-49e6-94a5-8a638f9d818f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "s̆insa mars̆ingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID440dbf8b-70c9-4592-b2b8-dcf26324cc08 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "‘isinoo mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID843ffe5a-a6ba-4f89-aaf4-78cc29f726a6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
+	bur:vmorphClass bur:IMPERFREG-IRREG ;
+	bur:conjClass bur:Reular ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "- marringoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfect-duw
+
+bur:burji-VAffImperfect-duw a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfect-duw" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDf7864c70-e910-45d0-9b9a-176f6dcbb517 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’uwa" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDc290b2ba-d3b2-4f80-9f5d-6660a73158d3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’uda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID5d171fc5-913b-4a5d-ae45-53ccd74716b6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’uwa" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID955749e0-9e85-4651-9d5b-23411a2ad86e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’uda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID8ad552c2-2e21-40f2-874a-01fc1b0e95b5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’una" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID75fa9645-c35f-4138-aaa4-d6a7c474459e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’unjingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDb4c2a567-efa2-458f-a0f1-0129f3bb32a0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "d’uwingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-PInterr
+
+bur:burji-PInterr a aamas:Termcluster ;
+	rdfs:label "burji-PInterr" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "HudsonG1976 p. 259." 
+	.
+
+aama:ID269165f6-b1e1-49f2-8075-dd9895864dbb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "maamma" ;
+	bur:interrogClass bur:InterrogProHow ;
+	.
+
+aama:ID30f4a86a-35de-433b-8db7-d625e70aba09 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "mia" ;
+	bur:interrogClass bur:InterrogProHowMany ;
+	.
+
+aama:ID98fd68c4-2639-498d-a8ae-c21d448204b1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "miya" ;
+	bur:interrogClass bur:InterrogProWhat ;
+	.
+
+aama:ID0f51f45b-0a01-4494-90ca-2ac1cf43ac9e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "haynu" ;
+	bur:interrogClass bur:InterrogProWhen ;
+	.
+
+aama:IDb7d86a1a-c7d9-44f6-8ba1-9c8ba5aa83fb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "haballa" ;
+	bur:interrogClass bur:InterrogProWhere ;
+	.
+
+aama:ID4fc2a3e4-cb8b-42e9-821f-82ab0eb69002 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PInterr ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Interrogative ;
+	bur:token "ay(y)e" ;
+	bur:interrogClass bur:InterrogProWho ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfect-duw
+
+bur:burji-VAffSimplePerfect-duw a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfect-duw" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDeca7336f-cea2-4b47-b674-7ed460f8b2d5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’awanni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID12d3bb52-6af0-419a-bdda-8df2e7ae18de a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwandu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID6cf5b87e-0e52-4327-8c57-00af4cf7ddd6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwanni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDf81b9d43-35fd-4778-9d63-ce22e5bcdaa7 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwanni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID0ceb30e4-9ff4-4123-b2f8-a3505f9ea915 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwanninu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID69c88051-fae1-4882-b838-41a8902d8f7a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwanc̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDe2ca57d7-8ef9-43fd-8d57-fb1346d5dd5f a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-duw ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "d’uwanningu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfect-it
+
+bur:burji-VAffImperfect-it a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfect-it" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID6657c553-6867-4dad-8f7d-49684af8eab9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "ita" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDb77e066f-14b2-4041-b79b-9f81609b7e5e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆a" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDe4e43532-df94-48b5-9041-548ef28287ad a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "ita" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDba40e57c-a168-4f51-9124-97269cf4d495 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆a" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDc22d2848-5429-4c5b-9a6d-d6e4cea8e1e9 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "itina" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDef4ccfcd-5cdd-4472-aa66-9d453af34d51 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "is̆s̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID35084eb6-3bdc-4b62-9acc-7bc7d0ba5add a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-it ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-it ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "itingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VNegPerfect-mar
+
+bur:burji-VNegPerfect-mar a aamas:Termcluster ;
+	rdfs:label "burji-VNegPerfect-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 125. [Not clear whether this is simply a negation of simplePerf%%or of anything perfect/past.]" 
+	.
+
+aama:ID9595d43c-260c-49ee-afed-4400f65f63d1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘ani) maranney’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID169e7355-43de-40b6-adca-f637b7415aa5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘as̆i) marandey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDaf6a6644-e7bd-4822-8ff8-085f032ad13b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘isi) maranney’i" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID8837b075-4ad4-495c-9fb2-5e442af2d416 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘is̆i) marandey’i" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDff75b27e-cfa5-4383-87f5-6d2e43f3d161 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(naanu) maranniney’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID0f242e8e-b1c6-4bd4-ac49-db4ab3357788 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘as̆inu) marancingey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDf71b691e-80f8-4cb7-a34c-9d1c9a340fa2 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "(‘isinu) maranney’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:ID2921b816-2c19-463c-be35-4a53756f6623 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegPerfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Perfect ;
+	bur:token "maranningey’i" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
+
+#TERMCLUSTER:  burji-VAffSimplePerfect-intey
+
+bur:burji-VAffSimplePerfect-intey a aamas:Termcluster ;
+	rdfs:label "burji-VAffSimplePerfect-intey" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:IDaff15373-a982-4ac0-b88f-ed34d37e063b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanni" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDdabdbcd8-85e9-4887-8355-551b36770940 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intandu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID93d427c3-3dbb-4155-9534-a0e27af3e9af a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanni" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID74ddca0b-555c-4751-b6df-f2aa90b8a89c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanni" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDb2b8455f-05e5-4f43-badf-998415727ae1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanninu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDbc3a8a65-16eb-4a3d-b347-fc7f218ebbae a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanc̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID2d2072c3-a9d5-4708-8dec-94c922922e6a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-intey ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:SimplePerfect ;
+	bur:token "intanningu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfect-ba
+
+bur:burji-VAffImperfect-ba a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfect-ba" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	.
+
+aama:ID0a894404-d373-4cbc-98cf-b6e2658a35cc a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "ba’ a" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDf26a519c-86c9-49af-b099-ca130d57c3e3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "baada" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID20cf97ef-7337-4f1b-b28f-f4b136c42db1 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "ba’ a" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:ID23b77e59-7d55-41f5-aa18-c854ed05fa80 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "baada" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDa440602e-58a6-4d0c-9721-15f5d65604be a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "baana" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	.
+
+aama:IDef678c02-6934-4f9b-92fe-0d2a2c0c8c71 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "baas̆ingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	.
+
+aama:ID82d9d923-a47a-48f8-af3c-bfc5acba485d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-ba ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-ba ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "baingu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-VNegImprtv-mar
+
+bur:burji-VNegImprtv-mar a aamas:Termcluster ;
+	rdfs:label "burji-VNegImprtv-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 116 (cf. also 124)" 
+	.
+
+aama:IDb00231d1-ae65-4bfc-88a7-44fc6561ee51 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImprtv-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "maraas̆i" ;
+	bur:number bur:Singular ;
+	.
+
+aama:IDa0cb2f6c-a2d8-492d-be0e-271877fe4257 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VNegImprtv-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Negative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperative ;
+	bur:token "marakke" ;
+	bur:number bur:Plural ;
+	.
+
+#TERMCLUSTER:  burji-PDemonstrative
+
+bur:burji-PDemonstrative a aamas:Termcluster ;
+	rdfs:label "burji-PDemonstrative" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 pp. 254-255. HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der %%%%hier’’ –Deixis (%%dieser’ etc.) belegt– far deixis form is from Hudson." 
+	.
+
+aama:IDf2742b4c-9be1-4c7d-bf2a-c4bbaa07f682 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Masc ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Far ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID7196c966-da68-4901-9e8f-12c97ecda700 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Fem ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Far ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID7ad2555e-54ec-4f66-9ee7-4278b143988a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Common ;
+	bur:number bur:Plural ;
+	bur:deixis bur:Far ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID93f2b407-4850-4a43-a3a3-db0e2a317f29 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "ka" ;
+	bur:gender bur:Masc ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Near ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID6fb4d2c3-80dc-4b36-be04-9bb5b8c4efa0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "ta" ;
+	bur:gender bur:Fem ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Near ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:ID2eaeb7e6-6393-4f19-9124-a3fea4cf957c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "ci" ;
+	bur:gender bur:Common ;
+	bur:number bur:Plural ;
+	bur:deixis bur:Near ;
+	bur:case bur:Absolutive ;
+	.
+
+aama:IDba22a7e4-d936-4e20-89c0-8e7613aeb79a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Masc ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Far ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID1c7c8ea6-5fc6-43a2-b85f-91f32048e3a3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Fem ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Far ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID0ec7e461-8b97-4c3b-ae67-df8ffdc2acc6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "kaac" ;
+	bur:gender bur:Common ;
+	bur:number bur:Plural ;
+	bur:deixis bur:Far ;
+	bur:case bur:Nominative ;
+	.
+
+aama:IDe0b460ab-ab4a-4b14-8a2a-361b83db262e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "ku" ;
+	bur:gender bur:Masc ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Near ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID62a3ad79-0b59-4798-955d-2229a82c4e7a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "tu" ;
+	bur:gender bur:Fem ;
+	bur:number bur:Singular ;
+	bur:deixis bur:Near ;
+	bur:case bur:Nominative ;
+	.
+
+aama:ID8ba6f1c8-b333-4572-8f1a-077ceba5c4d3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PDemonstrative ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Demonstrative ;
+	bur:token "ci" ;
+	bur:gender bur:Common ;
+	bur:number bur:Plural ;
+	bur:deixis bur:Near ;
+	bur:case bur:Nominative ;
+	.
+
+#TERMCLUSTER:  burji-PPoss
+
+bur:burji-PPoss a aamas:Termcluster ;
+	rdfs:label "burji-PPoss" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
+	.
+
+aama:IDd168745c-ffe1-41a9-bb42-589aa89fa10c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ita" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDdbb2e956-4b90-4859-a1d0-f8de75d6a648 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆ita" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID000544cd-0f0a-49d5-b1bc-563682c1fc3e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isata" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID3e9fe5da-739a-44a4-a44c-de57eea344fb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "is̆eeta" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID98189f67-45c2-42cf-b57a-b0d195f9db6c a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ninta" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDcb83beae-dea9-471d-affe-bde5de7be3fe a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆inta" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDfba602c0-a853-450b-846e-b74df43ea238 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isinata" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID3eb3407a-3189-4e6d-914d-70e165364ca5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "iiya" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID70c8f381-3b26-4bb3-b310-2c81e43200d0 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆iiya" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDa7169dd4-ec17-4afa-a7a6-6b0d554af40b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isaka" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID02d4cb37-3f51-418f-b385-327bf21a1850 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "is̆eeka" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDe70f2b0a-fd26-4852-b196-d3d0ea0bddd6 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ninka" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:IDc0d59cb9-f027-44ed-8fda-383dc429b8ad a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆inka" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID148d774b-d896-4bf5-b111-dec1c9642bfb a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isinaka" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadAbsolutive ;
+	.
+
+aama:ID5e5af6ff-b089-4033-acdb-f4dfc50f44af a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ic̆(i)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:IDa818d563-eea4-4962-94ee-eda169fbe4de a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆ic̆(i)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:IDe3a84ca8-41f9-4240-a6ed-f7308bfe27f3 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isic̆(i)" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID7a093cac-f9f8-4dc8-8832-97dc90daed30 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "is̆ic̆(i)" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID66937cb3-4f61-4bd2-98c4-3fed99a31e0b a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ninc̆(i)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID559a8a34-1abc-40a6-bd53-84ee04933660 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆inc̆(i)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID00390ae7-afd5-43f3-b93d-d85014805f19 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isinac̆(i)" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadFem ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID3aa59c68-7a14-429a-9a2b-5b338f24e4f8 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "iiyu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:IDdc0f86f3-42a1-4731-aa6b-f91684e8e623 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆iiyu" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID577d65a9-1009-4520-b113-4a50a54a8b19 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isaku" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:IDe776262a-a850-4432-ab31-f3a08a8182e4 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "is̆eeku" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:IDbdc01763-acd6-4150-b5d6-5e979a91e75d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "ninku" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID299bca6e-a621-4c40-b198-651a17dede8d a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "s̆inku" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+aama:ID85b6e0b9-6884-4c68-a952-4fc83a574306 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-PPoss ;
+	bur:pos bur:Pronoun ;
+	bur:pmorphClass bur:ProMorph ;
+	bur:proClass bur:Possessive ;
+	bur:token "isinaku" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:genderHead bur:HeadMasc ;
+	bur:caseHead bur:HeadNominative ;
+	.
+
+#TERMCLUSTER:  burji-VAffImperfect-mar
+
+bur:burji-VAffImperfect-mar a aamas:Termcluster ;
+	rdfs:label "burji-VAffImperfect-mar" ;
+	aamas:lang aama:Burji ;
+	rdfs:comment "WedekindC1985 p. 115. Cf. Sass-Straube1977 p. 255." 
+	.
+
+aama:ID4f91d595-fa17-47c8-9d22-f8996497efa7 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDee107d26-5ddb-40b9-a34e-b5670c6d2848 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marda" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID9181be00-b580-4507-9b60-e4dcb312786a a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "mara" ;
+	bur:gender bur:Masc ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDca677d18-a3e4-4b18-bcdd-565347f190fa a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marda" ;
+	bur:gender bur:Fem ;
+	bur:person bur:Person3 ;
+	bur:number bur:Singular ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID46e6ad96-e043-403f-b21a-9c3431dae966 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marra" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person1 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:ID8786fd17-1acc-4bf3-8c51-80a09432b3c5 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marsingoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person2 ;
+	bur:number bur:Plural ;
+	bur:proType bur:CPro ;
+	.
+
+aama:IDa14f19b0-eccd-4551-88ee-23f3c510417e a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "mara" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WPro ;
+	.
+
+aama:IDcf643814-d42c-49e1-bfb2-8b433c55c993 a aamas:Term ;
+	aamas:lang aama:Burji ;
+	aamas:memberOf bur:burji-VAffImperfect-mar ;
+	bur:vmorphClass bur:Finite ;
+	aamas:lexeme aama:Burji-mar ;
+	bur:polarity bur:Affirmative ;
+	bur:pos bur:Verb ;
+	bur:tam bur:Imperfect ;
+	bur:token "marringoo" ;
+	bur:gender bur:Common ;
+	bur:person bur:Person3 ;
+	bur:number bur:Plural ;
+	bur:proType bur:WoPro ;
+	.
