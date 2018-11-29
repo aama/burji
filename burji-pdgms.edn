@@ -5,8 +5,7 @@
  :datasource "WedekindC1985"
  :geodemoURL "http://www.ethnologue.com/language/bji"
  :geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations, Nationalities, and Peoples’ region: south of Lake Chamo; into the Oromia state'."
- :schemata {:lexeme [:ba  :beeh :duw :hayy :intey :it :mar :nak],
- :case [:Absolutive :Nominative :Object],
+ :schemata { :case [:Absolutive :Nominative :Object],
  :caseHead [:HeadAbsolutive :HeadNominative],
  :clauseMarker [:NoParticle :Particle],
  :conjClass [:Irreg :Reular],
@@ -33,17 +32,19 @@
           :synsemClass [:case :clauseMarker :deixis :derivedStem :focus :interrogClass :polarity :pos :proClass :proType :tam :verbClass],
           :inflClass [:conjClass :suppletion],
           :otherClass []}
- :lexemes{:IMPERFREG-IRREG {:gloss "[x]", :lemma "[y]"},
-          :nak {:lemma "nak-", :gloss "strike"},
-          :it {:lemma "it-", :gloss "eat"},
-          :mar {:lemma "mar-", :gloss "go"},
-          :intey {:lemma "intey-", :gloss "come"},
-          :hayy {:lemma "hayy-", :gloss "want", :conjClass :Irreg, :pos :Verb},
-          :ba {:lemma "ba’-", :gloss "go out"},
-          :duw {:lemma "ɗuw-", :gloss "drink"},
-          :VINFINITIVEAFF {:gloss "[x]", :lemma "[y]"},
-          :VADJ {:gloss "[x]", :lemma "[y]"},
-          :beeh {:lemma "beeh-", :gloss "know"}}
+ :lexemes {
+:IMPERFREG-IRREG   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:VADJ   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:VINFINITIVEAFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:ba   {:pos :Verb, :lemma "ba’-", :gloss "go out", },
+:beeh   {:pos :Verb, :lemma "beeh-", :gloss "know", },
+:duw   {:pos :Verb, :lemma "ɗuw-", :gloss "drink", },
+:hayy   {:pos :Verb, :lemma "hayy-", :gloss "want", :conjClass :Irreg},
+:intey   {:pos :Verb, :lemma "intey-", :gloss "come", },
+:it   {:pos :Verb, :lemma "it-", :gloss "eat", },
+:mar   {:pos :Verb, :lemma "mar-", :gloss "go", },
+:nak   {:pos :Verb, :lemma "nak-", :gloss "strike", },
+}
  :termclusters [
                 {:label "burji-VAffImperfect-intey"
                  :note "Sasse-Straube1977 pp. 255-258."
