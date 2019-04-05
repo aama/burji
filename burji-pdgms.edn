@@ -2,52 +2,52 @@
  :lang :burji
  :subfamily "Highland East Cushitic"
  :sgpref "bur"
- :datasource "WedekindC1985"
+ :datasource "WedekindC1985, HudsonG1976, Sasse-Straube1977; abbrev. WC85, SS77, HG76"
  :geodemoURL "http://www.ethnologue.com/language/bji"
  :geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations, Nationalities, and Peoples’ region: south of Lake Chamo; into the Oromia state'."
  :schemata { :case [:Absolutive :Nominative :Object],
- :caseHead [:HeadAbsolutive :HeadNominative],
- :clauseMarker [:NoParticle :Particle],
- :conjClass [:Irreg :Reular],
- :deixis [:Far :Near],
- :derivedStem [:Benefactive :Causative1 :Causative2 :Combo :Denominal :Passive :Reduplicated],
- :focusType [:Defective :Free :Full :Subject],
- :formType [:Compound :Suffix],
- :gender [:Common :Fem :Masc],
- :genderHead [:HeadFem :HeadMasc],
- :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Demonstrative :Independent :Interrogative :Possessive],
- :proType [:CPro :IdPro :WPro :WoPro],
- :suppletion [:NonSuppletive :Suppletive],
- :tam [:FutureIntensive :Imperative :Imperfect :ImperfectProgressive :Jussive :PastProgressive :Perfect :PerfectProgressive :Pluperfect :PresentPerfect :PresentProgressive :SimplePerfect],
- :verbClass [:Focus :Interrogative],
- :vmorphClass [:DervStem :SubjMarkers :Finite :IMPERFREG-IRREG]
- }
+            :caseHead [:HeadAbsolutive :HeadNominative],
+            :clauseMarker [:NoParticle :Particle],
+            :conjClass [:Irreg :Reular],
+            :deixis [:Far :Near],
+            :derivedStem [:Benefactive :Causative1 :Causative2 :Combo :Denominal :Passive :Reduplicated],
+            :focusType [:Defective :Free :Full :Subject],
+            :formType [:Compound :Suffix],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadFem :HeadMasc],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interrogative :Possessive],
+            :proType [:CPro :IdPro :WPro :WoPro],
+            :suppletion [:NonSuppletive :Suppletive],
+            :tam [:FutureIntensive :Imperative :Imperfect :ImperfectProgressive :Jussive :PastProgressive :Perfect :PerfectProgressive :Pluperfect :PresentPerfect :PresentProgressive :SimplePerfect],
+            :verbClass [:Focus :Interrogative],
+            :vmorphClass [:DervStem :SubjMarkers :Finite :IMPERFREG-IRREG]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :clauseMarker :deixis :derivedStem :focus :interrogClass :polarity :pos :proClass :proType :tam :verbClass],
           :inflClass [:conjClass :suppletion],
           :otherClass []}
  :lexemes {
-:IMPERFREG-IRREG   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:VADJ   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:VINFINITIVEAFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:ba   {:pos :Verb, :lemma "ba’-", :gloss "go out", },
-:beeh   {:pos :Verb, :lemma "beeh-", :gloss "know", },
-:duw   {:pos :Verb, :lemma "ɗuw-", :gloss "drink", },
-:hayy   {:pos :Verb, :lemma "hayy-", :gloss "want", :conjClass :Irreg},
-:intey   {:pos :Verb, :lemma "intey-", :gloss "come", },
-:it   {:pos :Verb, :lemma "it-", :gloss "eat", },
-:mar   {:pos :Verb, :lemma "mar-", :gloss "go", },
-:nak   {:pos :Verb, :lemma "nak-", :gloss "strike", },
-}
+           :IMPERFREG-IRREG   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :VADJ   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :VINFINITIVEAFF   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :ba   {:pos :Verb, :lemma "ba’-", :gloss "go out", },
+           :beeh   {:pos :Verb, :lemma "beeh-", :gloss "know", },
+           :duw   {:pos :Verb, :lemma "ɗuw-", :gloss "drink", },
+           :hayy   {:pos :Verb, :lemma "hayy-", :gloss "want", :conjClass :Irreg},
+           :intey   {:pos :Verb, :lemma "intey-", :gloss "come", },
+           :it   {:pos :Verb, :lemma "it-", :gloss "eat", },
+           :mar   {:pos :Verb, :lemma "mar-", :gloss "go", },
+           :nak   {:pos :Verb, :lemma "nak-", :gloss "strike", },
+           }
  :termclusters [
                 {:label "burji-VAffImperfect-intey"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :intey,
                           :polarity :Affirmative,
@@ -63,7 +63,7 @@
                          [:Plural :Person3 :Common "inteyingu"]]
                  }
                 {:label "burji-VAffImperfProgCompound-mar"
-                 :note "WedekindC1985 p. 122."
+                 :note "WC85p.122"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -81,7 +81,7 @@
                          [:WoPro :Plural :Person3 :Common "maranaa marringoo"]]
                  }
                 {:label "burji-VNegPastProg-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Negative,
@@ -96,7 +96,7 @@
                          [:Plural :Person3 :Common "itaad’i yed’ingoonning-éy"]]
                  }
                 {:label "burji-VAffPresPerfCompound-mar"
-                 :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
+                 :note "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977,p. 256"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -115,7 +115,7 @@
                          [:WoPro :Plural :Person3 :Common "- maringinaa yeɗingu"]]
                  }
                 {:label "burji-VAffImprtv-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :it,
@@ -128,7 +128,7 @@
                          [:Plural "it-ee"]]
                  }
                 {:label "burji-VAffInterrogative-mar"
-                 :note "WedekindC1985 p. 125-126"
+                 :note "WC85p.125-126"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -140,7 +140,7 @@
                          ["‘ani maranni" "“Did I go?”"]]
                  }
                 {:label "burji-VNegImperfect-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Negative,
@@ -156,7 +156,7 @@
                          [:Plural :Person3 :Common "iting-éy"]]
                  }
                 {:label "burji-VNegSimplePerf-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Negative,
@@ -172,7 +172,7 @@
                          [:Plural :Person3 :Common "itanning-éy"]]
                  }
                 {:label "burji-VAffPluPerfCompound-mar"
-                 :note "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977,p. 256"
+                 :note "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977,p. 256"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -191,7 +191,7 @@
                          [:WoPro :Plural :Person3 :Common "- marinaa yeɗaɗanni/oo"]]
                  }
                 {:label "burji-VAffPassPresPerf-nak"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :derivedStem :Passive,
                           :lexeme :nak,
@@ -208,7 +208,7 @@
                          [:Plural :Person3 :Common "nak’am-eed’ingu"]]
                  }
                 {:label "burji-VAffImperfectIrreg-hayy"
-                 :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
+                 :note "WC85p.120 ::: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
                  :common {:vmorphClass :IMPERFREG-IRREG,
                           :conjClass :Irreg,
                           :lexeme :hayy,
@@ -226,7 +226,7 @@
                          [:WoPro :Plural :Person3 :Common "hayya"]]
                  }
                 {:label "burji-VAffSimplePerfect-ba"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :ba,
                           :polarity :Affirmative,
@@ -242,7 +242,7 @@
                          [:Plural :Person3 :Common "baanningu"]]
                  }
                 {:label "burji-VAffImprtvIrreg-intey"
-                 :note "WedekindC1985 p. 124. The verb comehas both a suppletive and a nonsuppletive form"
+                 :note "WC85p.124 :: “There is no The verb comehas both a suppletive and a nonsuppletive form"
                  :common {:vmorphClass :Finite,
                           :lexeme :intey,
                           :polarity :Affirmative,
@@ -255,7 +255,7 @@
                          [:Suppletive :Plural "‘aamonee!"]]
                  }
                 {:label "burji-VDervStem"
-                 :note "WedekindC1985 pp. 133-139 Note discussions of consonant assimilations for causative –s- pp. 133-136,for benefactive pp. 136-137."
+                 :note "WC85pp.133-139 :: Note discussions of consonant assimilations for causative –s- pp. 133-136,for benefactive pp. 136-137"
                  :common {:pos :Verb,
                           :formType :Suffix,
                           :vmorphClass :DervStem}
@@ -269,7 +269,7 @@
                          [:Reduplicated "_NULL"]]
                  }
                 {:label "burji-VNegPresProg-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Negative,
@@ -285,7 +285,7 @@
                          [:Plural :Person3 :Common "itadd’i yed’ing-éy"]]
                  }
                 {:label "burji-VNegImperfect-mar"
-                 :note "WedekindC1985 p. 116,125."
+                 :note "WC85p.116,125"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Negative,
@@ -302,7 +302,7 @@
                          [:WoPro :Plural :Person3 :Common "marringey’i"]]
                  }
                 {:label "burji-VAffSimplePerf-mar"
-                 :note "WedekindC1985 p. 114. Defective forms:for me/us to have gone"
+                 :note "WC85p.114 :: Defective forms:for me/us to have gone"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -326,7 +326,7 @@
                          [:Full :WoPro :Plural :Person3 :Common "maranningoo"]]
                  }
                 {:label "burji-VAffSimplePerfFocusType-mar"
-                 :note "WedekindC1985 p. 119"
+                 :note "WC85p.119"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -353,7 +353,7 @@
                          [:Subject :CPro :Plural :Person3 :Fem "maranningoo"]]
                  }
                 {:label "burji-VAffSimplePerfIrreg-beeh"
-                 :note "WedekindC1985 p. 119. Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be,exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)."
+                 :note "WC85p.119 :: Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be,exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)"
                  :common {:vmorphClass :Finite,
                           :lexeme :beeh,
                           :polarity :Affirmative,
@@ -370,7 +370,7 @@
                          [:WoPro :Plural :Person3 :Common "- beenningoo"]]
                  }
                 {:label "burji-VAffSimplePerfect-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Affirmative,
@@ -386,7 +386,7 @@
                          [:Plural :Person3 :Common "itanningu"]]
                  }
                 {:label "burji-VAffJuss-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :it,
@@ -399,7 +399,7 @@
                          [:Plural "is̆s̆-oo(ni)"]]
                  }
                 {:label "burji-PInd"
-                 :note "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259."
+                 :note "SS77p.254 :: cf. HudsonG1976 pp. 256-259"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -425,7 +425,7 @@
                          [:Object :Plural :Person3 :Common "isinoo-na"]]
                  }
                 {:label "burji-VAffPresPerf-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Affirmative,
@@ -441,7 +441,7 @@
                          [:Plural :Person3 :Common "isinu iting-ina yed’ingu"]]
                  }
                 {:label "burji-VAffJuss-mar"
-                 :note "WedekindC1985 p. 123. (cf. also p. 115). (33) Full forms would be,for instance:haani maru-waa let me go!,haani maru-waa-see let me go!"
+                 :note "WC85p.123 :: (cf. also p. 115). (33) Full forms would be,for instance:haani maru-waa let me go!,haani maru-waa-see let me go!"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -461,7 +461,7 @@
                          [:Particle :WoPro :Plural :Person3 :Common "(‘isinu) mardooni"]]
                  }
                 {:label "burji-VSubjMarkers"
-                 :note "WedekindC1985 p. 117. In the suffix,The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse."
+                 :note "WC85p.117 :: In the suffix,The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse"
                  :common {:pos :Verb,
                           :vmorphClass :SubjMarkers}
                  :terms [[:proType :tam :number :person :gender :token],
@@ -484,7 +484,7 @@
                          [:IdPro :Imperfect :Singular :Person3 :Common "-a"]]
                  }
                 {:label "burji-VNegJuss-mar"
-                 :note "WedekindC1985 p. 125"
+                 :note "WC85p.125"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Negative,
@@ -497,7 +497,7 @@
                          [:Plural :Person3 :Common "‘isinoo marakki"]]
                  }
                 {:label "burji-VAffPresProgCompound-mar"
-                 :note "WedekindC1985 p. 123"
+                 :note "WC85p.123"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -515,7 +515,7 @@
                          [:WoPro :Plural :Person3 :Common "maraaddinaa yeɗingu"]]
                  }
                 {:label "burji-VAffPerfProgCompound-mar"
-                 :note "WedekindC1985 p. 122."
+                 :note "WC85p.122"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -534,7 +534,7 @@
                          [:WoPro :Plural :Person3 :Common "maringooɗanningoo"]]
                  }
                 {:label "burji-VAffFutIntensiveCompound-mar"
-                 :note "WedekindC1985 p. 122"
+                 :note "WC85p.122"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -552,7 +552,7 @@
                          [:WoPro :Plural :Person3 :Common "mara marringu"]]
                  }
                 {:label "burji-VAffImperfectReg-mar"
-                 :note "WedekindC1985 p. 120,paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
+                 :note "WC85p.120 :: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]"
                  :common {:vmorphClass :IMPERFREG-IRREG,
                           :conjClass :Reular,
                           :lexeme :mar,
@@ -570,7 +570,7 @@
                          [:WoPro :Plural :Person3 :Common "- marringoo"]]
                  }
                 {:label "burji-VAffImperfect-duw"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :duw,
                           :polarity :Affirmative,
@@ -586,7 +586,7 @@
                          [:Plural :Person3 :Common "d’uwingu"]]
                  }
                 {:label "burji-PInterr"
-                 :note "HudsonG1976 p. 259."
+                 :note "HG76p.259"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interrogative}
                  :terms [[:interrogClass :token],
@@ -598,7 +598,7 @@
                          [:InterrogProWho "ay(y)e"]]
                  }
                 {:label "burji-VAffSimplePerfect-duw"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :duw,
                           :polarity :Affirmative,
@@ -614,7 +614,7 @@
                          [:Plural :Person3 :Common "d’uwanningu"]]
                  }
                 {:label "burji-VAffImperfect-it"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :polarity :Affirmative,
@@ -630,7 +630,7 @@
                          [:Plural :Person3 :Common "itingu"]]
                  }
                 {:label "burji-VNegPerfect-mar"
-                 :note "WedekindC1985 p. 125. [Not clear whether this is simply a negation of simplePerf,or of anything perfect/past.]"
+                 :note "WC85p.125 :: [Not clear whether this is simply a negation of simplePerf,or of anything perfect/past.]"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Negative,
@@ -647,7 +647,7 @@
                          [:WoPro :Plural :Person3 :Common "maranningey’i"]]
                  }
                 {:label "burji-VAffSimplePerfect-intey"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :intey,
                           :polarity :Affirmative,
@@ -663,7 +663,7 @@
                          [:Plural :Person3 :Common "intanningu"]]
                  }
                 {:label "burji-VAffImperfect-ba"
-                 :note "Sasse-Straube1977 pp. 255-258."
+                 :note "SS77pp.255-258"
                  :common {:vmorphClass :Finite,
                           :lexeme :ba,
                           :polarity :Affirmative,
@@ -679,7 +679,7 @@
                          [:Plural :Person3 :Common "baingu"]]
                  }
                 {:label "burji-VNegImprtv-mar"
-                 :note "WedekindC1985 p. 116 (cf. also 124)"
+                 :note "WC85p.116 :: (cf. also 124)"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Negative,
@@ -690,7 +690,7 @@
                          [:Plural "marakke"]]
                  }
                 {:label "burji-PDemonstrative"
-                 :note "Sasse-Straube1977 pp. 254-255. HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der ,,hier’’ –Deixis (,dieser’ etc.) belegt– far deixis form is from Hudson."
+                 :note "SS77pp.254-255 :: HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der ,,hier’’ –Deixis (,dieser’ etc.) belegt– far deixis form is from Hudson"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:case :deixis :number :gender :token],
@@ -708,7 +708,7 @@
                          [:Nominative :Near :Plural :Common "ci"]]
                  }
                 {:label "burji-PPoss"
-                 :note "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259."
+                 :note "SS77p.254 :: cf. HudsonG1976 pp. 256-259"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:caseHead :genderHead :number :person :gender :token],
@@ -742,7 +742,7 @@
                          [:HeadNominative :HeadMasc :Plural :Person3 :Common "isinaku"]]
                  }
                 {:label "burji-VAffImperfect-mar"
-                 :note "WedekindC1985 p. 115. Cf. Sass-Straube1977 p. 255."
+                 :note "WC85p.115 :: Cf. Sass-Straube1977 p. 255"
                  :common {:vmorphClass :Finite,
                           :lexeme :mar,
                           :polarity :Affirmative,
@@ -758,6 +758,6 @@
                          [:WPro :Plural :Person3 :Common "mara"],
                          [:WoPro :Plural :Person3 :Common "marringoo"]]
                  }]
-                }
- 
- 
+ }
+
+

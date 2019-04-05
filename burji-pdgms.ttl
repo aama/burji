@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/burji//burji-pdgms.edn
+#../aama-data/data/burji/burji-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,7 +15,7 @@ aama:Burji a aamas:Language .
 aama:Burji rdfs:label "Burji" .
 aama:Burji aamas:subfamily "Highland East Cushitic" .
 aama:Burji aamas:lpref "bur" .
-aama:Burji aamas:dataSource "WedekindC1985" .
+aama:Burji aamas:dataSource "WedekindC1985, HudsonG1976, Sasse-Straube1977; abbrev. WC85, SS77, HG76" .
 aama:Burji aamas:dataSourceNotes "" .
 aama:Burji aamas:geodemoURL "http://www.ethnologue.com/language/bji" .
 aama:Burji aamas:geodemoTXT "Varieties and subdialects of Burji are spoken in the  'Southern Nations%% Nationalities%% and Peoples’ region: south of Lake Chamo; into the Oromia state'." .
@@ -584,10 +584,10 @@ aama:Burji-beeh a aamas:Lexeme ;
 bur:burji-VAffImperfect-intey a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfect-intey" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID2fb23a64-3175-40a4-80d4-f0ba6ef6b971 a aamas:Term ;
+aama:ID27218206-0986-4aed-aeff-58d36180b995 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -601,7 +601,7 @@ aama:ID2fb23a64-3175-40a4-80d4-f0ba6ef6b971 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDa8f706a1-065a-41fd-ae8c-6920fc0edf5d a aamas:Term ;
+aama:ID5a42cc1a-ce63-43aa-9648-095988ca8ec3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -615,7 +615,7 @@ aama:IDa8f706a1-065a-41fd-ae8c-6920fc0edf5d a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID5f4e1e20-bb05-4909-9eda-99fde35b0419 a aamas:Term ;
+aama:IDebae04d6-c19a-4bbf-8875-34c2f5328af2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -629,7 +629,7 @@ aama:ID5f4e1e20-bb05-4909-9eda-99fde35b0419 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID2bcbda26-f3ad-430b-9e2c-075d644cf1c3 a aamas:Term ;
+aama:IDddf2dbee-9077-4602-adb8-64b3f8814c3b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -643,7 +643,7 @@ aama:ID2bcbda26-f3ad-430b-9e2c-075d644cf1c3 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID8c9d82cf-f619-4581-b120-15b1a1561226 a aamas:Term ;
+aama:IDec569e83-1e24-413a-9e22-2def735e5769 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -657,7 +657,7 @@ aama:ID8c9d82cf-f619-4581-b120-15b1a1561226 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDdd8f793d-b8a8-4956-ac46-b66ae45043d3 a aamas:Term ;
+aama:IDa57fe19d-4e42-4bd9-bd40-cb5bb8df3b15 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -671,7 +671,7 @@ aama:IDdd8f793d-b8a8-4956-ac46-b66ae45043d3 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID781a1b10-21c0-4968-9dc7-0f39fc9126fe a aamas:Term ;
+aama:ID1257ced1-f057-4eba-8efc-b41518348d2a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -690,10 +690,10 @@ aama:ID781a1b10-21c0-4968-9dc7-0f39fc9126fe a aamas:Term ;
 bur:burji-VAffImperfProgCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfProgCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 122." 
+	rdfs:comment "WC85p.122" 
 	.
 
-aama:ID6ff33189-d93d-4e43-a46f-1cc8f67553fa a aamas:Term ;
+aama:IDa470d63b-9825-4d10-8db0-9c7dc83cf274 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -709,7 +709,7 @@ aama:ID6ff33189-d93d-4e43-a46f-1cc8f67553fa a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDe31f43a8-37ed-4e91-89dc-82a1c6b9050e a aamas:Term ;
+aama:ID97a0484f-8620-444a-85a3-7f31f1e3bcfe a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -725,7 +725,7 @@ aama:IDe31f43a8-37ed-4e91-89dc-82a1c6b9050e a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID2bbc3f09-0f49-4e6c-98c9-349752f18d4b a aamas:Term ;
+aama:ID5072d047-23d0-43ac-97aa-e68a552d56ca a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -741,7 +741,7 @@ aama:ID2bbc3f09-0f49-4e6c-98c9-349752f18d4b a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID489190a9-bba6-47d6-a019-9a6a8d4a02b0 a aamas:Term ;
+aama:ID44e29e5f-d87b-48c3-930f-96953a0b312e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -757,7 +757,7 @@ aama:ID489190a9-bba6-47d6-a019-9a6a8d4a02b0 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID18d60f87-15c9-4e61-98e1-9dfff5e411c7 a aamas:Term ;
+aama:ID32839f75-401f-4304-8397-96981abfb4e4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -773,7 +773,7 @@ aama:ID18d60f87-15c9-4e61-98e1-9dfff5e411c7 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID168b46ef-0024-4375-8475-a888f0aa3f58 a aamas:Term ;
+aama:ID0f9adfb7-5442-4ed6-b288-be21108c69ec a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -789,7 +789,7 @@ aama:ID168b46ef-0024-4375-8475-a888f0aa3f58 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID97e2e51e-844d-4795-9311-c040ce22c365 a aamas:Term ;
+aama:ID35966b76-ed51-422d-96a7-8ec788c90b83 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -805,7 +805,7 @@ aama:ID97e2e51e-844d-4795-9311-c040ce22c365 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:IDea279639-6cd4-4655-878d-b0115b8bb472 a aamas:Term ;
+aama:IDfd5059d2-adf0-43e3-88fc-5c40063b34c5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -826,10 +826,10 @@ aama:IDea279639-6cd4-4655-878d-b0115b8bb472 a aamas:Term ;
 bur:burji-VNegPastProg-it a aamas:Termcluster ;
 	rdfs:label "burji-VNegPastProg-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID14ff05ac-bfab-4c88-940d-8eefce678da2 a aamas:Term ;
+aama:ID4437c5c1-da15-4ca0-9ba7-cf40633cac58 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -843,7 +843,7 @@ aama:ID14ff05ac-bfab-4c88-940d-8eefce678da2 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID451f9f39-0b46-4ff3-a3b4-cb57ed0e8130 a aamas:Term ;
+aama:ID72fad96a-a3d3-4f5a-8e6b-e62ade58733c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -857,7 +857,7 @@ aama:ID451f9f39-0b46-4ff3-a3b4-cb57ed0e8130 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID509f31d8-388d-4811-a399-1a8155b77cf5 a aamas:Term ;
+aama:ID85d9e8ee-25d6-476d-a824-59be47f76470 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -871,7 +871,7 @@ aama:ID509f31d8-388d-4811-a399-1a8155b77cf5 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID9a1b5dde-e616-4836-93d2-c34d85cd9b47 a aamas:Term ;
+aama:IDaac7e591-fd7f-483b-85e2-43c6ac8962ea a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -885,7 +885,7 @@ aama:ID9a1b5dde-e616-4836-93d2-c34d85cd9b47 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDcc09d455-bf19-47c2-bccb-893ccc6fa5e3 a aamas:Term ;
+aama:IDfe530e98-8e03-42fd-9dfc-f17e3b65849b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -899,7 +899,7 @@ aama:IDcc09d455-bf19-47c2-bccb-893ccc6fa5e3 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDbd256c32-7215-469d-9380-1868294657f0 a aamas:Term ;
+aama:ID763bf7a4-c593-4d89-b7f5-476c30b245ff a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPastProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -918,10 +918,10 @@ aama:IDbd256c32-7215-469d-9380-1868294657f0 a aamas:Term ;
 bur:burji-VAffPresPerfCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffPresPerfCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
+	rdfs:comment "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
 	.
 
-aama:ID3d8cbeb6-52ba-4a55-a2c0-1bb72db2c475 a aamas:Term ;
+aama:ID9f173d1f-ef15-4112-8274-216602ab6a86 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -937,7 +937,7 @@ aama:ID3d8cbeb6-52ba-4a55-a2c0-1bb72db2c475 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd76c8c6d-4fb7-40f1-8743-847bb134c597 a aamas:Term ;
+aama:ID88b7f459-bfa1-4f90-928e-82a3182287c2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -953,7 +953,7 @@ aama:IDd76c8c6d-4fb7-40f1-8743-847bb134c597 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID9a107ba7-0b58-4653-8a2d-e17a5a606b4c a aamas:Term ;
+aama:ID16e37586-a72c-49b2-be73-f84704ff3c92 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -969,7 +969,7 @@ aama:ID9a107ba7-0b58-4653-8a2d-e17a5a606b4c a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID56b5b19c-4909-4590-ba9e-3968c842ef8a a aamas:Term ;
+aama:ID5c7957ec-4072-4431-a65c-ffcdc0d09e70 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -985,7 +985,7 @@ aama:ID56b5b19c-4909-4590-ba9e-3968c842ef8a a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDcd05de40-1da4-4644-b621-db884523e7b9 a aamas:Term ;
+aama:IDb927a109-9ab3-407b-8e71-69559ed44024 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1001,7 +1001,7 @@ aama:IDcd05de40-1da4-4644-b621-db884523e7b9 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDab556319-c4f7-4093-ad2a-0dc5a8234683 a aamas:Term ;
+aama:IDbdf3b47d-0561-4251-886c-e2f63f518a7b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1017,7 +1017,7 @@ aama:IDab556319-c4f7-4093-ad2a-0dc5a8234683 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID86441589-7fd3-4f36-9627-590bea8107dd a aamas:Term ;
+aama:ID56076bbc-6641-4d18-bde0-9e46145beca1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1033,7 +1033,7 @@ aama:ID86441589-7fd3-4f36-9627-590bea8107dd a aamas:Term ;
 	bur:proType bur:IdPro ;
 	.
 
-aama:ID46e5d6e1-b937-4abb-acfd-205784ec7d2f a aamas:Term ;
+aama:IDc8cca35e-8398-44b0-bed8-56e2500c88f4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1049,7 +1049,7 @@ aama:ID46e5d6e1-b937-4abb-acfd-205784ec7d2f a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:IDf3fe9dcd-fe48-482a-8627-c6b94e9261ac a aamas:Term ;
+aama:IDdb83a8e4-b4aa-4a07-839c-5c8cdc2952f4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1070,10 +1070,10 @@ aama:IDf3fe9dcd-fe48-482a-8627-c6b94e9261ac a aamas:Term ;
 bur:burji-VAffImprtv-it a aamas:Termcluster ;
 	rdfs:label "burji-VAffImprtv-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDc5f1ad33-ebcf-4c6b-a53d-fcfbef1f7421 a aamas:Term ;
+aama:ID569b1bc5-762b-4c36-b38c-e08c86c56684 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtv-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1087,7 +1087,7 @@ aama:IDc5f1ad33-ebcf-4c6b-a53d-fcfbef1f7421 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID21419959-4694-4cca-a1a8-7abb37a02c7f a aamas:Term ;
+aama:IDa60c2ed0-c8ec-4417-9dbc-ca7261dda5de a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtv-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1106,10 +1106,10 @@ aama:ID21419959-4694-4cca-a1a8-7abb37a02c7f a aamas:Term ;
 bur:burji-VAffInterrogative-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffInterrogative-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 125-126" 
+	rdfs:comment "WC85p.125-126" 
 	.
 
-aama:ID111153d1-86cf-4487-8c6a-20c3a06d9465 a aamas:Term ;
+aama:ID3a0a1391-7f69-450e-aafc-5f18ccbba6f7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffInterrogative-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1121,7 +1121,7 @@ aama:ID111153d1-86cf-4487-8c6a-20c3a06d9465 a aamas:Term ;
 	bur:token "‘ani mara-daa?" ;
 	.
 
-aama:ID13bc0589-ee0b-4db8-bc30-1a66979aedb9 a aamas:Term ;
+aama:IDc42c7171-8019-4f0a-b855-f4779a1d2fa8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffInterrogative-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1133,7 +1133,7 @@ aama:ID13bc0589-ee0b-4db8-bc30-1a66979aedb9 a aamas:Term ;
 	bur:token "‘ee-daa mara?" ;
 	.
 
-aama:ID57422de5-01f2-44f6-bd9d-f757fdf73b39 a aamas:Term ;
+aama:ID44c3ae43-d27f-4fb5-8865-f97d1c930ff7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffInterrogative-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1150,10 +1150,10 @@ aama:ID57422de5-01f2-44f6-bd9d-f757fdf73b39 a aamas:Term ;
 bur:burji-VNegImperfect-it a aamas:Termcluster ;
 	rdfs:label "burji-VNegImperfect-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDcfe00a7b-7380-4168-a588-147f714bac57 a aamas:Term ;
+aama:IDcb58a3a0-4bfe-45cf-99cd-ec91b9e29831 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1167,7 +1167,7 @@ aama:IDcfe00a7b-7380-4168-a588-147f714bac57 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDa288fc99-319a-4834-a993-8de1923b6180 a aamas:Term ;
+aama:ID77348b60-779b-4621-9ff2-6f799e9eff67 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1181,7 +1181,7 @@ aama:IDa288fc99-319a-4834-a993-8de1923b6180 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID7d192461-9691-4a8d-b459-b10998cd74b9 a aamas:Term ;
+aama:IDfe3d3d42-193d-4df5-8478-f0d6116c6fcf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1195,7 +1195,7 @@ aama:ID7d192461-9691-4a8d-b459-b10998cd74b9 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID70a3c235-d309-4075-86ee-1a93be8bbbb1 a aamas:Term ;
+aama:ID9a91b5a4-9d3a-42d0-9721-f399705df6c9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1209,7 +1209,7 @@ aama:ID70a3c235-d309-4075-86ee-1a93be8bbbb1 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID1a965d97-e84f-4f4d-bece-2d04d19a024f a aamas:Term ;
+aama:ID4656e384-86a0-4189-a5d9-60aad7939c48 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1223,7 +1223,7 @@ aama:ID1a965d97-e84f-4f4d-bece-2d04d19a024f a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID6151d84b-b0d1-474d-b166-60e706fa18e0 a aamas:Term ;
+aama:IDf3785909-8403-4a3a-b0eb-926a33514bcd a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1237,7 +1237,7 @@ aama:ID6151d84b-b0d1-474d-b166-60e706fa18e0 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDc366222b-1e35-42f1-8c53-d4aa4dc21fdb a aamas:Term ;
+aama:ID6a7ae2e1-9ba9-4492-8cec-23b6d47f93a4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1256,10 +1256,10 @@ aama:IDc366222b-1e35-42f1-8c53-d4aa4dc21fdb a aamas:Term ;
 bur:burji-VNegSimplePerf-it a aamas:Termcluster ;
 	rdfs:label "burji-VNegSimplePerf-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID97a30620-7004-4765-b481-18aae86670c4 a aamas:Term ;
+aama:ID707b7ef3-2d79-4059-9d3b-3cf0696d8275 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1273,7 +1273,7 @@ aama:ID97a30620-7004-4765-b481-18aae86670c4 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID9236e525-2b31-4421-8233-fd4358c98e7c a aamas:Term ;
+aama:IDe77bd2d2-64f5-45fc-aa22-d52e399f60e1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1287,7 +1287,7 @@ aama:ID9236e525-2b31-4421-8233-fd4358c98e7c a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDbe974603-2df8-4d1f-bef4-024bc91c9961 a aamas:Term ;
+aama:ID72920bfa-13c3-44fe-a92d-801d16e582e1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1301,7 +1301,7 @@ aama:IDbe974603-2df8-4d1f-bef4-024bc91c9961 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDfb54cd91-87e3-4437-a4a4-063e5c6e8776 a aamas:Term ;
+aama:ID9e3bf35c-1d30-461f-ae2e-a8a54424a01b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1315,7 +1315,7 @@ aama:IDfb54cd91-87e3-4437-a4a4-063e5c6e8776 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDe1d7004a-57f6-4f89-9e00-1720acd9605c a aamas:Term ;
+aama:ID53f1b6c6-8b13-4a40-8183-afd68b944aa7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1329,7 +1329,7 @@ aama:IDe1d7004a-57f6-4f89-9e00-1720acd9605c a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID81be80c7-a795-4f8a-bbed-ee31a37ca987 a aamas:Term ;
+aama:ID0de23c74-46af-4dc7-bec7-e7649046545c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1343,7 +1343,7 @@ aama:ID81be80c7-a795-4f8a-bbed-ee31a37ca987 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID6725a571-2afe-453f-8156-35b12be80de3 a aamas:Term ;
+aama:ID1569b4c3-e0a2-4d96-a4f4-d73395674ba9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegSimplePerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -1362,10 +1362,10 @@ aama:ID6725a571-2afe-453f-8156-35b12be80de3 a aamas:Term ;
 bur:burji-VAffPluPerfCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffPluPerfCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 121. Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
+	rdfs:comment "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977%%p. 256" 
 	.
 
-aama:ID2aa14790-1e0b-47be-bac2-8e372784a423 a aamas:Term ;
+aama:ID19df64c9-53b9-49a2-b8bd-cc36d1854f6d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1381,7 +1381,7 @@ aama:ID2aa14790-1e0b-47be-bac2-8e372784a423 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID2162b5d2-ef3e-4d07-bb02-2ae96d08d3d3 a aamas:Term ;
+aama:IDfb7aa31a-7a15-411c-8d40-4c0c773dc538 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1397,7 +1397,7 @@ aama:ID2162b5d2-ef3e-4d07-bb02-2ae96d08d3d3 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDbaebce3b-c33d-41d5-94d7-03e9d208c33c a aamas:Term ;
+aama:ID4331aebe-4ebe-4f8a-b0a9-197b5c791fd9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1413,7 +1413,7 @@ aama:IDbaebce3b-c33d-41d5-94d7-03e9d208c33c a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID932da2f8-110b-4d03-8bb9-c1a13faf6de5 a aamas:Term ;
+aama:ID828e91ef-a9fb-4c99-8ce1-8ba6ce1e6101 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1429,7 +1429,7 @@ aama:ID932da2f8-110b-4d03-8bb9-c1a13faf6de5 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa91bdcc1-1289-4627-83fd-e406c968adfc a aamas:Term ;
+aama:ID20e2f9ce-780d-4232-8a23-760075f55075 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1445,7 +1445,7 @@ aama:IDa91bdcc1-1289-4627-83fd-e406c968adfc a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID5309885a-1881-4eb2-8e1d-145fff9f8002 a aamas:Term ;
+aama:ID3a4b56f6-fddf-45be-b673-e5e2f1d6b1d9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1461,7 +1461,7 @@ aama:ID5309885a-1881-4eb2-8e1d-145fff9f8002 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDce66d581-c541-4ee4-80c5-7635f8c59f17 a aamas:Term ;
+aama:ID8f1f14eb-43be-4d75-a1cb-9d5d3cf35e4d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1477,7 +1477,7 @@ aama:IDce66d581-c541-4ee4-80c5-7635f8c59f17 a aamas:Term ;
 	bur:proType bur:IdPro ;
 	.
 
-aama:IDdbe1c1ab-b610-4cc9-9646-1ea701484920 a aamas:Term ;
+aama:ID63ecab81-40dd-4495-8153-de7b4556dd8c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1493,7 +1493,7 @@ aama:IDdbe1c1ab-b610-4cc9-9646-1ea701484920 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID4662be2b-a6a3-4279-9478-37dc478c6645 a aamas:Term ;
+aama:IDdc193967-d921-455e-9c69-6a82981b1f3b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPluPerfCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -1514,10 +1514,10 @@ aama:ID4662be2b-a6a3-4279-9478-37dc478c6645 a aamas:Term ;
 bur:burji-VAffPassPresPerf-nak a aamas:Termcluster ;
 	rdfs:label "burji-VAffPassPresPerf-nak" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDe643cc0a-9c96-41e9-ba91-888c361d9a06 a aamas:Term ;
+aama:ID48f9c09c-c651-40d2-8737-d10f4a9213b8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1532,7 +1532,7 @@ aama:IDe643cc0a-9c96-41e9-ba91-888c361d9a06 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID5a0b6b48-8928-4bcc-b546-d83c3cfcf6b4 a aamas:Term ;
+aama:ID29241db1-c829-41ba-a778-0cc578ec27ac a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1547,7 +1547,7 @@ aama:ID5a0b6b48-8928-4bcc-b546-d83c3cfcf6b4 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID48f7cd29-62e5-4fb4-aec3-3b71a333fce6 a aamas:Term ;
+aama:ID47f1d0ea-3593-4656-a5b5-6722d54dbd2f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1562,7 +1562,7 @@ aama:ID48f7cd29-62e5-4fb4-aec3-3b71a333fce6 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd88e8332-5ca9-4a03-8942-71cdd6436bf6 a aamas:Term ;
+aama:IDee0236a3-0951-4749-bd01-6dc5bfb9c1cf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1577,7 +1577,7 @@ aama:IDd88e8332-5ca9-4a03-8942-71cdd6436bf6 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID47b693a5-fb64-4263-8960-542f5c76183a a aamas:Term ;
+aama:IDe2f8a963-1134-444f-9d9c-d7684ba805ef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1592,7 +1592,7 @@ aama:ID47b693a5-fb64-4263-8960-542f5c76183a a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID77b99804-1cb2-4b3b-acb6-9f4e21db5a29 a aamas:Term ;
+aama:ID8b3c8d01-3557-4350-84f4-612113a7d9a8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1607,7 +1607,7 @@ aama:ID77b99804-1cb2-4b3b-acb6-9f4e21db5a29 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDc59816a7-b8c0-4051-82a3-e50bdd84e7da a aamas:Term ;
+aama:IDe14158bc-cbb8-4793-bcf9-ad0befaa721d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPassPresPerf-nak ;
 	bur:vmorphClass bur:Finite ;
@@ -1627,10 +1627,10 @@ aama:IDc59816a7-b8c0-4051-82a3-e50bdd84e7da a aamas:Term ;
 bur:burji-VAffImperfectIrreg-hayy a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfectIrreg-hayy" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 120%%paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
+	rdfs:comment "WC85p.120 ::: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
 	.
 
-aama:ID7471a5ea-5fd5-4a52-8282-f0deb16ab3b4 a aamas:Term ;
+aama:ID027b1f06-275b-4cf5-9c64-ccb577e36dc1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1646,7 +1646,7 @@ aama:ID7471a5ea-5fd5-4a52-8282-f0deb16ab3b4 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa531eda8-0aa7-433b-80dc-7ae23658b297 a aamas:Term ;
+aama:IDc597ff82-5927-4b88-9662-b3c99726f817 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1662,7 +1662,7 @@ aama:IDa531eda8-0aa7-433b-80dc-7ae23658b297 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID4ec83b11-14f1-4ece-a71f-c50bbae0333f a aamas:Term ;
+aama:ID43f775fb-37f4-4d40-b075-cfbb521751fc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1678,7 +1678,7 @@ aama:ID4ec83b11-14f1-4ece-a71f-c50bbae0333f a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd8334d36-5f93-4bef-b722-683052a06878 a aamas:Term ;
+aama:IDb3ffe6e5-07bc-4b9a-a12e-a4a291a8666f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1694,7 +1694,7 @@ aama:IDd8334d36-5f93-4bef-b722-683052a06878 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID27e21ef7-9cbb-4e55-ae2e-f44fe2334103 a aamas:Term ;
+aama:IDdba583ba-14c0-4165-b7d4-39e7039b8493 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1710,7 +1710,7 @@ aama:ID27e21ef7-9cbb-4e55-ae2e-f44fe2334103 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID8fd1ecbb-60c1-403a-8806-66185f2e6a91 a aamas:Term ;
+aama:IDfb8e6fbb-6bd2-4c58-b6db-9e20781c2da5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1726,7 +1726,7 @@ aama:ID8fd1ecbb-60c1-403a-8806-66185f2e6a91 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID23295952-4725-44a8-b672-e01d079010e6 a aamas:Term ;
+aama:IDa9b7af72-0275-47ea-bee6-e078f5adc4e0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1742,7 +1742,7 @@ aama:ID23295952-4725-44a8-b672-e01d079010e6 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID2ccb1de3-3eeb-41f6-919d-33b196a0e21b a aamas:Term ;
+aama:ID4893a4f0-3aaf-4cfc-a58e-ab0fbbfe5e2c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectIrreg-hayy ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -1763,10 +1763,10 @@ aama:ID2ccb1de3-3eeb-41f6-919d-33b196a0e21b a aamas:Term ;
 bur:burji-VAffSimplePerfect-ba a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfect-ba" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID120f209d-2059-4459-868d-8e58e7675de6 a aamas:Term ;
+aama:ID130ad2fa-c817-48e8-b033-77b705becf36 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1780,7 +1780,7 @@ aama:ID120f209d-2059-4459-868d-8e58e7675de6 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd08669c6-70ea-4f9e-8ba0-9167af32128f a aamas:Term ;
+aama:ID320918dd-dc3f-41b9-be6b-8b0b7e3a73e1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1794,7 +1794,7 @@ aama:IDd08669c6-70ea-4f9e-8ba0-9167af32128f a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDacec11e8-e7e5-4970-b844-0552cda95c11 a aamas:Term ;
+aama:IDe2b55125-4260-43ff-9397-bffcfd3804ab a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1808,7 +1808,7 @@ aama:IDacec11e8-e7e5-4970-b844-0552cda95c11 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDb2930f08-131e-46c6-b69c-3e231678e858 a aamas:Term ;
+aama:ID8776b901-c317-470a-ba72-525a99472c8a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1822,7 +1822,7 @@ aama:IDb2930f08-131e-46c6-b69c-3e231678e858 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDda95b714-3aff-42dd-a71d-ca9449c8d37a a aamas:Term ;
+aama:ID35f1e812-36b7-4af9-aac5-78cbcd891ab1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1836,7 +1836,7 @@ aama:IDda95b714-3aff-42dd-a71d-ca9449c8d37a a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDcb32f11d-e90c-4f34-bc1c-074594af728d a aamas:Term ;
+aama:ID73527362-4540-4620-b53a-429aec07f337 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1850,7 +1850,7 @@ aama:IDcb32f11d-e90c-4f34-bc1c-074594af728d a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDa98185ad-eff0-4775-9d1a-992ce6a3a0e1 a aamas:Term ;
+aama:ID45a3bf90-0acf-49f7-baf3-3b2f91495f29 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -1869,10 +1869,10 @@ aama:IDa98185ad-eff0-4775-9d1a-992ce6a3a0e1 a aamas:Term ;
 bur:burji-VAffImprtvIrreg-intey a aamas:Termcluster ;
 	rdfs:label "burji-VAffImprtvIrreg-intey" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 124. The verb comehas both a suppletive and a nonsuppletive form" 
+	rdfs:comment "WC85p.124 :: “There is no The verb comehas both a suppletive and a nonsuppletive form" 
 	.
 
-aama:ID0a00ce9d-c1e0-4d4c-8a9e-339c873fcd74 a aamas:Term ;
+aama:ID1db52458-a770-4a6e-a0c0-262b402692d2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -1885,7 +1885,7 @@ aama:ID0a00ce9d-c1e0-4d4c-8a9e-339c873fcd74 a aamas:Term ;
 	bur:suppletion bur:NonSuppletive ;
 	.
 
-aama:ID666d6a24-2d98-46f6-aaec-b1c05bf6c069 a aamas:Term ;
+aama:ID13d9acc4-1b2d-4f62-b5cb-ade99c7e1075 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -1898,7 +1898,7 @@ aama:ID666d6a24-2d98-46f6-aaec-b1c05bf6c069 a aamas:Term ;
 	bur:suppletion bur:NonSuppletive ;
 	.
 
-aama:ID3a6b6772-3b4c-4a65-ae0e-830b2ec12b8c a aamas:Term ;
+aama:IDef53a4d3-4919-439a-aa8a-34f8d6af1cbd a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -1911,7 +1911,7 @@ aama:ID3a6b6772-3b4c-4a65-ae0e-830b2ec12b8c a aamas:Term ;
 	bur:suppletion bur:Suppletive ;
 	.
 
-aama:ID0f2424f0-dba6-4686-a0f8-861d663efd6a a aamas:Term ;
+aama:IDd1f3e6ae-2f65-441e-8748-02943cd4a5ca a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImprtvIrreg-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -1929,10 +1929,10 @@ aama:ID0f2424f0-dba6-4686-a0f8-861d663efd6a a aamas:Term ;
 bur:burji-VDervStem a aamas:Termcluster ;
 	rdfs:label "burji-VDervStem" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 pp. 133-139 Note discussions of consonant assimilations for causative –s- pp. 133-136%%for benefactive pp. 136-137." 
+	rdfs:comment "WC85pp.133-139 :: Note discussions of consonant assimilations for causative –s- pp. 133-136%%for benefactive pp. 136-137" 
 	.
 
-aama:IDe42793c6-a7fc-450e-a2d1-a0f6a09b983b a aamas:Term ;
+aama:ID6c97be06-822d-437e-aa0d-f814e01d5722 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1942,7 +1942,7 @@ aama:IDe42793c6-a7fc-450e-a2d1-a0f6a09b983b a aamas:Term ;
 	bur:derivedStem bur:Benefactive ;
 	.
 
-aama:ID1de48093-3c65-4284-b241-ed586d2e2d56 a aamas:Term ;
+aama:ID912f1899-082a-4401-b865-ec7074c74bdd a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1952,7 +1952,7 @@ aama:ID1de48093-3c65-4284-b241-ed586d2e2d56 a aamas:Term ;
 	bur:derivedStem bur:Causative1 ;
 	.
 
-aama:IDd4f067dd-c2a7-4fd0-8579-823dfe455e78 a aamas:Term ;
+aama:IDb9a1ea5a-a8e9-49fa-87ae-08d8229cec25 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1962,7 +1962,7 @@ aama:IDd4f067dd-c2a7-4fd0-8579-823dfe455e78 a aamas:Term ;
 	bur:derivedStem bur:Causative2 ;
 	.
 
-aama:ID1406d946-560e-472a-9730-d41cf74fa7df a aamas:Term ;
+aama:IDdcb9fef6-1848-4384-a834-a9c1d395f6b9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1972,7 +1972,7 @@ aama:ID1406d946-560e-472a-9730-d41cf74fa7df a aamas:Term ;
 	bur:derivedStem bur:Combo ;
 	.
 
-aama:IDa3fe6fd0-c48a-43c2-b41a-9984b55ddf9e a aamas:Term ;
+aama:ID5e7065d4-4e66-4893-9ccf-8a3f20cdcb58 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1982,7 +1982,7 @@ aama:IDa3fe6fd0-c48a-43c2-b41a-9984b55ddf9e a aamas:Term ;
 	bur:derivedStem bur:Denominal ;
 	.
 
-aama:ID7ba14d5c-dd49-46e9-96a7-d6e6938ecada a aamas:Term ;
+aama:IDf19df4bb-6765-4ed8-9283-9d0348d05f33 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -1992,7 +1992,7 @@ aama:ID7ba14d5c-dd49-46e9-96a7-d6e6938ecada a aamas:Term ;
 	bur:derivedStem bur:Passive ;
 	.
 
-aama:ID66d49c7b-7415-4be6-9a6f-1024c3d4594f a aamas:Term ;
+aama:ID41697ccb-f3ce-427a-b21c-ea606e7d3e17 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VDervStem ;
 	bur:pos bur:Verb ;
@@ -2007,10 +2007,10 @@ aama:ID66d49c7b-7415-4be6-9a6f-1024c3d4594f a aamas:Term ;
 bur:burji-VNegPresProg-it a aamas:Termcluster ;
 	rdfs:label "burji-VNegPresProg-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID9a669eb4-b51a-4163-b402-340b237c2355 a aamas:Term ;
+aama:IDe28710d0-78bc-47a4-8048-d021a4482ad9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2024,7 +2024,7 @@ aama:ID9a669eb4-b51a-4163-b402-340b237c2355 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID0af72cea-4482-4041-ac44-07f5875653e0 a aamas:Term ;
+aama:IDa7a80560-43eb-4396-8f27-25f6ade3caef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2038,7 +2038,7 @@ aama:ID0af72cea-4482-4041-ac44-07f5875653e0 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd5331234-e231-456a-a49b-d1d7134ae346 a aamas:Term ;
+aama:IDb58e242c-a2ae-4b72-8fb8-e58bc1d139c6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2052,7 +2052,7 @@ aama:IDd5331234-e231-456a-a49b-d1d7134ae346 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDefe8395a-6480-4dd3-b065-a0c9f659e4e0 a aamas:Term ;
+aama:IDf5427f18-2951-4c77-93a9-2c58adb7658f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2066,7 +2066,7 @@ aama:IDefe8395a-6480-4dd3-b065-a0c9f659e4e0 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID5ec20b40-89da-42d2-838f-d8e1b1b4bc55 a aamas:Term ;
+aama:ID351cd77e-9757-4c30-bf79-6a663dc2b739 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2080,7 +2080,7 @@ aama:ID5ec20b40-89da-42d2-838f-d8e1b1b4bc55 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID1602a7c7-a990-476f-9b54-25663759ceb4 a aamas:Term ;
+aama:ID3da8c1e8-266f-4c4c-bc3e-fa8a83b72b63 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2094,7 +2094,7 @@ aama:ID1602a7c7-a990-476f-9b54-25663759ceb4 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID7cff4012-587a-49aa-ad54-88ea6c357ac3 a aamas:Term ;
+aama:ID7a14dde0-544c-444d-87e3-55195e262544 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPresProg-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2113,10 +2113,10 @@ aama:ID7cff4012-587a-49aa-ad54-88ea6c357ac3 a aamas:Term ;
 bur:burji-VNegImperfect-mar a aamas:Termcluster ;
 	rdfs:label "burji-VNegImperfect-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 116%%125." 
+	rdfs:comment "WC85p.116%%125" 
 	.
 
-aama:ID64737e08-d8a8-4332-acd4-9a5cb9718021 a aamas:Term ;
+aama:ID32365252-c69c-450e-aa5b-0999ddb08a86 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2131,7 +2131,7 @@ aama:ID64737e08-d8a8-4332-acd4-9a5cb9718021 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID8881ee95-de28-42ef-99ce-da9be4eab179 a aamas:Term ;
+aama:ID00d58c2b-104d-439d-9f02-5f57acbacd6d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2146,7 +2146,7 @@ aama:ID8881ee95-de28-42ef-99ce-da9be4eab179 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa17bb5ee-27a5-4642-a1c7-7ca19c32e630 a aamas:Term ;
+aama:ID2b9ee08a-ed04-46b7-b6b1-42955facebf5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2161,7 +2161,7 @@ aama:IDa17bb5ee-27a5-4642-a1c7-7ca19c32e630 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDf050a589-30d2-4af7-ac8a-3a8cd572f7ed a aamas:Term ;
+aama:ID9cbb1e9e-78b2-4ba8-9be1-392e8b7e2897 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2176,7 +2176,7 @@ aama:IDf050a589-30d2-4af7-ac8a-3a8cd572f7ed a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3323e070-7774-4862-b6cf-2450aaa1eaf8 a aamas:Term ;
+aama:ID5a21309f-73a2-474d-ba0f-10963d104931 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2191,7 +2191,7 @@ aama:ID3323e070-7774-4862-b6cf-2450aaa1eaf8 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDe1ae4e77-f1ba-43ce-b318-07f519198543 a aamas:Term ;
+aama:ID50071ebc-6c4f-4fae-abf4-5c87f270ee04 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2206,7 +2206,7 @@ aama:IDe1ae4e77-f1ba-43ce-b318-07f519198543 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID631d4f77-86a9-46d1-b076-873d212a0e2f a aamas:Term ;
+aama:ID3b13b4bc-aa93-4b58-ae5c-ea10a9b32f1a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2221,7 +2221,7 @@ aama:ID631d4f77-86a9-46d1-b076-873d212a0e2f a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID3b8acdf4-f054-4c2b-a913-4292c4c2c7da a aamas:Term ;
+aama:IDb155e0d1-b4ee-4a66-93db-b52a8ff8a2ee a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2241,10 +2241,10 @@ aama:ID3b8acdf4-f054-4c2b-a913-4292c4c2c7da a aamas:Term ;
 bur:burji-VAffSimplePerf-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerf-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 114. Defective forms:for me/us to have gone" 
+	rdfs:comment "WC85p.114 :: Defective forms:for me/us to have gone" 
 	.
 
-aama:IDea9ce326-5e28-4291-a9f1-c89bec563673 a aamas:Term ;
+aama:IDb01668b7-a195-4447-803a-41b5db7a77ea a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2260,7 +2260,7 @@ aama:IDea9ce326-5e28-4291-a9f1-c89bec563673 a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:IDcb687832-5146-46e1-933f-08b7564acf0e a aamas:Term ;
+aama:IDee3f1215-837a-4b5a-aa26-7cada32773c1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2276,7 +2276,7 @@ aama:IDcb687832-5146-46e1-933f-08b7564acf0e a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:ID57037db8-4531-4357-84c9-a2616d6637dc a aamas:Term ;
+aama:IDa40a6478-9f32-4e15-9351-3a179ec9c44b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2292,7 +2292,7 @@ aama:ID57037db8-4531-4357-84c9-a2616d6637dc a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:ID68d915ae-58c9-4b34-8bfa-59913569c0fc a aamas:Term ;
+aama:IDe6a37030-b3a2-4b80-850e-3269a30be984 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2308,7 +2308,7 @@ aama:ID68d915ae-58c9-4b34-8bfa-59913569c0fc a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:IDc65bf37a-3046-4b08-9620-2a0e8b3b262b a aamas:Term ;
+aama:IDf08eb6d5-ee53-408e-991f-e8a2c819c1f9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2324,7 +2324,7 @@ aama:IDc65bf37a-3046-4b08-9620-2a0e8b3b262b a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:ID2045e3e3-31bc-4691-adfe-44a8a1d494d6 a aamas:Term ;
+aama:IDccc17bc2-5ee0-443d-acec-6739afec2708 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2340,7 +2340,7 @@ aama:ID2045e3e3-31bc-4691-adfe-44a8a1d494d6 a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:ID96dae1e9-4241-47b6-9687-c267748e56eb a aamas:Term ;
+aama:IDc60fbb32-28cf-42f7-ae0c-307246f4b4ed a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2356,7 +2356,7 @@ aama:ID96dae1e9-4241-47b6-9687-c267748e56eb a aamas:Term ;
 	bur:focusType bur:Defective ;
 	.
 
-aama:ID319602e4-534a-4739-8ad1-fcecdeaf2e22 a aamas:Term ;
+aama:ID50326d5d-bdb9-4849-896a-f1d274d1fe19 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2372,7 +2372,7 @@ aama:ID319602e4-534a-4739-8ad1-fcecdeaf2e22 a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:ID223c56ee-c624-4ffb-86d0-63866553285d a aamas:Term ;
+aama:ID42acb49e-1566-45b6-8f07-a3726a57e25e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2388,7 +2388,7 @@ aama:ID223c56ee-c624-4ffb-86d0-63866553285d a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:IDcddc1d8e-a6c1-4203-ad1a-72df4d51c01f a aamas:Term ;
+aama:IDe18aade8-cc91-4f9b-8cb6-1891176912a0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2404,7 +2404,7 @@ aama:IDcddc1d8e-a6c1-4203-ad1a-72df4d51c01f a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:IDdf35241c-970b-4c49-b041-e4d3ecb0c3dc a aamas:Term ;
+aama:ID8bdbb362-9b22-4859-813a-99f18ae9e5ba a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2420,7 +2420,7 @@ aama:IDdf35241c-970b-4c49-b041-e4d3ecb0c3dc a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:ID584e8d3f-a450-4e31-aacc-f3784bafc577 a aamas:Term ;
+aama:IDff647789-0cab-48a3-a6ed-4c37b4450be5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2436,7 +2436,7 @@ aama:ID584e8d3f-a450-4e31-aacc-f3784bafc577 a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:ID6172055d-e12d-46d1-a078-17c75613cff6 a aamas:Term ;
+aama:IDb303115c-c7ef-4805-a077-bbef1063f155 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2452,7 +2452,7 @@ aama:ID6172055d-e12d-46d1-a078-17c75613cff6 a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:IDc509f322-9f74-4530-96d4-d8204af7f2b0 a aamas:Term ;
+aama:ID32f4cfad-69cb-46cf-ae52-48e4b28d0dd9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2468,7 +2468,7 @@ aama:IDc509f322-9f74-4530-96d4-d8204af7f2b0 a aamas:Term ;
 	bur:focusType bur:Full ;
 	.
 
-aama:IDbe49d353-d684-4b52-aac6-04e49c41a9d9 a aamas:Term ;
+aama:IDe5ced840-bf5e-4419-bcf3-dd2ade9421c9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerf-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2489,10 +2489,10 @@ aama:IDbe49d353-d684-4b52-aac6-04e49c41a9d9 a aamas:Term ;
 bur:burji-VAffSimplePerfFocusType-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfFocusType-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 119" 
+	rdfs:comment "WC85p.119" 
 	.
 
-aama:ID12847300-39f7-47a5-bbba-85dad4edb6b2 a aamas:Term ;
+aama:ID2b5f774b-5af6-42ce-8cf2-f1ed3a62a255 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2509,7 +2509,7 @@ aama:ID12847300-39f7-47a5-bbba-85dad4edb6b2 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID48e6a9ac-d006-49d0-8272-83fa2570ab96 a aamas:Term ;
+aama:ID8c063e72-01a1-45b1-9642-170a846ee76e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2526,7 +2526,7 @@ aama:ID48e6a9ac-d006-49d0-8272-83fa2570ab96 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID1a5fc2bb-9e80-4d82-bf98-1b69828b8002 a aamas:Term ;
+aama:IDbe232ce8-d07a-4086-a903-91112a55e1d0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2543,7 +2543,7 @@ aama:ID1a5fc2bb-9e80-4d82-bf98-1b69828b8002 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID92a4fbf6-2eb8-4614-96cf-687a3eb6db1c a aamas:Term ;
+aama:ID403158f6-2d7d-4743-b321-86f3976194c3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2560,7 +2560,7 @@ aama:ID92a4fbf6-2eb8-4614-96cf-687a3eb6db1c a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:IDa05618aa-7f53-4a28-ac1e-a0a94d470280 a aamas:Term ;
+aama:ID03c93d8b-2df1-4bae-b0be-885e32fea5da a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2577,7 +2577,7 @@ aama:IDa05618aa-7f53-4a28-ac1e-a0a94d470280 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID19243dcb-b619-4643-b300-61718467d110 a aamas:Term ;
+aama:IDf15c941b-ed4a-4adf-b22a-6b61a8ba586b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2594,7 +2594,7 @@ aama:ID19243dcb-b619-4643-b300-61718467d110 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID47cdba15-d571-4733-936a-7f400424c9f3 a aamas:Term ;
+aama:ID0ab67d1b-59f8-4e9d-85fd-ab47d0fb51cc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2611,7 +2611,7 @@ aama:ID47cdba15-d571-4733-936a-7f400424c9f3 a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID8bf05335-122f-4ad4-8d98-161faa0b0a8a a aamas:Term ;
+aama:ID52969a68-66d1-44ec-a791-8815b49cf1d2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2628,7 +2628,7 @@ aama:ID8bf05335-122f-4ad4-8d98-161faa0b0a8a a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:ID797d9f45-0554-4213-a28c-f49f3a44fefb a aamas:Term ;
+aama:IDd34d8e02-3d36-43ab-85df-c71ce92faad0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2645,7 +2645,7 @@ aama:ID797d9f45-0554-4213-a28c-f49f3a44fefb a aamas:Term ;
 	bur:focusType bur:Free ;
 	.
 
-aama:IDb9968530-cffb-402e-b0b2-5585f33004e4 a aamas:Term ;
+aama:ID6358a1dc-576d-465a-98b0-bab8983b0635 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2662,7 +2662,7 @@ aama:IDb9968530-cffb-402e-b0b2-5585f33004e4 a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:IDca5e7a88-bcf5-42be-8f89-139d6a0fc244 a aamas:Term ;
+aama:ID249ef33e-5762-4b4c-a9fc-dc1237738bf3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2679,7 +2679,7 @@ aama:IDca5e7a88-bcf5-42be-8f89-139d6a0fc244 a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:IDfd05414f-8aa6-491e-894b-a7b446f98909 a aamas:Term ;
+aama:IDae26253a-abd6-4bb4-872f-e2146c83423b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2696,7 +2696,7 @@ aama:IDfd05414f-8aa6-491e-894b-a7b446f98909 a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:IDd4c8a649-8197-4bde-a700-ac512189ffe4 a aamas:Term ;
+aama:ID9304835a-d95d-4ec9-a304-a4a7ec02b6c2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2713,7 +2713,7 @@ aama:IDd4c8a649-8197-4bde-a700-ac512189ffe4 a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:ID96c1e866-5002-4b2f-a3b4-4b4e48bf016d a aamas:Term ;
+aama:ID0a0d0d77-d6bd-4d85-a301-d33d8ff780e3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2730,7 +2730,7 @@ aama:ID96c1e866-5002-4b2f-a3b4-4b4e48bf016d a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:IDd7881feb-6c09-4d18-97aa-e514235c1126 a aamas:Term ;
+aama:IDb36f4156-1dc9-497b-8316-d47b85c12109 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2747,7 +2747,7 @@ aama:IDd7881feb-6c09-4d18-97aa-e514235c1126 a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:IDba8d1c61-afdd-4a2f-b3cc-2dc6ad8f9fab a aamas:Term ;
+aama:ID69f397d9-bf4a-487f-9d14-0e32c6572fb8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2764,7 +2764,7 @@ aama:IDba8d1c61-afdd-4a2f-b3cc-2dc6ad8f9fab a aamas:Term ;
 	bur:focusType bur:Subject ;
 	.
 
-aama:ID2136114a-51af-4cd5-908a-fb0781ece6a3 a aamas:Term ;
+aama:ID3d2f6f93-c9ef-4e2d-9ab5-8ac52ffc14a4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfFocusType-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -2786,10 +2786,10 @@ aama:ID2136114a-51af-4cd5-908a-fb0781ece6a3 a aamas:Term ;
 bur:burji-VAffSimplePerfIrreg-beeh a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfIrreg-beeh" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 119. Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be%%exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)." 
+	rdfs:comment "WC85p.119 :: Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be%%exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)" 
 	.
 
-aama:IDb0b9a224-f5c8-404f-977a-52299540765d a aamas:Term ;
+aama:ID0f53e267-f9d2-4b97-b088-842555d01707 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2804,7 +2804,7 @@ aama:IDb0b9a224-f5c8-404f-977a-52299540765d a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDe4335607-c4e1-4cc9-aed3-e1e8a21cb714 a aamas:Term ;
+aama:ID56149850-8209-49ef-b15e-669833666e9f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2819,7 +2819,7 @@ aama:IDe4335607-c4e1-4cc9-aed3-e1e8a21cb714 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID76ef1232-9ed2-48d6-b39f-15f7c338a8e8 a aamas:Term ;
+aama:IDf28bbde0-8a9c-4ed0-a37e-556acd7247fe a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2834,7 +2834,7 @@ aama:ID76ef1232-9ed2-48d6-b39f-15f7c338a8e8 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID9993d982-a557-4711-b9fa-d25f1ebfdb76 a aamas:Term ;
+aama:ID6b342aaf-77a3-425e-8e98-b422fe467919 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2849,7 +2849,7 @@ aama:ID9993d982-a557-4711-b9fa-d25f1ebfdb76 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID08fe4874-e1c7-4e97-a871-827e77408da4 a aamas:Term ;
+aama:ID1f41a7d2-2b5d-4aa1-97a3-244a3fdede04 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2864,7 +2864,7 @@ aama:ID08fe4874-e1c7-4e97-a871-827e77408da4 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3e8aacd0-ca58-4c37-9278-727067d19fea a aamas:Term ;
+aama:ID5194e0e6-3025-4b44-b09f-6aaa6510239f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2879,7 +2879,7 @@ aama:ID3e8aacd0-ca58-4c37-9278-727067d19fea a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID63224783-e364-4d5f-9f31-393e449f1cda a aamas:Term ;
+aama:IDfad45ff1-7705-486b-bd30-d8b230966a05 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2894,7 +2894,7 @@ aama:ID63224783-e364-4d5f-9f31-393e449f1cda a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:IDdb2ae6f8-875a-491f-a661-392fb0d62f5e a aamas:Term ;
+aama:ID5c20835e-b928-4087-8385-d9a1b27ad002 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfIrreg-beeh ;
 	bur:vmorphClass bur:Finite ;
@@ -2914,10 +2914,10 @@ aama:IDdb2ae6f8-875a-491f-a661-392fb0d62f5e a aamas:Term ;
 bur:burji-VAffSimplePerfect-it a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfect-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID0fe09826-40f9-4a66-b53c-679eda108d59 a aamas:Term ;
+aama:IDc601706f-5ba0-41bf-ba9a-c123588a1537 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2931,7 +2931,7 @@ aama:ID0fe09826-40f9-4a66-b53c-679eda108d59 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDcbad634a-d9c7-460b-b9a5-b951df59e7fb a aamas:Term ;
+aama:IDb0b4847d-1f2d-4dd2-935b-24092d4befe8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2945,7 +2945,7 @@ aama:IDcbad634a-d9c7-460b-b9a5-b951df59e7fb a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDb102a758-bfbe-4d43-aba1-4e2c18cac210 a aamas:Term ;
+aama:IDf5e171eb-abfb-4639-bcfb-fad4207b7cf3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2959,7 +2959,7 @@ aama:IDb102a758-bfbe-4d43-aba1-4e2c18cac210 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID926dba82-aa44-4e57-b824-0bc64c9a6245 a aamas:Term ;
+aama:ID1fbd404e-e6dd-4854-a478-83074a6dc52f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2973,7 +2973,7 @@ aama:ID926dba82-aa44-4e57-b824-0bc64c9a6245 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDee14ed6f-a8d0-4fe6-b571-1386992efdba a aamas:Term ;
+aama:ID504af672-1efa-4b5c-a022-d237b3f36a81 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -2987,7 +2987,7 @@ aama:IDee14ed6f-a8d0-4fe6-b571-1386992efdba a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID8cd6407c-df50-4e4c-b298-19e2f2578c82 a aamas:Term ;
+aama:ID95719cbc-b554-43b6-afc8-a01ff7495f60 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3001,7 +3001,7 @@ aama:ID8cd6407c-df50-4e4c-b298-19e2f2578c82 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID3f091407-8b36-457d-82d4-43dc7b217caa a aamas:Term ;
+aama:IDbb77533a-e577-42e4-80e2-24055d486d0d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3020,10 +3020,10 @@ aama:ID3f091407-8b36-457d-82d4-43dc7b217caa a aamas:Term ;
 bur:burji-VAffJuss-it a aamas:Termcluster ;
 	rdfs:label "burji-VAffJuss-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID7b6e43ee-27a8-4ea4-a7f0-806317325532 a aamas:Term ;
+aama:ID9f27bea7-c21d-402f-a8eb-c2a5ca4717e7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3037,7 +3037,7 @@ aama:ID7b6e43ee-27a8-4ea4-a7f0-806317325532 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID58f3abe9-760f-4187-8364-70092786d732 a aamas:Term ;
+aama:IDc9760e9d-fd04-45c8-a71f-6b5aea537a28 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3056,10 +3056,10 @@ aama:ID58f3abe9-760f-4187-8364-70092786d732 a aamas:Term ;
 bur:burji-PInd a aamas:Termcluster ;
 	rdfs:label "burji-PInd" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
+	rdfs:comment "SS77p.254 :: cf. HudsonG1976 pp. 256-259" 
 	.
 
-aama:IDc532f829-4659-4141-a927-7c28bd7512e8 a aamas:Term ;
+aama:ID278fe24f-1ff7-4501-8bca-9a9bb681e366 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3072,7 +3072,7 @@ aama:IDc532f829-4659-4141-a927-7c28bd7512e8 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID32e89171-1710-480a-9b1a-5e3aa65e62c3 a aamas:Term ;
+aama:ID0c4a628a-4756-4458-9a7d-3f8f5420ce8c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3085,7 +3085,7 @@ aama:ID32e89171-1710-480a-9b1a-5e3aa65e62c3 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID6d57a2d9-7638-49ca-a810-513452d50567 a aamas:Term ;
+aama:ID1ebad3d2-2a89-487d-abfb-d3e1d96b8ff8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3098,7 +3098,7 @@ aama:ID6d57a2d9-7638-49ca-a810-513452d50567 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID0a695f8e-5a26-49a2-9d65-58cff8088fff a aamas:Term ;
+aama:ID8848a1de-3b91-498d-8497-90a15cc2164c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3111,7 +3111,7 @@ aama:ID0a695f8e-5a26-49a2-9d65-58cff8088fff a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID66dd96d7-ad85-4696-b56a-959d834bb48c a aamas:Term ;
+aama:ID4e0ccbae-1a64-4245-9a19-43f972121b65 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3124,7 +3124,7 @@ aama:ID66dd96d7-ad85-4696-b56a-959d834bb48c a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDc55b3233-d400-44fb-a43f-de337ac93112 a aamas:Term ;
+aama:ID40d1e573-18e9-44e7-bf08-6e43cbbbaa60 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3137,7 +3137,7 @@ aama:IDc55b3233-d400-44fb-a43f-de337ac93112 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDe0dca1a6-9595-4895-bd75-1c2be2f533a8 a aamas:Term ;
+aama:ID5ae50582-a438-4d97-8247-56dab03b1dd1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3150,7 +3150,7 @@ aama:IDe0dca1a6-9595-4895-bd75-1c2be2f533a8 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID6098a853-464e-4e1a-97f0-2eeb3fec6647 a aamas:Term ;
+aama:ID59d4ea37-d52c-4eaf-be66-0478f80a58d3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3163,7 +3163,7 @@ aama:ID6098a853-464e-4e1a-97f0-2eeb3fec6647 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDa9c736bf-051c-4134-aace-4669a17f977c a aamas:Term ;
+aama:ID303667ac-0202-4ef2-811e-051e456dca2a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3176,7 +3176,7 @@ aama:IDa9c736bf-051c-4134-aace-4669a17f977c a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID908c8c6f-d830-45c6-8262-3205860af91e a aamas:Term ;
+aama:IDe057732c-8ede-4c8c-a8a1-b85cbd147776 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3189,7 +3189,7 @@ aama:ID908c8c6f-d830-45c6-8262-3205860af91e a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDdb8b6e49-e6b3-45e2-b60f-676863c74d9c a aamas:Term ;
+aama:ID9f0aa49a-28e2-41df-801d-3d23bd63995a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3202,7 +3202,7 @@ aama:IDdb8b6e49-e6b3-45e2-b60f-676863c74d9c a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID66eee1ef-a5c9-4811-ae8f-950014821ae2 a aamas:Term ;
+aama:IDf9cc0196-6d52-4452-8943-80e9c637620e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3215,7 +3215,7 @@ aama:ID66eee1ef-a5c9-4811-ae8f-950014821ae2 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID07beb4eb-7379-41b4-9ac4-7dbf97d25ed4 a aamas:Term ;
+aama:ID59aa9caf-a5ed-423c-b6f6-0c64c6dfb8aa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3228,7 +3228,7 @@ aama:ID07beb4eb-7379-41b4-9ac4-7dbf97d25ed4 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDb4901b72-847e-43f9-806b-91ed2c49fc10 a aamas:Term ;
+aama:IDf85b9f22-9131-4873-b963-cbaea841bfc3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3241,7 +3241,7 @@ aama:IDb4901b72-847e-43f9-806b-91ed2c49fc10 a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:ID629e3e25-123c-4892-8663-077dbb57a82a a aamas:Term ;
+aama:IDf30f8dd9-a7e1-4034-b90b-90e24ee73be2 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3254,7 +3254,7 @@ aama:ID629e3e25-123c-4892-8663-077dbb57a82a a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:ID20a80cc7-e1d7-4453-8ac0-0978846cc591 a aamas:Term ;
+aama:ID92c16be4-c131-49b6-9995-4731f28e5d78 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3267,7 +3267,7 @@ aama:ID20a80cc7-e1d7-4453-8ac0-0978846cc591 a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:ID9ee603f1-c0aa-4a0b-a695-be34442508f3 a aamas:Term ;
+aama:IDef753743-5aca-4747-b5e1-bd1c1cdde536 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3280,7 +3280,7 @@ aama:ID9ee603f1-c0aa-4a0b-a695-be34442508f3 a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:ID84ab01c7-626f-44c4-92ed-9d168c29d4db a aamas:Term ;
+aama:IDa66b438c-d5a9-4de4-9b54-a95011f9dcfa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3293,7 +3293,7 @@ aama:ID84ab01c7-626f-44c4-92ed-9d168c29d4db a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:IDb37144e0-b554-4c87-a89c-62b70b668806 a aamas:Term ;
+aama:ID012eb412-1597-4c9d-9e84-be4b3875cb1f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3306,7 +3306,7 @@ aama:IDb37144e0-b554-4c87-a89c-62b70b668806 a aamas:Term ;
 	bur:case bur:Object ;
 	.
 
-aama:ID98c65277-8824-44b7-ab33-94b37afa3dc0 a aamas:Term ;
+aama:ID7f892967-8c18-40db-aa7d-fceeef35bb94 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInd ;
 	bur:pos bur:Pronoun ;
@@ -3324,10 +3324,10 @@ aama:ID98c65277-8824-44b7-ab33-94b37afa3dc0 a aamas:Term ;
 bur:burji-VAffPresPerf-it a aamas:Termcluster ;
 	rdfs:label "burji-VAffPresPerf-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDb3b51bc3-34f1-4769-8ad1-1dbc312f810c a aamas:Term ;
+aama:ID4db04e13-8643-4d46-b153-8dcb02bace9c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3341,7 +3341,7 @@ aama:IDb3b51bc3-34f1-4769-8ad1-1dbc312f810c a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDc2c8a663-9935-4b50-a2b3-9872eabb4cf8 a aamas:Term ;
+aama:ID23fe65ef-89e5-45f6-ae44-c98996f2ff0f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3355,7 +3355,7 @@ aama:IDc2c8a663-9935-4b50-a2b3-9872eabb4cf8 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID36b20c26-c908-4bdc-b873-cb50a97c5925 a aamas:Term ;
+aama:IDdadf24a1-ca63-45c8-8cb7-77703be11673 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3369,7 +3369,7 @@ aama:ID36b20c26-c908-4bdc-b873-cb50a97c5925 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID714fad55-f440-4765-b2a2-829dfc9d58f8 a aamas:Term ;
+aama:ID5cbede23-7516-4d53-8eca-11195eda270e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3383,7 +3383,7 @@ aama:ID714fad55-f440-4765-b2a2-829dfc9d58f8 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDa6f167a6-056c-4198-a93d-240fa91866a1 a aamas:Term ;
+aama:ID75697dae-460e-453e-b152-2f5efb508743 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3397,7 +3397,7 @@ aama:IDa6f167a6-056c-4198-a93d-240fa91866a1 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID216d3663-6387-4220-8830-8ac7a42fd569 a aamas:Term ;
+aama:ID08cefe90-587c-492f-9260-14eeee7aed06 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3411,7 +3411,7 @@ aama:ID216d3663-6387-4220-8830-8ac7a42fd569 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID0f2a5f7b-b139-4e4e-a31e-c3286f29453b a aamas:Term ;
+aama:ID0693e846-e9c9-4383-ad80-ae5abbc0bedc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresPerf-it ;
 	bur:vmorphClass bur:Finite ;
@@ -3430,10 +3430,10 @@ aama:ID0f2a5f7b-b139-4e4e-a31e-c3286f29453b a aamas:Term ;
 bur:burji-VAffJuss-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffJuss-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 123. (cf. also p. 115). (33) Full forms would be%%for instance:haani maru-waa let me go!%%haani maru-waa-see let me go!" 
+	rdfs:comment "WC85p.123 :: (cf. also p. 115). (33) Full forms would be%%for instance:haani maru-waa let me go!%%haani maru-waa-see let me go!" 
 	.
 
-aama:IDf8b08018-6c1e-4198-b38c-201970d4e480 a aamas:Term ;
+aama:IDab84881e-dbe5-4c38-bed4-d120a1539254 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3449,7 +3449,7 @@ aama:IDf8b08018-6c1e-4198-b38c-201970d4e480 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:IDf85da450-5aa3-4440-8067-2c973e66eb84 a aamas:Term ;
+aama:ID375af680-c435-49ca-9447-c1cb51a7018e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3465,7 +3465,7 @@ aama:IDf85da450-5aa3-4440-8067-2c973e66eb84 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID47c04db6-fb3f-4f85-9c00-471d64b56a5c a aamas:Term ;
+aama:ID53bd8d9f-1b8b-4b33-9f7f-5e394bb288eb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3481,7 +3481,7 @@ aama:ID47c04db6-fb3f-4f85-9c00-471d64b56a5c a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID7e755e7b-49b4-41b5-8cb1-5bb684e2c2ac a aamas:Term ;
+aama:ID31623fec-542f-467c-b8ca-65bec1aa75b0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3497,7 +3497,7 @@ aama:ID7e755e7b-49b4-41b5-8cb1-5bb684e2c2ac a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID707c6a0a-abe2-413c-9e5d-af6823651b34 a aamas:Term ;
+aama:ID17748a58-44d4-4626-a0c9-a910ecc31fcd a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3513,7 +3513,7 @@ aama:ID707c6a0a-abe2-413c-9e5d-af6823651b34 a aamas:Term ;
 	bur:clauseMarker bur:NoParticle ;
 	.
 
-aama:ID71ba9c72-1725-465d-9fb6-88db6f916b35 a aamas:Term ;
+aama:IDe9d54cf2-4a5e-4413-93f1-15b761db803d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3529,7 +3529,7 @@ aama:ID71ba9c72-1725-465d-9fb6-88db6f916b35 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:ID9c958096-895b-4524-9850-230fcfaefc42 a aamas:Term ;
+aama:IDb18cb95b-40a0-4a3d-8692-7c1196bb8b69 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3545,7 +3545,7 @@ aama:ID9c958096-895b-4524-9850-230fcfaefc42 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:IDa7f3f81f-10ac-4f55-9801-bba2ab32e485 a aamas:Term ;
+aama:ID796c32d6-2c98-4614-a2e4-45c74b544782 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3561,7 +3561,7 @@ aama:IDa7f3f81f-10ac-4f55-9801-bba2ab32e485 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:IDc7e726be-e2c3-4ee9-9aae-80ee517859e6 a aamas:Term ;
+aama:ID81316b86-e172-4f0f-8cc7-5df3b03f0e55 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3577,7 +3577,7 @@ aama:IDc7e726be-e2c3-4ee9-9aae-80ee517859e6 a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:ID248088ff-4e14-4596-aa82-e083446e6c6f a aamas:Term ;
+aama:ID95860554-0e3a-432c-a433-3adadc48e1a3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3593,7 +3593,7 @@ aama:ID248088ff-4e14-4596-aa82-e083446e6c6f a aamas:Term ;
 	bur:clauseMarker bur:Particle ;
 	.
 
-aama:IDe6f2349a-1a67-4e82-97b2-f4deba04e337 a aamas:Term ;
+aama:IDcd67966b-c82e-4522-b5f6-1536d73df639 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3614,10 +3614,10 @@ aama:IDe6f2349a-1a67-4e82-97b2-f4deba04e337 a aamas:Term ;
 bur:burji-VSubjMarkers a aamas:Termcluster ;
 	rdfs:label "burji-VSubjMarkers" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 117. In the suffix%%The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse." 
+	rdfs:comment "WC85p.117 :: In the suffix%%The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse" 
 	.
 
-aama:ID82b2adf4-f1f5-492d-831f-c09985f268b8 a aamas:Term ;
+aama:IDa8fbeb75-bbe6-44ee-9296-08645cd633ae a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3630,7 +3630,7 @@ aama:ID82b2adf4-f1f5-492d-831f-c09985f268b8 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID56c235f3-3404-4d63-8308-949c9dba2f9e a aamas:Term ;
+aama:ID4ad56aad-b51b-4a3e-b26d-a7fb3911ba48 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3643,7 +3643,7 @@ aama:ID56c235f3-3404-4d63-8308-949c9dba2f9e a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID74a2e376-a18c-46a7-9c07-d0f2a447792c a aamas:Term ;
+aama:IDb52a5f1e-e51c-4ffc-99d1-dd149018f627 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3656,7 +3656,7 @@ aama:ID74a2e376-a18c-46a7-9c07-d0f2a447792c a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID907185d3-6837-46fc-a5b6-9a2f38ecc36c a aamas:Term ;
+aama:IDe2b3a177-3fd7-4e97-b7ef-7dc96c27d32e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3669,7 +3669,7 @@ aama:ID907185d3-6837-46fc-a5b6-9a2f38ecc36c a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDefc57802-23e5-4ff8-bbcd-b6f3d7749db0 a aamas:Term ;
+aama:ID241b22fc-9a51-4e10-b4e1-f3b23c52bfb8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3682,7 +3682,7 @@ aama:IDefc57802-23e5-4ff8-bbcd-b6f3d7749db0 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDc404de67-4ea7-41d2-bab5-a4784f7d62f6 a aamas:Term ;
+aama:ID02ebe897-178a-4ff5-90f0-ffc2d35e6d9a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3695,7 +3695,7 @@ aama:IDc404de67-4ea7-41d2-bab5-a4784f7d62f6 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID099ad831-bc10-4c02-bbaf-821170cacca1 a aamas:Term ;
+aama:IDeebbc67a-826a-4f40-9f86-6b77edde34cf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3708,7 +3708,7 @@ aama:ID099ad831-bc10-4c02-bbaf-821170cacca1 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID50d4c410-e5bd-4846-bea7-46fdc6aafa42 a aamas:Term ;
+aama:ID35d4a7c0-1431-418d-980e-d7b82ab7f473 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3721,7 +3721,7 @@ aama:ID50d4c410-e5bd-4846-bea7-46fdc6aafa42 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID798a8e7f-fda3-44c9-bf0f-97dc87522d47 a aamas:Term ;
+aama:ID3917a60d-5564-4434-a302-304788ddf416 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3734,7 +3734,7 @@ aama:ID798a8e7f-fda3-44c9-bf0f-97dc87522d47 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID9a329945-ebe2-49d5-aee1-5ae510e858b8 a aamas:Term ;
+aama:ID2e4a068e-fa14-4ad2-a860-717b14955b11 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3747,7 +3747,7 @@ aama:ID9a329945-ebe2-49d5-aee1-5ae510e858b8 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3785c5fc-1804-449b-95b4-ca97a5bedd65 a aamas:Term ;
+aama:ID982ae2d2-b89a-4e83-9611-d52f010910ba a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3760,7 +3760,7 @@ aama:ID3785c5fc-1804-449b-95b4-ca97a5bedd65 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID2382dec3-dbae-4b9f-ba86-1731b3b66112 a aamas:Term ;
+aama:IDa40118b5-6873-4496-b412-fd67fba4c3bf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3773,7 +3773,7 @@ aama:ID2382dec3-dbae-4b9f-ba86-1731b3b66112 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID348d3446-03d8-42de-bee1-5ae8c4855e7d a aamas:Term ;
+aama:IDbb708257-0f07-40d2-ab8f-554aba3ac442 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3786,7 +3786,7 @@ aama:ID348d3446-03d8-42de-bee1-5ae8c4855e7d a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID2c5e8937-774c-4f1b-bb17-70048770a093 a aamas:Term ;
+aama:ID91fe7771-e96e-46f2-9dd8-5601320178da a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3799,7 +3799,7 @@ aama:ID2c5e8937-774c-4f1b-bb17-70048770a093 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID7e058218-6acd-41e1-906d-798de2e27dce a aamas:Term ;
+aama:IDbebfcf3c-4af9-4308-b0ea-0f9414f44485 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3812,7 +3812,7 @@ aama:ID7e058218-6acd-41e1-906d-798de2e27dce a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3d725ecc-abca-42d0-8173-78873e26ca8f a aamas:Term ;
+aama:ID07479365-2a6f-4ad1-a733-f683a3298641 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3825,7 +3825,7 @@ aama:ID3d725ecc-abca-42d0-8173-78873e26ca8f a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID9bd1a915-9e2d-4a28-812c-441ed2a023dd a aamas:Term ;
+aama:IDbf69a9f2-96a3-4ba0-86b9-2753215ba342 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VSubjMarkers ;
 	bur:pos bur:Verb ;
@@ -3843,10 +3843,10 @@ aama:ID9bd1a915-9e2d-4a28-812c-441ed2a023dd a aamas:Term ;
 bur:burji-VNegJuss-mar a aamas:Termcluster ;
 	rdfs:label "burji-VNegJuss-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 125" 
+	rdfs:comment "WC85p.125" 
 	.
 
-aama:IDb4cb2d72-7d96-41b3-be16-4f3b64c1b14f a aamas:Term ;
+aama:ID2731d173-a194-4aa3-a429-e2497b8d1a7c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3860,7 +3860,7 @@ aama:IDb4cb2d72-7d96-41b3-be16-4f3b64c1b14f a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDc6bdad59-0084-4a09-881b-04d465fe5611 a aamas:Term ;
+aama:ID63c14672-e6d7-41b8-8afa-04ec14a9a9d7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3874,7 +3874,7 @@ aama:IDc6bdad59-0084-4a09-881b-04d465fe5611 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID898ae6fd-0465-48bb-9777-b7f9104b0a0f a aamas:Term ;
+aama:IDdaf62a11-f605-4b5d-b863-ca1107b4d5f0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3888,7 +3888,7 @@ aama:ID898ae6fd-0465-48bb-9777-b7f9104b0a0f a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID5c9ababe-686b-4dc9-9064-bd4853940ffa a aamas:Term ;
+aama:IDad150520-daec-4324-9cfc-610a97ea7fcf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegJuss-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3907,10 +3907,10 @@ aama:ID5c9ababe-686b-4dc9-9064-bd4853940ffa a aamas:Term ;
 bur:burji-VAffPresProgCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffPresProgCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 123" 
+	rdfs:comment "WC85p.123" 
 	.
 
-aama:ID0ef5185f-bc7e-4bc9-bba3-bd588a29d917 a aamas:Term ;
+aama:ID3f0e70c3-d9ca-451a-aaab-1324ba54a370 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3926,7 +3926,7 @@ aama:ID0ef5185f-bc7e-4bc9-bba3-bd588a29d917 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID22239513-6297-4207-bc49-de67205f33ae a aamas:Term ;
+aama:ID58ce8aa2-1119-487e-9764-14f81394716c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3942,7 +3942,7 @@ aama:ID22239513-6297-4207-bc49-de67205f33ae a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID420c96c1-f53c-4487-846c-7dd0bf839969 a aamas:Term ;
+aama:IDa14766da-b739-43a9-ab98-e430cef23d56 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3958,7 +3958,7 @@ aama:ID420c96c1-f53c-4487-846c-7dd0bf839969 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDfcc87672-779e-455c-acbb-1bed32eb8362 a aamas:Term ;
+aama:ID6c07f444-6fc4-47d7-b7a1-c4d8ab4d983e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3974,7 +3974,7 @@ aama:IDfcc87672-779e-455c-acbb-1bed32eb8362 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID55afd7bf-3d7b-4118-bdbc-80eae356c2e2 a aamas:Term ;
+aama:IDf26378f5-0ef9-44cc-a1b4-2377ff361f33 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -3990,7 +3990,7 @@ aama:ID55afd7bf-3d7b-4118-bdbc-80eae356c2e2 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID424649c1-491a-4fda-84e3-aceaea8ce143 a aamas:Term ;
+aama:ID7ec6fc10-31d4-4bb8-8d24-7891f35edcd8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4006,7 +4006,7 @@ aama:ID424649c1-491a-4fda-84e3-aceaea8ce143 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd1d456bd-64ca-4b56-98c6-540ac3a4d8f3 a aamas:Term ;
+aama:ID2af58df6-9e0f-47cf-ada7-5a11fef85585 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4022,7 +4022,7 @@ aama:IDd1d456bd-64ca-4b56-98c6-540ac3a4d8f3 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:IDa3355282-052a-4bad-a77e-961302352ea6 a aamas:Term ;
+aama:IDb8dfaa4f-b4b1-4d75-a7c0-e8087d2b25d4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPresProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4043,10 +4043,10 @@ aama:IDa3355282-052a-4bad-a77e-961302352ea6 a aamas:Term ;
 bur:burji-VAffPerfProgCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffPerfProgCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 122." 
+	rdfs:comment "WC85p.122" 
 	.
 
-aama:IDd71e9a96-db95-4458-89ac-31068b9bc8e2 a aamas:Term ;
+aama:IDfa54055a-2d48-43a5-af2a-9e64f6f1ba10 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4062,7 +4062,7 @@ aama:IDd71e9a96-db95-4458-89ac-31068b9bc8e2 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3327f59b-f50a-483a-abf6-3630861bc1e3 a aamas:Term ;
+aama:IDf112ae5d-902a-4c3f-8d14-0f76d968c0a4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4078,7 +4078,7 @@ aama:ID3327f59b-f50a-483a-abf6-3630861bc1e3 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa9d17100-dbb0-4753-ae61-05bfd882ba54 a aamas:Term ;
+aama:ID5f0eda38-3846-47b5-89a9-24c396629d56 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4094,7 +4094,7 @@ aama:IDa9d17100-dbb0-4753-ae61-05bfd882ba54 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID52b198b0-991c-443e-ade6-34ee8eba726b a aamas:Term ;
+aama:IDb0792a81-0624-45f5-a7c7-ddfcc01623be a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4110,7 +4110,7 @@ aama:ID52b198b0-991c-443e-ade6-34ee8eba726b a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDb6a675b4-754b-40f7-ab60-3c3fe4c831a2 a aamas:Term ;
+aama:ID8d1fd4f1-619b-4920-88fd-d89f0d56bea1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4126,7 +4126,7 @@ aama:IDb6a675b4-754b-40f7-ab60-3c3fe4c831a2 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID78044a79-a0b4-48fd-a5cf-68bceffe8e1a a aamas:Term ;
+aama:ID1fb6b76b-2958-43a7-a21e-8766a1caeb5f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4142,7 +4142,7 @@ aama:ID78044a79-a0b4-48fd-a5cf-68bceffe8e1a a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID688783bd-ad2e-4e8b-b462-d243cc5d6d3f a aamas:Term ;
+aama:ID80201b68-f638-4de6-a6e2-9f7e2e02fc37 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4158,7 +4158,7 @@ aama:ID688783bd-ad2e-4e8b-b462-d243cc5d6d3f a aamas:Term ;
 	bur:proType bur:IdPro ;
 	.
 
-aama:ID57b3e73c-fd6a-4c7b-b84a-38e0aae9e326 a aamas:Term ;
+aama:ID4db3cc7e-e071-4d38-8518-8c3fa5fbee1a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4174,7 +4174,7 @@ aama:ID57b3e73c-fd6a-4c7b-b84a-38e0aae9e326 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID14a68f0c-cad0-4cd8-8f24-48cece46ffeb a aamas:Term ;
+aama:IDe6a6ad6e-7d28-4b6f-ae58-592af7ceb7ed a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffPerfProgCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4195,10 +4195,10 @@ aama:ID14a68f0c-cad0-4cd8-8f24-48cece46ffeb a aamas:Term ;
 bur:burji-VAffFutIntensiveCompound-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffFutIntensiveCompound-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 122" 
+	rdfs:comment "WC85p.122" 
 	.
 
-aama:ID95311562-e7ad-40af-8679-4b8514d19d6d a aamas:Term ;
+aama:IDb290bcd6-eb25-4e66-83f7-5e4c6c5732c7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4214,7 +4214,7 @@ aama:ID95311562-e7ad-40af-8679-4b8514d19d6d a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID65930a8e-4680-4d52-917d-b7565e0fbe01 a aamas:Term ;
+aama:ID311e375b-9f81-4ead-b737-d6199e934cd6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4230,7 +4230,7 @@ aama:ID65930a8e-4680-4d52-917d-b7565e0fbe01 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID0b1ee33f-02f6-4901-8574-2feb26cbc7d6 a aamas:Term ;
+aama:ID3a07fd62-3d76-4d5b-8c13-74e049aa52ad a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4246,7 +4246,7 @@ aama:ID0b1ee33f-02f6-4901-8574-2feb26cbc7d6 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDf5947999-3d10-4bf9-9216-69f23bf6423b a aamas:Term ;
+aama:ID2b40ff97-dfbc-49b5-9069-1b8d8c1a1601 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4262,7 +4262,7 @@ aama:IDf5947999-3d10-4bf9-9216-69f23bf6423b a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDfdaeea32-bfa9-4d01-a7a7-a05fb8407a8e a aamas:Term ;
+aama:IDb14ca224-2039-482e-8c34-f8bce74f8f51 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4278,7 +4278,7 @@ aama:IDfdaeea32-bfa9-4d01-a7a7-a05fb8407a8e a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID8462f08a-9d7a-4b7d-a4e8-a7c7d651bc48 a aamas:Term ;
+aama:ID6bb1e388-9387-4abc-aff0-3d74eb083b42 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4294,7 +4294,7 @@ aama:ID8462f08a-9d7a-4b7d-a4e8-a7c7d651bc48 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID91cfeaed-7c25-4737-b863-64bc381ca750 a aamas:Term ;
+aama:ID8b7c726e-6738-45f6-b43d-04b231bee252 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4310,7 +4310,7 @@ aama:ID91cfeaed-7c25-4737-b863-64bc381ca750 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID7f1a0439-ec9a-4da2-a1df-0c47f6cd18c1 a aamas:Term ;
+aama:IDb1f33e02-84e8-4505-9759-f66fb348cb18 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffFutIntensiveCompound-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4331,10 +4331,10 @@ aama:ID7f1a0439-ec9a-4da2-a1df-0c47f6cd18c1 a aamas:Term ;
 bur:burji-VAffImperfectReg-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfectReg-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 120%%paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
+	rdfs:comment "WC85p.120 :: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete%%well-formed utterance.[Not certain how to interpret this.]" 
 	.
 
-aama:IDa523298d-eb33-40c6-bbe8-395a9df0fe8e a aamas:Term ;
+aama:ID71bfe3ee-a9d2-4f13-93c5-57eea68dc7e5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4350,7 +4350,7 @@ aama:IDa523298d-eb33-40c6-bbe8-395a9df0fe8e a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa3eac72a-1881-424a-b845-d4152f5efc64 a aamas:Term ;
+aama:IDcd82fb14-9408-4be1-8c7d-efb70bdf1679 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4366,7 +4366,7 @@ aama:IDa3eac72a-1881-424a-b845-d4152f5efc64 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDba258ea2-6265-46df-a0d4-c2d9357c58ad a aamas:Term ;
+aama:IDd3abb02b-bb58-4930-bb7e-34e0ef72c557 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4382,7 +4382,7 @@ aama:IDba258ea2-6265-46df-a0d4-c2d9357c58ad a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd2b08dbf-85ae-408f-9b81-f5ec527dccb3 a aamas:Term ;
+aama:IDbdcec4e2-2cf7-4e27-a929-3781d46dc9d9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4398,7 +4398,7 @@ aama:IDd2b08dbf-85ae-408f-9b81-f5ec527dccb3 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd98235bb-92e2-4382-9a1d-01fe5f21b768 a aamas:Term ;
+aama:ID68681f9a-5e39-458a-831b-15f0db0f6198 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4414,7 +4414,7 @@ aama:IDd98235bb-92e2-4382-9a1d-01fe5f21b768 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID8194d1af-f4dd-4699-aa4a-3355f8c08063 a aamas:Term ;
+aama:ID96f1e9b1-8a64-41f7-9ce8-f84551a00408 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4430,7 +4430,7 @@ aama:ID8194d1af-f4dd-4699-aa4a-3355f8c08063 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDdf42c407-8c68-46f4-8574-40b9579017fa a aamas:Term ;
+aama:ID69207b91-f27c-4e5b-b8c8-9e10525a4e07 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4446,7 +4446,7 @@ aama:IDdf42c407-8c68-46f4-8574-40b9579017fa a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID600ec856-c38c-4bb6-982f-4bc557fe143a a aamas:Term ;
+aama:ID17a2ef70-f6e6-42c2-8c47-e3eaa4544ceb a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfectReg-mar ;
 	bur:vmorphClass bur:IMPERFREG-IRREG ;
@@ -4467,10 +4467,10 @@ aama:ID600ec856-c38c-4bb6-982f-4bc557fe143a a aamas:Term ;
 bur:burji-VAffImperfect-duw a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfect-duw" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDcddc5c53-cff8-4911-a809-3f86ce81b369 a aamas:Term ;
+aama:ID4c57446f-af19-4ceb-b702-f8c6811c3d4b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4484,7 +4484,7 @@ aama:IDcddc5c53-cff8-4911-a809-3f86ce81b369 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID326ed293-582f-446a-9828-f71d122be657 a aamas:Term ;
+aama:IDc6215e29-eb27-4385-a6d1-24d8a1fdb1aa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4498,7 +4498,7 @@ aama:ID326ed293-582f-446a-9828-f71d122be657 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID43024839-8128-42ac-abd8-c296e9091786 a aamas:Term ;
+aama:IDcd8c54a5-bf4c-4d21-a4d5-2ac70f87076e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4512,7 +4512,7 @@ aama:ID43024839-8128-42ac-abd8-c296e9091786 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID6da34e97-b1c0-4936-bdd5-52647882d9d9 a aamas:Term ;
+aama:IDc74460d9-07f1-480a-83ff-a198e9e9491f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4526,7 +4526,7 @@ aama:ID6da34e97-b1c0-4936-bdd5-52647882d9d9 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID3a8b15d9-1c0c-49dc-8b5a-2543fba97a39 a aamas:Term ;
+aama:IDc8722934-16e3-44e6-92ac-8b86d9feacb0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4540,7 +4540,7 @@ aama:ID3a8b15d9-1c0c-49dc-8b5a-2543fba97a39 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID31138e07-41de-4995-8055-69017d4c5f72 a aamas:Term ;
+aama:ID673b7333-448a-4042-9a8b-9b115684ada9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4554,7 +4554,7 @@ aama:ID31138e07-41de-4995-8055-69017d4c5f72 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDebd52b1c-8e72-4d6a-a0f6-6b303c15c0bb a aamas:Term ;
+aama:ID022816f6-1799-43fc-8361-57f10b1fe074 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4573,10 +4573,10 @@ aama:IDebd52b1c-8e72-4d6a-a0f6-6b303c15c0bb a aamas:Term ;
 bur:burji-PInterr a aamas:Termcluster ;
 	rdfs:label "burji-PInterr" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "HudsonG1976 p. 259." 
+	rdfs:comment "HG76p.259" 
 	.
 
-aama:IDa2d7167e-a803-4660-8a57-e3492768ed6a a aamas:Term ;
+aama:IDd02dcba9-ec52-4a89-9cd5-99d326e06764 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4586,7 +4586,7 @@ aama:IDa2d7167e-a803-4660-8a57-e3492768ed6a a aamas:Term ;
 	bur:interrogClass bur:InterrogProHow ;
 	.
 
-aama:IDe42a10e7-7f7b-46c2-bb61-baed09691489 a aamas:Term ;
+aama:IDd6a88d41-d1d0-489e-bce2-1fe9725fcb8f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4596,7 +4596,7 @@ aama:IDe42a10e7-7f7b-46c2-bb61-baed09691489 a aamas:Term ;
 	bur:interrogClass bur:InterrogProHowMany ;
 	.
 
-aama:IDe8bd6509-892a-4074-9eb8-a7ad6c4bc9f8 a aamas:Term ;
+aama:IDa0e762c6-b31a-43a1-8be8-ff1a1f31a6e0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4606,7 +4606,7 @@ aama:IDe8bd6509-892a-4074-9eb8-a7ad6c4bc9f8 a aamas:Term ;
 	bur:interrogClass bur:InterrogProWhat ;
 	.
 
-aama:ID2d3c7e8b-7e38-4a9b-b5ec-97a19d700975 a aamas:Term ;
+aama:ID3c62207f-6833-4cc3-b604-c3c9a0b0198e a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4616,7 +4616,7 @@ aama:ID2d3c7e8b-7e38-4a9b-b5ec-97a19d700975 a aamas:Term ;
 	bur:interrogClass bur:InterrogProWhen ;
 	.
 
-aama:IDa3f7539f-e472-47c9-9ae6-5a33fa6d1ff6 a aamas:Term ;
+aama:ID276fe2d9-bccd-461b-8fdb-f37572530e2c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4626,7 +4626,7 @@ aama:IDa3f7539f-e472-47c9-9ae6-5a33fa6d1ff6 a aamas:Term ;
 	bur:interrogClass bur:InterrogProWhere ;
 	.
 
-aama:IDa4e30acc-2340-4245-b531-be61cd48019c a aamas:Term ;
+aama:ID07c7b6b4-4d27-4910-ab4e-81a2b312c6ca a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PInterr ;
 	bur:pos bur:Pronoun ;
@@ -4641,10 +4641,10 @@ aama:IDa4e30acc-2340-4245-b531-be61cd48019c a aamas:Term ;
 bur:burji-VAffSimplePerfect-duw a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfect-duw" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID42b90b15-840b-4046-a8c5-718a607cd539 a aamas:Term ;
+aama:ID87b15dc5-3a25-41d3-8648-aebf8ac6c9f3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4658,7 +4658,7 @@ aama:ID42b90b15-840b-4046-a8c5-718a607cd539 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID9782e97a-a716-4beb-9276-d33beadfe418 a aamas:Term ;
+aama:ID2beea778-8d78-4dc1-ab99-6b18b33d7cbf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4672,7 +4672,7 @@ aama:ID9782e97a-a716-4beb-9276-d33beadfe418 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID5bb7bc90-2c96-457d-8010-50bf252dcad6 a aamas:Term ;
+aama:IDde937f99-911f-4686-980a-1f6a0919e57c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4686,7 +4686,7 @@ aama:ID5bb7bc90-2c96-457d-8010-50bf252dcad6 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID84a34267-55cc-4b5e-9c3b-bf53532afe09 a aamas:Term ;
+aama:ID38b7a569-a79c-4043-b846-f7b2af3701c1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4700,7 +4700,7 @@ aama:ID84a34267-55cc-4b5e-9c3b-bf53532afe09 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID2f8966b7-a85e-4eef-8536-4eefce478c31 a aamas:Term ;
+aama:IDf4da9166-2152-4201-b0c1-63e742b6d3cc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4714,7 +4714,7 @@ aama:ID2f8966b7-a85e-4eef-8536-4eefce478c31 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID0686abb4-e113-4120-ab92-af56bf82e91b a aamas:Term ;
+aama:ID02f8b665-6e87-46bb-90d4-2e3052057fba a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4728,7 +4728,7 @@ aama:ID0686abb4-e113-4120-ab92-af56bf82e91b a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID919ed365-1953-455f-867f-ec166b47fc3e a aamas:Term ;
+aama:ID128a1e6b-2c6f-4046-b066-8a413b3bef7b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-duw ;
 	bur:vmorphClass bur:Finite ;
@@ -4747,10 +4747,10 @@ aama:ID919ed365-1953-455f-867f-ec166b47fc3e a aamas:Term ;
 bur:burji-VAffImperfect-it a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfect-it" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDd93a2358-6aee-498a-9d8a-fa1d4673f60a a aamas:Term ;
+aama:IDe71ca891-7aa4-4ca7-a839-4e7d00f749df a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4764,7 +4764,7 @@ aama:IDd93a2358-6aee-498a-9d8a-fa1d4673f60a a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID34409c5a-25c3-4caa-a0ce-fc717ca124b3 a aamas:Term ;
+aama:IDf4ee2c8c-365a-4449-a4ed-8e4acd240077 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4778,7 +4778,7 @@ aama:ID34409c5a-25c3-4caa-a0ce-fc717ca124b3 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID55352176-7f8b-46e1-8623-197cf4d1d360 a aamas:Term ;
+aama:IDe719d141-233b-4b3a-ab87-a2d400437783 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4792,7 +4792,7 @@ aama:ID55352176-7f8b-46e1-8623-197cf4d1d360 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDeac6015f-5187-4b43-8b18-bf60dd69bcbe a aamas:Term ;
+aama:ID35cb530c-42b1-4834-8077-3a81e905594c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4806,7 +4806,7 @@ aama:IDeac6015f-5187-4b43-8b18-bf60dd69bcbe a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID280159c8-745c-4059-b59d-523ffa89c1ba a aamas:Term ;
+aama:IDdb526abc-6b14-4633-b142-b6fca740198f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4820,7 +4820,7 @@ aama:ID280159c8-745c-4059-b59d-523ffa89c1ba a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDbe4d2a53-92b0-4c88-a7e2-bd00c00b4d85 a aamas:Term ;
+aama:IDc1f1bf3f-d40c-4b88-b9be-bfcc8298f98d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4834,7 +4834,7 @@ aama:IDbe4d2a53-92b0-4c88-a7e2-bd00c00b4d85 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:IDd1553462-b818-45ea-98b1-841979b7ec20 a aamas:Term ;
+aama:ID1c667bf5-89d2-402c-8ad4-e6ad61d6795b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-it ;
 	bur:vmorphClass bur:Finite ;
@@ -4853,10 +4853,10 @@ aama:IDd1553462-b818-45ea-98b1-841979b7ec20 a aamas:Term ;
 bur:burji-VNegPerfect-mar a aamas:Termcluster ;
 	rdfs:label "burji-VNegPerfect-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 125. [Not clear whether this is simply a negation of simplePerf%%or of anything perfect/past.]" 
+	rdfs:comment "WC85p.125 :: [Not clear whether this is simply a negation of simplePerf%%or of anything perfect/past.]" 
 	.
 
-aama:ID23df97aa-4e55-4afc-aebd-42fd29a3c57c a aamas:Term ;
+aama:ID5ed30dc8-12d7-4853-bd6b-946289935bb0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4871,7 +4871,7 @@ aama:ID23df97aa-4e55-4afc-aebd-42fd29a3c57c a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID4c34f912-b54c-4d1c-94be-790818952ce0 a aamas:Term ;
+aama:ID894bdcc2-645b-494e-a00b-26b7d81c9f03 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4886,7 +4886,7 @@ aama:ID4c34f912-b54c-4d1c-94be-790818952ce0 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID98039ae1-3169-4a77-a8ca-add0389b95b0 a aamas:Term ;
+aama:IDe7befd33-a845-4859-9819-4bcb174d369a a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4901,7 +4901,7 @@ aama:ID98039ae1-3169-4a77-a8ca-add0389b95b0 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID66b2936f-08c7-4028-b095-5a2c3c8a122d a aamas:Term ;
+aama:IDa93b54e3-9e72-4d9f-8022-2759bdf9c70c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4916,7 +4916,7 @@ aama:ID66b2936f-08c7-4028-b095-5a2c3c8a122d a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID11ca52d2-6dc8-453d-b683-8dc4ce7ab801 a aamas:Term ;
+aama:IDb8b421ca-1af3-4548-ba07-fc5a882ffbf1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4931,7 +4931,7 @@ aama:ID11ca52d2-6dc8-453d-b683-8dc4ce7ab801 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDec005397-9034-4075-8b63-110dfcf45e50 a aamas:Term ;
+aama:ID360aefe2-da7d-43d0-848a-51916c8e3842 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4946,7 +4946,7 @@ aama:IDec005397-9034-4075-8b63-110dfcf45e50 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDd00785ca-45e4-40f1-b6df-420f02726241 a aamas:Term ;
+aama:ID1c905370-90e1-4ad4-80b3-b3aee8a459c4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4961,7 +4961,7 @@ aama:IDd00785ca-45e4-40f1-b6df-420f02726241 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:IDf67b7e60-f5c6-421c-971d-d96d2c443988 a aamas:Term ;
+aama:IDac1c3f2c-684f-475b-8451-e388a549e0f4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegPerfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -4981,10 +4981,10 @@ aama:IDf67b7e60-f5c6-421c-971d-d96d2c443988 a aamas:Term ;
 bur:burji-VAffSimplePerfect-intey a aamas:Termcluster ;
 	rdfs:label "burji-VAffSimplePerfect-intey" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:IDd44134ff-e281-455e-bf85-03040b925650 a aamas:Term ;
+aama:IDf8139d96-57af-4349-a158-82e93b72daea a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -4998,7 +4998,7 @@ aama:IDd44134ff-e281-455e-bf85-03040b925650 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd0a33ef1-3439-4327-8231-6c403c26c159 a aamas:Term ;
+aama:IDbafe2911-7e37-45ed-9b7c-5d65b67434d6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5012,7 +5012,7 @@ aama:IDd0a33ef1-3439-4327-8231-6c403c26c159 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID32c344a5-9b3f-4b48-922e-97176606db69 a aamas:Term ;
+aama:ID8c0c9b18-6c8e-412a-a101-e5e53b10e03d a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5026,7 +5026,7 @@ aama:ID32c344a5-9b3f-4b48-922e-97176606db69 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID7959a196-07ec-4ac7-a3a8-b6cb79d552f3 a aamas:Term ;
+aama:IDa4431294-45e4-492d-94f0-8a0971b9417c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5040,7 +5040,7 @@ aama:ID7959a196-07ec-4ac7-a3a8-b6cb79d552f3 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDd77ef3c1-fc6a-4a23-8478-1dc5edd3bc3c a aamas:Term ;
+aama:ID106c962f-319b-40bf-8c40-79c5ff5a5167 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5054,7 +5054,7 @@ aama:IDd77ef3c1-fc6a-4a23-8478-1dc5edd3bc3c a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID7d315c6d-2347-42e6-8c5f-c32e1aa8178f a aamas:Term ;
+aama:IDba9bf51f-f213-4813-8d76-26d71f068bcc a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5068,7 +5068,7 @@ aama:ID7d315c6d-2347-42e6-8c5f-c32e1aa8178f a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID0b316385-f699-4982-8baf-2ce1687576a1 a aamas:Term ;
+aama:ID10d6f679-5c32-4dd2-8a61-27569d1d8296 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffSimplePerfect-intey ;
 	bur:vmorphClass bur:Finite ;
@@ -5087,10 +5087,10 @@ aama:ID0b316385-f699-4982-8baf-2ce1687576a1 a aamas:Term ;
 bur:burji-VAffImperfect-ba a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfect-ba" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 255-258." 
+	rdfs:comment "SS77pp.255-258" 
 	.
 
-aama:ID772ece6f-b1a7-4233-b77f-58c9737625db a aamas:Term ;
+aama:IDa085677f-3ebe-4335-bc34-5e1f88db51d6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5104,7 +5104,7 @@ aama:ID772ece6f-b1a7-4233-b77f-58c9737625db a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDce0da4ab-586e-44b0-b5f6-b7ae7815a807 a aamas:Term ;
+aama:ID50aebe37-31b4-4c8f-9038-590572ca8d3b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5118,7 +5118,7 @@ aama:IDce0da4ab-586e-44b0-b5f6-b7ae7815a807 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDb248201a-2684-428e-b774-703085884c91 a aamas:Term ;
+aama:ID6039c090-0b16-42a4-8f92-e368a199852b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5132,7 +5132,7 @@ aama:IDb248201a-2684-428e-b774-703085884c91 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDf9849ed3-37f0-4a72-8c4a-9741b16d9d04 a aamas:Term ;
+aama:ID01efd9a0-9def-4834-8e1c-9557e07dfff5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5146,7 +5146,7 @@ aama:IDf9849ed3-37f0-4a72-8c4a-9741b16d9d04 a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:IDaef0ccf5-ca21-4fd9-a05e-afd9ef60736c a aamas:Term ;
+aama:ID72ea3abf-b876-458b-a8e7-2967d9a43138 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5160,7 +5160,7 @@ aama:IDaef0ccf5-ca21-4fd9-a05e-afd9ef60736c a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID8bd269c5-264f-49bc-98ac-7011fb89bf25 a aamas:Term ;
+aama:ID929a5007-3957-491e-bd84-14bd920b8953 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5174,7 +5174,7 @@ aama:ID8bd269c5-264f-49bc-98ac-7011fb89bf25 a aamas:Term ;
 	bur:number bur:Plural ;
 	.
 
-aama:ID2c5e453f-3354-433c-b946-ebe5adb88bd9 a aamas:Term ;
+aama:IDa23b94b2-21cc-43e6-be4c-ad011f58c814 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-ba ;
 	bur:vmorphClass bur:Finite ;
@@ -5193,10 +5193,10 @@ aama:ID2c5e453f-3354-433c-b946-ebe5adb88bd9 a aamas:Term ;
 bur:burji-VNegImprtv-mar a aamas:Termcluster ;
 	rdfs:label "burji-VNegImprtv-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 116 (cf. also 124)" 
+	rdfs:comment "WC85p.116 :: (cf. also 124)" 
 	.
 
-aama:ID6a52c6f1-5bfc-4229-89da-e4a2f5df829b a aamas:Term ;
+aama:ID48667d0d-1cf6-4164-b38d-5dd1d455c89c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImprtv-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5208,7 +5208,7 @@ aama:ID6a52c6f1-5bfc-4229-89da-e4a2f5df829b a aamas:Term ;
 	bur:number bur:Singular ;
 	.
 
-aama:ID08b7c7d1-3a4d-4372-8c2f-f7b07255f1dc a aamas:Term ;
+aama:ID0f82fb94-8399-44e8-8ef1-6a1af5234715 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VNegImprtv-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5225,10 +5225,10 @@ aama:ID08b7c7d1-3a4d-4372-8c2f-f7b07255f1dc a aamas:Term ;
 bur:burji-PDemonstrative a aamas:Termcluster ;
 	rdfs:label "burji-PDemonstrative" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 pp. 254-255. HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der %%%%hier’’ –Deixis (%%dieser’ etc.) belegt– far deixis form is from Hudson." 
+	rdfs:comment "SS77pp.254-255 :: HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der %%%%hier’’ –Deixis (%%dieser’ etc.) belegt– far deixis form is from Hudson" 
 	.
 
-aama:IDd9fa0a3f-4540-469e-a56d-127356d2b76b a aamas:Term ;
+aama:ID59ff25ae-5cb1-426e-a6a5-e3184bc8b3a4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5241,7 +5241,7 @@ aama:IDd9fa0a3f-4540-469e-a56d-127356d2b76b a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDe7ea1ad5-5bfe-4dc2-afa4-c94a0e602e0a a aamas:Term ;
+aama:IDb17055f8-8de3-4381-a238-14995b12dfec a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5254,7 +5254,7 @@ aama:IDe7ea1ad5-5bfe-4dc2-afa4-c94a0e602e0a a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID645d55b5-1eba-4465-9b76-9fb066681e3e a aamas:Term ;
+aama:ID4738b7e2-0623-4742-a741-42540518bc41 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5267,7 +5267,7 @@ aama:ID645d55b5-1eba-4465-9b76-9fb066681e3e a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDcb2b0031-529a-4b71-8e0a-9dda42333214 a aamas:Term ;
+aama:IDf52afbec-4317-4ea8-b69a-c5dd10b19107 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5280,7 +5280,7 @@ aama:IDcb2b0031-529a-4b71-8e0a-9dda42333214 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID8bb00fb2-a591-409d-ad11-180c12e0485f a aamas:Term ;
+aama:ID612b3b15-0957-4922-8250-f476e1808771 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5293,7 +5293,7 @@ aama:ID8bb00fb2-a591-409d-ad11-180c12e0485f a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:ID277ded4a-6830-4f58-8942-1ece6b24f6b4 a aamas:Term ;
+aama:ID2a4bd497-5ead-455b-aadf-794b3ec5af01 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5306,7 +5306,7 @@ aama:ID277ded4a-6830-4f58-8942-1ece6b24f6b4 a aamas:Term ;
 	bur:case bur:Absolutive ;
 	.
 
-aama:IDe029d217-9f87-4d04-b6d2-5d6672bbb78c a aamas:Term ;
+aama:ID1931db7c-581d-442e-a6b5-dd3556bd8a86 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5319,7 +5319,7 @@ aama:IDe029d217-9f87-4d04-b6d2-5d6672bbb78c a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID745a166f-44b7-4004-88dc-98c871518e70 a aamas:Term ;
+aama:IDfe1e7314-045e-4c2d-b657-97d28c4a0608 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5332,7 +5332,7 @@ aama:ID745a166f-44b7-4004-88dc-98c871518e70 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDa309788b-d0f8-4849-9c6d-a7e864763fb6 a aamas:Term ;
+aama:ID290ac034-7ab9-4fd5-8934-63f1859fa4e9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5345,7 +5345,7 @@ aama:IDa309788b-d0f8-4849-9c6d-a7e864763fb6 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDc4697b8a-13f2-4afc-8d11-e4c999c7ed9d a aamas:Term ;
+aama:ID68815196-cb9a-462b-bd1e-030d25d09b85 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5358,7 +5358,7 @@ aama:IDc4697b8a-13f2-4afc-8d11-e4c999c7ed9d a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:ID08bc2b2e-875b-4ce7-863d-9b71c59917d3 a aamas:Term ;
+aama:ID54d41a26-eedd-4421-9112-5d3c4ab5d762 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5371,7 +5371,7 @@ aama:ID08bc2b2e-875b-4ce7-863d-9b71c59917d3 a aamas:Term ;
 	bur:case bur:Nominative ;
 	.
 
-aama:IDf5dae4e4-2175-42d4-982c-58981181d629 a aamas:Term ;
+aama:ID0b190606-5462-4b49-b8b1-9765e5ed8867 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PDemonstrative ;
 	bur:pos bur:Pronoun ;
@@ -5389,10 +5389,10 @@ aama:IDf5dae4e4-2175-42d4-982c-58981181d629 a aamas:Term ;
 bur:burji-PPoss a aamas:Termcluster ;
 	rdfs:label "burji-PPoss" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "Sasse-Straube1977 p. 254. cf. HudsonG1976 pp. 256-259." 
+	rdfs:comment "SS77p.254 :: cf. HudsonG1976 pp. 256-259" 
 	.
 
-aama:ID9cccc476-be57-4b0a-9aed-ac98d450d7a9 a aamas:Term ;
+aama:ID54b292fe-99bd-4b62-b3eb-b18b1d26fc77 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5406,7 +5406,7 @@ aama:ID9cccc476-be57-4b0a-9aed-ac98d450d7a9 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDd9d21189-ab4d-4f0d-9dbc-316ecb913f34 a aamas:Term ;
+aama:ID0da5905a-a97b-4b12-b0fb-dcf3907b9594 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5420,7 +5420,7 @@ aama:IDd9d21189-ab4d-4f0d-9dbc-316ecb913f34 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID0dc8138b-89e7-4927-acbb-eee734867655 a aamas:Term ;
+aama:IDf23f9fc7-f37d-466a-a932-da1ba7db5490 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5434,7 +5434,7 @@ aama:ID0dc8138b-89e7-4927-acbb-eee734867655 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID2f040bac-319a-45ae-bcf5-e0af3004d904 a aamas:Term ;
+aama:ID89a08919-a5e2-4ee6-be60-09014b5ac9d9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5448,7 +5448,7 @@ aama:ID2f040bac-319a-45ae-bcf5-e0af3004d904 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID04d0cd58-46af-4135-8ae2-8ca7f799ff4b a aamas:Term ;
+aama:ID310a3df6-8d04-4388-bbd9-7043203b4548 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5462,7 +5462,7 @@ aama:ID04d0cd58-46af-4135-8ae2-8ca7f799ff4b a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDfc87ce80-11c9-4a88-b618-0b9f441cb69e a aamas:Term ;
+aama:ID2373ef5a-8488-44e1-a054-1883315540e9 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5476,7 +5476,7 @@ aama:IDfc87ce80-11c9-4a88-b618-0b9f441cb69e a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID959a717e-3cc8-41be-86a0-01de1355d63a a aamas:Term ;
+aama:ID3259534e-edb0-47ad-bc3d-b0fcdbff9630 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5490,7 +5490,7 @@ aama:ID959a717e-3cc8-41be-86a0-01de1355d63a a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID451966e3-4447-46c5-bc9d-91fb81e63505 a aamas:Term ;
+aama:IDe7191454-4f1a-458a-8799-e90a6a176981 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5504,7 +5504,7 @@ aama:ID451966e3-4447-46c5-bc9d-91fb81e63505 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDe3a5a6c2-4a23-4ce7-9613-6e315ec9f06d a aamas:Term ;
+aama:ID08239054-446a-41e7-a6c2-785739a1ffb3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5518,7 +5518,7 @@ aama:IDe3a5a6c2-4a23-4ce7-9613-6e315ec9f06d a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDc0ba1bae-4514-4f41-8f98-f03a3cf78c6b a aamas:Term ;
+aama:ID3a4e716e-a88c-4fe9-bf17-73ff224900f7 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5532,7 +5532,7 @@ aama:IDc0ba1bae-4514-4f41-8f98-f03a3cf78c6b a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID9c35cb23-1522-42cc-b9e6-31d43567996f a aamas:Term ;
+aama:IDe1a98831-9b7f-4e9e-a927-da90fdb1cf64 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5546,7 +5546,7 @@ aama:ID9c35cb23-1522-42cc-b9e6-31d43567996f a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDc5db524a-5185-4d35-a519-5dd660437f82 a aamas:Term ;
+aama:IDfa139cbf-14ce-4d61-9518-5187b62c0cc5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5560,7 +5560,7 @@ aama:IDc5db524a-5185-4d35-a519-5dd660437f82 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:IDceff921d-1918-4a6f-9523-d959188a73d3 a aamas:Term ;
+aama:ID0de42d0e-daa1-4b12-9b36-9fd7a00a4a6b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5574,7 +5574,7 @@ aama:IDceff921d-1918-4a6f-9523-d959188a73d3 a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID54223783-59ce-47be-a653-3095960f226e a aamas:Term ;
+aama:IDc3db334b-dc50-410c-8851-59e4493ea0e4 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5588,7 +5588,7 @@ aama:ID54223783-59ce-47be-a653-3095960f226e a aamas:Term ;
 	bur:caseHead bur:HeadAbsolutive ;
 	.
 
-aama:ID9d35dfb3-8ac8-4cee-ba23-041068425128 a aamas:Term ;
+aama:ID5c4f3e61-0da8-451d-a271-757016c0f1c3 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5602,7 +5602,7 @@ aama:ID9d35dfb3-8ac8-4cee-ba23-041068425128 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID03756fa9-3f46-49d7-8133-2cdeea16ee84 a aamas:Term ;
+aama:IDcdebc771-00e3-4104-a278-5b7be093eb46 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5616,7 +5616,7 @@ aama:ID03756fa9-3f46-49d7-8133-2cdeea16ee84 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:IDb594b434-682a-4d96-9d9c-81e3c552fc21 a aamas:Term ;
+aama:IDf78c4a0e-988f-4ff5-adfd-3b9921465b27 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5630,7 +5630,7 @@ aama:IDb594b434-682a-4d96-9d9c-81e3c552fc21 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID63a35387-821b-46f4-a2c6-ccc4f08ac78c a aamas:Term ;
+aama:IDcf8eea60-3c36-4464-90cd-956d3b166763 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5644,7 +5644,7 @@ aama:ID63a35387-821b-46f4-a2c6-ccc4f08ac78c a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID13a3fb53-81d5-4498-85d2-e9569b4ea135 a aamas:Term ;
+aama:ID0cd03f8d-d693-4577-b329-367a12970ae1 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5658,7 +5658,7 @@ aama:ID13a3fb53-81d5-4498-85d2-e9569b4ea135 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID66705050-127f-432c-a071-be6d9788a8a3 a aamas:Term ;
+aama:ID79b4196b-5cd8-4dbc-b769-fe34ee7f4cfa a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5672,7 +5672,7 @@ aama:ID66705050-127f-432c-a071-be6d9788a8a3 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID195fb84c-1ae8-4be4-9b74-1ef139c13d33 a aamas:Term ;
+aama:IDb70ef001-7125-464e-8172-b46b37ccfcb6 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5686,7 +5686,7 @@ aama:ID195fb84c-1ae8-4be4-9b74-1ef139c13d33 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:IDe3e75a9a-25d2-4f7e-b01b-dd8ef9d48e86 a aamas:Term ;
+aama:IDc87f3838-5fca-4670-96ab-1aca60489f06 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5700,7 +5700,7 @@ aama:IDe3e75a9a-25d2-4f7e-b01b-dd8ef9d48e86 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:IDc5dfee32-8bb5-4ebe-b2ef-c2474baa5a1e a aamas:Term ;
+aama:IDc3be227c-c520-4cd3-b687-7c600bb2e507 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5714,7 +5714,7 @@ aama:IDc5dfee32-8bb5-4ebe-b2ef-c2474baa5a1e a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID3c540e6a-8a5b-4340-96ae-0ea46dc51311 a aamas:Term ;
+aama:IDbd5ab0f5-c765-4acf-a9e3-9bb4e9c3844c a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5728,7 +5728,7 @@ aama:ID3c540e6a-8a5b-4340-96ae-0ea46dc51311 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:IDf9fc569d-be00-4c82-8497-7d2b33a15b76 a aamas:Term ;
+aama:ID1db4e0b9-ce00-41d6-8170-c498a9f8dabf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5742,7 +5742,7 @@ aama:IDf9fc569d-be00-4c82-8497-7d2b33a15b76 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID7339653e-3e46-4597-95a9-b9762ec516aa a aamas:Term ;
+aama:IDeb983957-21da-4be2-b5a9-ef326e7df2f0 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5756,7 +5756,7 @@ aama:ID7339653e-3e46-4597-95a9-b9762ec516aa a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:IDa14cdf35-5931-49ee-9fb8-307707fd1b71 a aamas:Term ;
+aama:IDdf994f39-a6f4-445e-a537-650af7455669 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5770,7 +5770,7 @@ aama:IDa14cdf35-5931-49ee-9fb8-307707fd1b71 a aamas:Term ;
 	bur:caseHead bur:HeadNominative ;
 	.
 
-aama:ID83baa2f7-94d5-4bdf-84db-53f4bb114ee1 a aamas:Term ;
+aama:IDd5aaba65-a9df-4223-b8d1-8a8204c29b7f a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-PPoss ;
 	bur:pos bur:Pronoun ;
@@ -5789,10 +5789,10 @@ aama:ID83baa2f7-94d5-4bdf-84db-53f4bb114ee1 a aamas:Term ;
 bur:burji-VAffImperfect-mar a aamas:Termcluster ;
 	rdfs:label "burji-VAffImperfect-mar" ;
 	aamas:lang aama:Burji ;
-	rdfs:comment "WedekindC1985 p. 115. Cf. Sass-Straube1977 p. 255." 
+	rdfs:comment "WC85p.115 :: Cf. Sass-Straube1977 p. 255" 
 	.
 
-aama:IDfa269b42-00ae-452f-ac84-076a7c01b796 a aamas:Term ;
+aama:ID71f4ee56-dc4a-449d-bf7f-7ce98475adaf a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5807,7 +5807,7 @@ aama:IDfa269b42-00ae-452f-ac84-076a7c01b796 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDb6995c5d-6fe2-4c58-a06e-24fae27a75e8 a aamas:Term ;
+aama:IDd12ff555-6b1e-41d0-8e22-4225314035ef a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5822,7 +5822,7 @@ aama:IDb6995c5d-6fe2-4c58-a06e-24fae27a75e8 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID7fd2d8a5-ebdf-43c2-a8eb-83b7a5c93163 a aamas:Term ;
+aama:ID7fe55a36-e7a1-4d34-8d4c-f1a131c4f1d5 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5837,7 +5837,7 @@ aama:ID7fd2d8a5-ebdf-43c2-a8eb-83b7a5c93163 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID3ee904a8-f3af-4593-b7c4-1592fc31fb5d a aamas:Term ;
+aama:IDc40666b3-e8f9-40fc-b2d1-9de6ba396b96 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5852,7 +5852,7 @@ aama:ID3ee904a8-f3af-4593-b7c4-1592fc31fb5d a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:ID94c7d1a9-b244-4d02-bf57-fb4f0e23f192 a aamas:Term ;
+aama:ID518d07ee-9912-4ae5-8e97-7fa047f09864 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5867,7 +5867,7 @@ aama:ID94c7d1a9-b244-4d02-bf57-fb4f0e23f192 a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa38ddb10-a109-4a14-9bb6-1851f52a1f8e a aamas:Term ;
+aama:ID97d1d75f-8aa3-4fe6-9c64-424efee0b266 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5882,7 +5882,7 @@ aama:IDa38ddb10-a109-4a14-9bb6-1851f52a1f8e a aamas:Term ;
 	bur:proType bur:CPro ;
 	.
 
-aama:IDa20673b7-5e82-4ed6-81fc-f3e250a90bb2 a aamas:Term ;
+aama:IDa52cd5cf-ca62-495b-a9b3-3b1e1b6f853b a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
@@ -5897,7 +5897,7 @@ aama:IDa20673b7-5e82-4ed6-81fc-f3e250a90bb2 a aamas:Term ;
 	bur:proType bur:WPro ;
 	.
 
-aama:ID8053bc87-d490-4d01-9285-6bb997a6cc86 a aamas:Term ;
+aama:IDefdc7517-b086-4245-8c75-3bf96cd35bf8 a aamas:Term ;
 	aamas:lang aama:Burji ;
 	aamas:memberOf bur:burji-VAffImperfect-mar ;
 	bur:vmorphClass bur:Finite ;
