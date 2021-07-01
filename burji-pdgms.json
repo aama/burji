@@ -1,0 +1,978 @@
+{
+  "lang": "burji",
+  "subfamily": "Highland East Cushitic",
+  "sgpref": "bur",
+  "datasource": "WedekindC1985, HudsonG1976, Sasse-Straube1977; abbrev. WC85, SS77, HG76",
+  "geodemoURL": "http://www.ethnologue.com/language/bji",
+  "geodemoTXT": "Varieties and subdialects of Burji are spoken in the  ZZSouthern Nations, Nationalities, and Peoples’ region: south of Lake Chamo; into the Oromia stateZZ.",
+  "schemata": {
+    "suppletion": [
+      "NonSuppletive",
+      "Suppletive"
+    ],
+    "clauseMarker": [
+      "NoParticle",
+      "Particle"
+    ],
+    "person": [
+      "Person1",
+      "Person2",
+      "Person3"
+    ],
+    "derivedStem": [
+      "Benefactive",
+      "Causative1",
+      "Causative2",
+      "Combo",
+      "Denominal",
+      "Passive",
+      "Reduplicated"
+    ],
+    "number": [
+      "Plural",
+      "Singular"
+    ],
+    "vmorphClass": [
+      "DervStem",
+      "SubjMarkers",
+      "Finite",
+      "IMPERFREG-IRREG"
+    ],
+    "caseHead": [
+      "HeadAbsolutive",
+      "HeadNominative"
+    ],
+    "genderHead": [
+      "HeadFem",
+      "HeadMasc"
+    ],
+    "verbClass": [
+      "Focus",
+      "Interrogative"
+    ],
+    "focusType": [
+      "Defective",
+      "Free",
+      "Full",
+      "Subject"
+    ],
+    "interrogClass": [
+      "InterrogProHow",
+      "InterrogProHowMany",
+      "InterrogProWhat",
+      "InterrogProWhen",
+      "InterrogProWhere",
+      "InterrogProWho"
+    ],
+    "pos": [
+      "Pronoun",
+      "Verb"
+    ],
+    "proClass": [
+      "Demonstrative",
+      "Independent",
+      "Interrogative",
+      "Possessive"
+    ],
+    "formType": [
+      "Compound",
+      "Suffix"
+    ],
+    "conjClass": [
+      "Irreg",
+      "Reular"
+    ],
+    "pmorphClass": [
+      "ProMorph"
+    ],
+    "case": [
+      "Absolutive",
+      "Nominative",
+      "Object"
+    ],
+    "polarity": [
+      "Affirmative",
+      "Negative"
+    ],
+    "tam": [
+      "FutureIntensive",
+      "Imperative",
+      "Imperfect",
+      "ImperfectProgressive",
+      "Jussive",
+      "PastProgressive",
+      "Perfect",
+      "PerfectProgressive",
+      "Pluperfect",
+      "PresentPerfect",
+      "PresentProgressive",
+      "SimplePerfect"
+    ],
+    "proType": [
+      "CPro",
+      "IdPro",
+      "WPro",
+      "WoPro"
+    ],
+    "gender": [
+      "Common",
+      "Fem",
+      "Masc"
+    ],
+    "deixis": [
+      "Far",
+      "Near"
+    ]
+  },
+  "lexemes": {
+    "nak": {
+      "pos": "Verb",
+      "lemma": "nak-",
+      "gloss": "strike"
+    },
+    "ba": {
+      "pos": "Verb",
+      "lemma": "ba’-",
+      "gloss": "go out"
+    },
+    "VINFINITIVEAFF": {
+      "pos": "Verb",
+      "lemma": "[y]",
+      "gloss": "[x]"
+    },
+    "it": {
+      "pos": "Verb",
+      "lemma": "it-",
+      "gloss": "eat"
+    },
+    "intey": {
+      "pos": "Verb",
+      "lemma": "intey-",
+      "gloss": "come"
+    },
+    "VADJ": {
+      "pos": "Verb",
+      "lemma": "[y]",
+      "gloss": "[x]"
+    },
+    "IMPERFREG-IRREG": {
+      "pos": "Verb",
+      "lemma": "[y]",
+      "gloss": "[x]"
+    },
+    "hayy": {
+      "pos": "Verb",
+      "lemma": "hayy-",
+      "gloss": "want",
+      "conjClass": "Irreg"
+    },
+    "mar": {
+      "pos": "Verb",
+      "lemma": "mar-",
+      "gloss": "go"
+    },
+    "duw": {
+      "pos": "Verb",
+      "lemma": "ɗuw-",
+      "gloss": "drink"
+    },
+    "beeh": {
+      "pos": "Verb",
+      "lemma": "beeh-",
+      "gloss": "know"
+    }
+  },
+  "termclusters": [
+{
+"label": "burji-VAffImperfect-intey",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "intey",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "inteya"],
+ ["Singular", "Person2", "Common", "inteyda"],
+ ["Singular", "Person3", "Masc", "inteya"],
+ ["Singular", "Person3", "Fem", "inteyda"],
+ ["Plural", "Person1", "Common", "inteyna"],
+ ["Plural", "Person2", "Common", "inteys̆ingu"],
+ ["Plural", "Person3", "Common", "inteyingu"]]
+},
+{
+"label": "burji-VAffImperfProgCompound-mar",
+"note": "WC85p.122",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "ImperfectProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "‘ani maranaa mara"],
+ ["CPro", "Singular", "Person2", "Common", "‘as̆I maranaa marda"],
+ ["CPro", "Singular", "Person3", "Masc", "‘isi maranaa mara"],
+ ["CPro", "Singular", "Person3", "Fem", "‘is̆I maranaa marda"],
+ ["CPro", "Plural", "Person1", "Common", "naanu maranaa marra"],
+ ["CPro", "Plural", "Person2", "Common", "‘as̆inu maranaa mars̆ingoo"],
+ ["WPro", "Plural", "Person3", "Common", "‘isinu maranaa mara"],
+ ["WoPro", "Plural", "Person3", "Common", "maranaa marringoo"]]
+},
+{
+"label": "burji-VNegPastProg-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "PastProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "itaad’i yed’oonn-éy"],
+ ["Singular", "Person2", "Common", "itaad’i yettoond-éyneg"],
+ ["Singular", "Person3", "Fem", "itaad’i yettaan-éy"],
+ ["Plural", "Person1", "Common", "itaad’i yennoonnin-éy"],
+ ["Plural", "Person2", "Common", "itaad’i yec̆c̆ingoonc̆ing-éy"],
+ ["Plural", "Person3", "Common", "itaad’i yed’ingoonning-éy"]]
+},
+{
+"label": "burji-VAffPresPerfCompound-mar",
+"note": "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977,p. 256",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentPerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "(‘ani) marinaa yeɗu"],
+ ["CPro", "Singular", "Person2", "Common", "(‘as̆i) mardinaa yettu"],
+ ["CPro", "Singular", "Person3", "Masc", "(‘isi) marinaa yeɗa"],
+ ["CPro", "Singular", "Person3", "Fem", "(‘is̆i) mardina yetta"],
+ ["CPro", "Plural", "Person1", "Common", "(naanu) marrinaa yennu"],
+ ["CPro", "Plural", "Person2", "Common", "(‘as̆inu) mars̆inginaa yeccingu"],
+ ["IdPro", "Singular", "Person3", "Common", "(‘issi) marinaa yeɗa"],
+ ["WPro", "Plural", "Person3", "Common", "(‘isinu) marinaa yeɗa"],
+ ["WoPro", "Plural", "Person3", "Common", "- maringinaa yeɗingu"]]
+},
+{
+"label": "burji-VAffImprtv-it",
+"note": "SS77pp.255-258",
+"common": {"gender": "Common",
+ "lexeme": "it",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "it(i)"], ["Plural", "it-ee"]]
+},
+{
+"label": "burji-VAffInterrogative-mar",
+"note": "WC85p.125-126",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "verbClass": "Interrogative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["token", "token-note"],
+ ["‘ani mara-daa?", "“Do I go?”"],
+ ["‘ee-daa mara?", "“Is if me to go?”"],
+ ["‘ani maranni", "“Did I go?”"]]
+},
+{
+"label": "burji-VNegImperfect-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "it-éy"],
+ ["Singular", "Person2", "Common", "is̆s̆-éy"],
+ ["Singular", "Person3", "Masc", "it-éy"],
+ ["Singular", "Person3", "Fem", "is̆s̆-éy"],
+ ["Plural", "Person1", "Common", "itin-éy"],
+ ["Plural", "Person2", "Common", "is̆s̆ing-éy"],
+ ["Plural", "Person3", "Common", "iting-éy"]]
+},
+{
+"label": "burji-VNegSimplePerf-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "itann-éy"],
+ ["Singular", "Person2", "Common", "itand-éy"],
+ ["Singular", "Person3", "Masc", "itann-éy"],
+ ["Singular", "Person3", "Fem", "itann-éy"],
+ ["Plural", "Person1", "Common", "itannin-éy"],
+ ["Plural", "Person2", "Common", "itanc̆ing-éy"],
+ ["Plural", "Person3", "Common", "itanning-éy"]]
+},
+{
+"label": "burji-VAffPluPerfCompound-mar",
+"note": "WC85p.121 :: Cf. also p. 115 and Sasse-Straube1977,p. 256",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Pluperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "(‘ani) marinaa yeɗaɗanni/oo"],
+ ["CPro", "Singular", "Person2", "Common", "(‘asi) mardinaa yettooɗandu/oo"],
+ ["CPro", "Singular", "Person3", "Masc", "(‘isi) marinaa yeɗaɗdanni/oo"],
+ ["CPro", "Singular", "Person3", "Fem", "(‘isi) mardinaa yettaɗanni/oo"],
+ ["CPro", "Plural", "Person1", "Common", "(naanu) marrinaa yennooɗanninu/oo"],
+ ["CPro", "Plural", "Person2", "Common", "(‘asinu) maringinaa yeɗingooɗancingu/oo"],
+ ["IdPro", "Singular", "Person3", "Common", "(‘issi) marinaa yeɗaɗanni/oo"],
+ ["WPro", "Plural", "Person3", "Common", "(‘isinu) maringinaa yeɗingooɗanningu/oo"],
+ ["WoPro", "Plural", "Person3", "Common", "- marinaa yeɗaɗanni/oo"]]
+},
+{
+"label": "burji-VAffPassPresPerf-nak",
+"note": "SS77pp.255-258",
+"common": {"derivedStem": "Passive",
+ "lexeme": "nak",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentPerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "nak’am-eed’u"],
+ ["Singular", "Person2", "Common", "nak’am-c̆-eettu"],
+ ["Singular", "Person3", "Masc", "nak’am-eed’a"],
+ ["Singular", "Person3", "Fem", "nak’am-c̆-eetta"],
+ ["Plural", "Person1", "Common", "nak’am-n-eennu"],
+ ["Plural", "Person2", "Common", "nak’am-c̆-eec̆c̆ingu"],
+ ["Plural", "Person3", "Common", "nak’am-eed’ingu"]]
+},
+{
+"label": "burji-VAffImperfectIrreg-hayy",
+"note": "WC85p.120 ::: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]",
+"common": {"conjClass": "Irreg",
+ "lexeme": "hayy",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "IMPERFREG-IRREG"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "hayy/oo"],
+ ["CPro", "Singular", "Person2", "Common", "hayyidu/oo"],
+ ["CPro", "Singular", "Person3", "Masc", "hayya"],
+ ["CPro", "Singular", "Person3", "Fem", "hayyida"],
+ ["CPro", "Plural", "Person1", "Common", "hayyinu/oo"],
+ ["CPro", "Plural", "Person2", "Common", "hayyis̆ingu/oo"],
+ ["WPro", "Plural", "Person3", "Common", "hayyingu/oo"],
+ ["WoPro", "Plural", "Person3", "Common", "hayya"]]
+},
+{
+"label": "burji-VAffSimplePerfect-ba",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "ba",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "baanni"],
+ ["Singular", "Person2", "Common", "baandu"],
+ ["Singular", "Person3", "Masc", "baanni"],
+ ["Singular", "Person3", "Fem", "baanni"],
+ ["Plural", "Person1", "Common", "baanninu"],
+ ["Plural", "Person2", "Common", "baanc̆ingu"],
+ ["Plural", "Person3", "Common", "baanningu"]]
+},
+{
+"label": "burji-VAffImprtvIrreg-intey",
+"note": "WC85p.124 :: “There is no The verb comehas both a suppletive and a nonsuppletive form",
+"common": {"lexeme": "intey",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["suppletion", "number", "token"],
+ ["NonSuppletive", "Singular", "‘inteyi!"],
+ ["NonSuppletive", "Plural", "‘inteyee!"],
+ ["Suppletive", "Singular", "‘aamu!"],
+ ["Suppletive", "Plural", "‘aamonee!"]]
+},
+{
+"label": "burji-VDervStem",
+"note": "WC85pp.133-139 :: Note discussions of consonant assimilations for causative –s- pp. 133-136,for benefactive pp. 136-137",
+"common": {"formType": "Suffix",
+ "pos": "Verb",
+ "vmorphClass": "DervStem"},
+"terms":  
+[["derivedStem", "token"],
+ ["Benefactive", "-aɗ-"],
+ ["Causative1", "-(is)s-"],
+ ["Causative2", "-(is)siis(s)-"],
+ ["Combo", "-s-aɗ-"],
+ ["Denominal", "-aw-"],
+ ["Passive", "-am-"],
+ ["Reduplicated", "_NULL"]]
+},
+{
+"label": "burji-VNegPresProg-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "PresentProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "itadd’i yed’-éy"],
+ ["Singular", "Person2", "Common", "itadd’i yett-éy"],
+ ["Singular", "Person3", "Masc", "itadd’i yed’-éy"],
+ ["Singular", "Person3", "Fem", "itadd’i yett-éy"],
+ ["Plural", "Person1", "Common", "itadd’i yenn-éy"],
+ ["Plural", "Person2", "Common", "itadd’i yec̆c̆ing-éy"],
+ ["Plural", "Person3", "Common", "itadd’i yed’ing-éy"]]
+},
+{
+"label": "burji-VNegImperfect-mar",
+"note": "WC85p.116,125",
+"common": {"lexeme": "mar",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "marey’i"],
+ ["CPro", "Singular", "Person2", "Common", "mardeyi"],
+ ["CPro", "Singular", "Person3", "Masc", "marey’i"],
+ ["CPro", "Singular", "Person3", "Fem", "mardey’i"],
+ ["CPro", "Plural", "Person1", "Common", "marrey’i"],
+ ["CPro", "Plural", "Person2", "Common", "marcingey’i"],
+ ["WPro", "Plural", "Person3", "Common", "marrey’i"],
+ ["WoPro", "Plural", "Person3", "Common", "marringey’i"]]
+},
+{
+"label": "burji-VAffSimplePerf-mar",
+"note": "WC85p.114 :: Defective forms:for me/us to have gone",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["focusType", "proType", "number", "person", "gender", "token"],
+ ["Defective", "CPro", "Singular", "Person1", "Common", "maranni"],
+ ["Defective", "CPro", "Singular", "Person2", "Common", "marandu"],
+ ["Defective", "CPro", "Singular", "Person3", "Masc", "maranni"],
+ ["Defective", "CPro", "Singular", "Person3", "Fem", "maranni"],
+ ["Defective", "CPro", "Plural", "Person1", "Common", "maranninu"],
+ ["Defective", "CPro", "Plural", "Person2", "Common", "marancingu/maransinku"],
+ ["Defective", "CPro", "Plural", "Person3", "Common", "maranni"],
+ ["Full", "CPro", "Singular", "Person1", "Common", "maranno"],
+ ["Full", "CPro", "Singular", "Person2", "Common", "marandoo/marantoo"],
+ ["Full", "CPro", "Singular", "Person3", "Masc", "maranno"],
+ ["Full", "CPro", "Singular", "Person3", "Fem", "maranno"],
+ ["Full", "CPro", "Plural", "Person1", "Common", "maranninoo"],
+ ["Full", "CPro", "Plural", "Person2", "Common", "marancingoo/maransinkoo"],
+ ["Full", "WPro", "Plural", "Person3", "Common", "marannoo"],
+ ["Full", "WoPro", "Plural", "Person3", "Common", "maranningoo"]]
+},
+{
+"label": "burji-VAffSimplePerfFocusType-mar",
+"note": "WC85p.119",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "verbClass": "Focus",
+ "vmorphClass": "Finite"},
+"terms":  
+[["focusType", "proType", "number", "person", "gender", "token"],
+ ["Free", "CPro", "Singular", "Person1", "Common", "‘ani ‘inaa maranni/oo"],
+ ["Free", "CPro", "Singular", "Person2", "Common", "‘as̆I ‘inaa marandu/oo"],
+ ["Free", "CPro", "Singular", "Person3", "Masc", "‘isi ‘inaa maranni/oo"],
+ ["Free", "CPro", "Singular", "Person3", "Fem", "‘is̆I ‘inaa maranni/oo"],
+ ["Free", "CPro", "Plural", "Person1", "Common", "naanu ‘inaa maranninu/oo"],
+ ["Free", "CPro", "Plural", "Person2", "Common", "marancingu/oo"],
+ ["Free", "CPro", "Plural", "Person3", "Masc", "‘isinu ‘inaa marammi/oo"],
+ ["Free", "CPro", "Plural", "Person3", "Fem", "- ‘inaa maranningu/oo"],
+ ["Free", "IdPro", "Singular", "Person3", "Common", "‘I’issi ‘inaa maranni/oo"],
+ ["Subject", "CPro", "Singular", "Person1", "Common", "‘ee(k’aa) marannoo"],
+ ["Subject", "CPro", "Singular", "Person2", "Common", "s̆ee(k’aa) marandoo/-antoo"],
+ ["Subject", "CPro", "Singular", "Person3", "Masc", "‘isa(k’aa) marannoo"],
+ ["Subject", "CPro", "Singular", "Person3", "Fem", "‘is̆ee(k’aa) marannoo"],
+ ["Subject", "CPro", "Plural", "Person1", "Common", "ninsa(k’aa) maranninoo"],
+ ["Subject", "CPro", "Plural", "Person2", "Common", "s̆insa(k’aa) marancingoo"],
+ ["Subject", "CPro", "Plural", "Person3", "Masc", "‘isinoo(k’aa) marannoo"],
+ ["Subject", "CPro", "Plural", "Person3", "Fem", "maranningoo"]]
+},
+{
+"label": "burji-VAffSimplePerfIrreg-beeh",
+"note": "WC85p.119 :: Different vowel suffixes esp. in 1st and 2nd sg. hayy- wish and yeɗ- be,exist belong to this class. yeɗ- also has past form but present meaning (common for verbs of existence in Ethiopian languages)",
+"common": {"lexeme": "beeh",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "‘ee beehoo"],
+ ["CPro", "Singular", "Person2", "Common", "s̆ee beettoo"],
+ ["CPro", "Singular", "Person3", "Masc", "‘isa beeha"],
+ ["CPro", "Singular", "Person3", "Fem", "‘is̆ee beetta"],
+ ["CPro", "Plural", "Person1", "Common", "ninsa beehinnoo"],
+ ["CPro", "Plural", "Person2", "Common", "s̆insa beeccingoo"],
+ ["WPro", "Plural", "Person3", "Common", "‘isinoo beeha"],
+ ["WoPro", "Plural", "Person3", "Common", "- beenningoo"]]
+},
+{
+"label": "burji-VAffSimplePerfect-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "itanni"],
+ ["Singular", "Person2", "Common", "itandu"],
+ ["Singular", "Person3", "Masc", "itanni"],
+ ["Singular", "Person3", "Fem", "itanni"],
+ ["Plural", "Person1", "Common", "itanninu"],
+ ["Plural", "Person2", "Common", "itanc̆ingu"],
+ ["Plural", "Person3", "Common", "itanningu"]]
+},
+{
+"label": "burji-VAffJuss-it",
+"note": "SS77pp.255-258",
+"common": {"gender": "Common",
+ "lexeme": "it",
+ "person": "Person3",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "it-oo(ni)"], ["Plural", "is̆s̆-oo(ni)"]]
+},
+{
+"label": "burji-PInd",
+"note": "SS77p.254 :: cf. HudsonG1976 pp. 256-259",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Independent"},
+"terms":  
+[["case", "number", "person", "gender", "token"],
+ ["Absolutive", "Singular", "Person1", "Common", "ee"],
+ ["Absolutive", "Singular", "Person2", "Common", "s̆eeabs"],
+ ["Absolutive", "Singular", "Person3", "Fem", "is̆ee (GH isee)"],
+ ["Absolutive", "Plural", "Person1", "Common", "ninsi"],
+ ["Absolutive", "Plural", "Person2", "Common", "s̆insi"],
+ ["Absolutive", "Plural", "Person3", "Common", "isinoo"],
+ ["Nominative", "Singular", "Person1", "Common", "ani"],
+ ["Nominative", "Singular", "Person2", "Common", "as̆i"],
+ ["Nominative", "Singular", "Person3", "Masc", "isi"],
+ ["Nominative", "Singular", "Person3", "Fem", "is̆I (GH išee)"],
+ ["Nominative", "Plural", "Person1", "Common", "naanu"],
+ ["Nominative", "Plural", "Person2", "Common", "as̆inu"],
+ ["Nominative", "Plural", "Person3", "Common", "isinu"],
+ ["Object", "Singular", "Person1", "Common", "ee-na"],
+ ["Object", "Singular", "Person2", "Common", "s̆ee-na"],
+ ["Object", "Singular", "Person3", "Masc", "isi-na"],
+ ["Object", "Singular", "Person3", "Fem", "is̆ee-na"],
+ ["Object", "Plural", "Person1", "Common", "ninsi-na"],
+ ["Object", "Plural", "Person2", "Common", "s̆insi-na"],
+ ["Object", "Plural", "Person3", "Common", "isinoo-na"]]
+},
+{
+"label": "burji-VAffPresPerf-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentPerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "ani it-ina yed’u"],
+ ["Singular", "Person2", "Common", "as̆I is̆s̆-ina yetttu"],
+ ["Singular", "Person3", "Masc", "isi it-ina yed’a"],
+ ["Singular", "Person3", "Fem", "is̆I is̆s̆-ina yetta"],
+ ["Plural", "Person1", "Common", "naanu itin-ina yennu"],
+ ["Plural", "Person2", "Common", "as̆inu is̆s̆ing-ina yec̆c̆ingu"],
+ ["Plural", "Person3", "Common", "isinu iting-ina yed’ingu"]]
+},
+{
+"label": "burji-VAffJuss-mar",
+"note": "WC85p.123 :: (cf. also p. 115). (33) Full forms would be,for instance:haani maru-waa let me go!,haani maru-waa-see let me go!",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["clauseMarker", "proType", "number", "person", "gender", "token"],
+ ["NoParticle", "CPro", "Singular", "Person1", "Common", "(‘ani) maru"],
+ ["NoParticle", "CPro", "Singular", "Person3", "Masc", "(‘isi) maru"],
+ ["NoParticle", "CPro", "Singular", "Person3", "Fem", "(‘is̆i) mardu"],
+ ["NoParticle", "CPro", "Plural", "Person1", "Common", "(naanu) marru"],
+ ["NoParticle", "CPro", "Plural", "Person3", "Common", "(‘isinu) maringu"],
+ ["Particle", "CPro", "Singular", "Person1", "Common", "(‘ani) maru(waa)"],
+ ["Particle", "CPro", "Singular", "Person3", "Masc", "(‘isi) marooni"],
+ ["Particle", "CPro", "Singular", "Person3", "Fem", "(‘is̆i) marooni"],
+ ["Particle", "CPro", "Plural", "Person1", "Common", "(naanu) marrooni/maroonee"],
+ ["Particle", "WPro", "Plural", "Person3", "Common", "(‘isinu) maringooni"],
+ ["Particle", "WoPro", "Plural", "Person3", "Common", "(‘isinu) mardooni"]]
+},
+{
+"label": "burji-VSubjMarkers",
+"note": "WC85p.117 :: In the suffix,The –I -u forms are Perfect forms where relevance of the action to the Present is maintained. The –oo forms are Past forms used almost exclusively in narrative discourse",
+"common": {"pos": "Verb",
+ "vmorphClass": "SubjMarkers"},
+"terms":  
+[["proType", "tam", "number", "person", "gender", "token"],
+ ["CPro", "Imperfect", "Singular", "Person1", "Common", "-a"],
+ ["CPro", "Imperfect", "Singular", "Person2", "Common", "-ta"],
+ ["CPro", "Imperfect", "Singular", "Person3", "Masc", "-a"],
+ ["CPro", "Imperfect", "Singular", "Person3", "Fem", "-ta"],
+ ["CPro", "Imperfect", "Plural", "Person1", "Common", "-na"],
+ ["CPro", "Imperfect", "Plural", "Person2", "Common", "-cingu/-cingoo"],
+ ["CPro", "Imperfect", "Plural", "Person3", "Masc", "-a"],
+ ["CPro", "Imperfect", "Plural", "Person3", "Fem", "-ingu/-ingoo"],
+ ["CPro", "Perfect", "Singular", "Person1", "Common", "-anni/-annoo"],
+ ["CPro", "Perfect", "Singular", "Person2", "Common", "-antu/-antoo"],
+ ["CPro", "Perfect", "Singular", "Person3", "Masc", "-anni/-annoo"],
+ ["CPro", "Perfect", "Singular", "Person3", "Fem", "-anni/-annoo"],
+ ["CPro", "Perfect", "Plural", "Person1", "Common", "-anninu/-anninoo"],
+ ["CPro", "Perfect", "Plural", "Person2", "Common", "-ancingu/-ancingoo"],
+ ["CPro", "Perfect", "Plural", "Person3", "Masc", "‘-anni/-annoo"],
+ ["CPro", "Perfect", "Plural", "Person3", "Fem", "-anningu/-anningoo"],
+ ["IdPro", "Imperfect", "Singular", "Person3", "Common", "-a"]]
+},
+{
+"label": "burji-VNegJuss-mar",
+"note": "WC85p.125",
+"common": {"lexeme": "mar",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "‘ee marakki"],
+ ["Singular", "Person3", "Masc", "‘isi marakki"],
+ ["Singular", "Person3", "Fem", "‘is̆ee marakki"],
+ ["Plural", "Person3", "Common", "‘isinoo marakki"]]
+},
+{
+"label": "burji-VAffPresProgCompound-mar",
+"note": "WC85p.123",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PresentProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "(‘ani) maraaddinaa yeɗu"],
+ ["CPro", "Singular", "Person2", "Common", "(‘as̆i) maraadddinaa yettu"],
+ ["CPro", "Singular", "Person3", "Masc", "(‘isi) maraaddinaa yeɗa"],
+ ["CPro", "Singular", "Person3", "Fem", "(‘is̆i) maraadinaa yetta"],
+ ["CPro", "Plural", "Person1", "Common", "(naanu) maraaddinaa yennu"],
+ ["CPro", "Plural", "Person2", "Common", "(‘as̆inu) maraaddinaa yeccingu"],
+ ["WPro", "Plural", "Person3", "Common", "(’isinu) maraaddinaa yeɗa"],
+ ["WoPro", "Plural", "Person3", "Common", "maraaddinaa yeɗingu"]]
+},
+{
+"label": "burji-VAffPerfProgCompound-mar",
+"note": "WC85p.122",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "PerfectProgressive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "‘ani maraaɗannoo"],
+ ["CPro", "Singular", "Person2", "Common", "‘as̆I martaaɗandoo"],
+ ["CPro", "Singular", "Person3", "Masc", "‘isi maraaɗannoo"],
+ ["CPro", "Singular", "Person3", "Fem", "‘is̆I martaaɗannoo"],
+ ["CPro", "Plural", "Person1", "Common", "naanu marraaanninoo"],
+ ["CPro", "Plural", "Person2", "Common", "‘as̆inu mars̆ingooɗancingoo"],
+ ["IdPro", "Singular", "Person3", "Common", "‘issi maraaɗannoo"],
+ ["WPro", "Plural", "Person3", "Common", "‘isinu maraaɗannoo"],
+ ["WoPro", "Plural", "Person3", "Common", "maringooɗanningoo"]]
+},
+{
+"label": "burji-VAffFutIntensiveCompound-mar",
+"note": "WC85p.122",
+"common": {"formType": "Compound",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "FutureIntensive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "‘ee mara mara"],
+ ["CPro", "Singular", "Person2", "Common", "s̆ee mara marda"],
+ ["CPro", "Singular", "Person3", "Masc", "‘isaa mara mara"],
+ ["CPro", "Singular", "Person3", "Fem", "‘is̆ee mara marda"],
+ ["CPro", "Plural", "Person1", "Common", "ninsa mara marra"],
+ ["CPro", "Plural", "Person2", "Common", "s̆insa mara mars̆ingoo"],
+ ["WPro", "Plural", "Person3", "Common", "‘isinoo mara mara"],
+ ["WoPro", "Plural", "Person3", "Common", "mara marringu"]]
+},
+{
+"label": "burji-VAffImperfectReg-mar",
+"note": "WC85p.120 :: paradigms #23 [mar-]and #24 [hayy-]. Author states:The first of the following imperfect paradigms is used when no further context is given. So every form in this paradigm is fully acceptable as a complete,well-formed utterance.[Not certain how to interpret this.]",
+"common": {"conjClass": "Reular",
+ "lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "IMPERFREG-IRREG"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "‘ee mara"],
+ ["CPro", "Singular", "Person2", "Common", "s̆ee marda"],
+ ["CPro", "Singular", "Person3", "Masc", "‘isa mara"],
+ ["CPro", "Singular", "Person3", "Fem", "‘is̆ee marda"],
+ ["CPro", "Plural", "Person1", "Common", "ninsa marra"],
+ ["CPro", "Plural", "Person2", "Common", "s̆insa mars̆ingoo"],
+ ["WPro", "Plural", "Person3", "Common", "‘isinoo mara"],
+ ["WoPro", "Plural", "Person3", "Common", "- marringoo"]]
+},
+{
+"label": "burji-VAffImperfect-duw",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "duw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "d’uwa"],
+ ["Singular", "Person2", "Common", "d’uda"],
+ ["Singular", "Person3", "Masc", "d’uwa"],
+ ["Singular", "Person3", "Fem", "d’uda"],
+ ["Plural", "Person1", "Common", "d’una"],
+ ["Plural", "Person2", "Common", "d’unjingu"],
+ ["Plural", "Person3", "Common", "d’uwingu"]]
+},
+{
+"label": "burji-PInterr",
+"note": "HG76p.259",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Interrogative"},
+"terms":  
+[["interrogClass", "token"],
+ ["InterrogProHow", "maamma"],
+ ["InterrogProHowMany", "mia"],
+ ["InterrogProWhat", "miya"],
+ ["InterrogProWhen", "haynu"],
+ ["InterrogProWhere", "haballa"],
+ ["InterrogProWho", "ay(y)e"]]
+},
+{
+"label": "burji-VAffSimplePerfect-duw",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "duw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "d’awanni"],
+ ["Singular", "Person2", "Common", "d’uwandu"],
+ ["Singular", "Person3", "Masc", "d’uwanni"],
+ ["Singular", "Person3", "Fem", "d’uwanni"],
+ ["Plural", "Person1", "Common", "d’uwanninu"],
+ ["Plural", "Person2", "Common", "d’uwanc̆ingu"],
+ ["Plural", "Person3", "Common", "d’uwanningu"]]
+},
+{
+"label": "burji-VAffImperfect-it",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "it",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "ita"],
+ ["Singular", "Person2", "Common", "is̆s̆a"],
+ ["Singular", "Person3", "Masc", "ita"],
+ ["Singular", "Person3", "Fem", "is̆s̆a"],
+ ["Plural", "Person1", "Common", "itina"],
+ ["Plural", "Person2", "Common", "is̆s̆ingu"],
+ ["Plural", "Person3", "Common", "itingu"]]
+},
+{
+"label": "burji-VNegPerfect-mar",
+"note": "WC85p.125 :: [Not clear whether this is simply a negation of simplePerf,or of anything perfect/past.]",
+"common": {"lexeme": "mar",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Perfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "(‘ani) maranney’i"],
+ ["CPro", "Singular", "Person2", "Common", "(‘as̆i) marandey’i"],
+ ["CPro", "Singular", "Person3", "Masc", "(‘isi) maranney’i"],
+ ["CPro", "Singular", "Person3", "Fem", "(‘is̆i) marandey’i"],
+ ["CPro", "Plural", "Person1", "Common", "(naanu) maranniney’i"],
+ ["CPro", "Plural", "Person2", "Common", "(‘as̆inu) marancingey’i"],
+ ["WPro", "Plural", "Person3", "Common", "(‘isinu) maranney’i"],
+ ["WoPro", "Plural", "Person3", "Common", "maranningey’i"]]
+},
+{
+"label": "burji-VAffSimplePerfect-intey",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "intey",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "SimplePerfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "intanni"],
+ ["Singular", "Person2", "Common", "intandu"],
+ ["Singular", "Person3", "Masc", "intanni"],
+ ["Singular", "Person3", "Fem", "intanni"],
+ ["Plural", "Person1", "Common", "intanninu"],
+ ["Plural", "Person2", "Common", "intanc̆ingu"],
+ ["Plural", "Person3", "Common", "intanningu"]]
+},
+{
+"label": "burji-VAffImperfect-ba",
+"note": "SS77pp.255-258",
+"common": {"lexeme": "ba",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "ba’ a"],
+ ["Singular", "Person2", "Common", "baada"],
+ ["Singular", "Person3", "Masc", "ba’ a"],
+ ["Singular", "Person3", "Fem", "baada"],
+ ["Plural", "Person1", "Common", "baana"],
+ ["Plural", "Person2", "Common", "baas̆ingu"],
+ ["Plural", "Person3", "Common", "baingu"]]
+},
+{
+"label": "burji-VNegImprtv-mar",
+"note": "WC85p.116 :: (cf. also 124)",
+"common": {"lexeme": "mar",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "maraas̆i"], ["Plural", "marakke"]]
+},
+{
+"label": "burji-PDemonstrative",
+"note": "SS77pp.254-255 :: HudsonG1976 pp. 255-256. Note Sasse-Straube:Von den Demonstrativa sind nur die Formen der ,,hier’’ –Deixis (,dieser’ etc.) belegt– far deixis form is from Hudson",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Demonstrative"},
+"terms":  
+[["case", "deixis", "number", "gender", "token"],
+ ["Absolutive", "Far", "Singular", "Masc", "kaac"],
+ ["Absolutive", "Far", "Singular", "Fem", "kaac"],
+ ["Absolutive", "Far", "Plural", "Common", "kaac"],
+ ["Absolutive", "Near", "Singular", "Masc", "ka"],
+ ["Absolutive", "Near", "Singular", "Fem", "ta"],
+ ["Absolutive", "Near", "Plural", "Common", "ci"],
+ ["Nominative", "Far", "Singular", "Masc", "kaac"],
+ ["Nominative", "Far", "Singular", "Fem", "kaac"],
+ ["Nominative", "Far", "Plural", "Common", "kaac"],
+ ["Nominative", "Near", "Singular", "Masc", "ku"],
+ ["Nominative", "Near", "Singular", "Fem", "tu"],
+ ["Nominative", "Near", "Plural", "Common", "ci"]]
+},
+{
+"label": "burji-PPoss",
+"note": "SS77p.254 :: cf. HudsonG1976 pp. 256-259",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Possessive"},
+"terms":  
+[["caseHead", "genderHead", "number", "person", "gender", "token"],
+ ["HeadAbsolutive", "HeadFem", "Singular", "Person1", "Common", "ita"],
+ ["HeadAbsolutive", "HeadFem", "Singular", "Person2", "Common", "s̆ita"],
+ ["HeadAbsolutive", "HeadFem", "Singular", "Person3", "Masc", "isata"],
+ ["HeadAbsolutive", "HeadFem", "Singular", "Person3", "Fem", "is̆eeta"],
+ ["HeadAbsolutive", "HeadFem", "Plural", "Person1", "Common", "ninta"],
+ ["HeadAbsolutive", "HeadFem", "Plural", "Person2", "Common", "s̆inta"],
+ ["HeadAbsolutive", "HeadFem", "Plural", "Person3", "Common", "isinata"],
+ ["HeadAbsolutive", "HeadMasc", "Singular", "Person1", "Common", "iiya"],
+ ["HeadAbsolutive", "HeadMasc", "Singular", "Person2", "Common", "s̆iiya"],
+ ["HeadAbsolutive", "HeadMasc", "Singular", "Person3", "Masc", "isaka"],
+ ["HeadAbsolutive", "HeadMasc", "Singular", "Person3", "Fem", "is̆eeka"],
+ ["HeadAbsolutive", "HeadMasc", "Plural", "Person1", "Common", "ninka"],
+ ["HeadAbsolutive", "HeadMasc", "Plural", "Person2", "Common", "s̆inka"],
+ ["HeadAbsolutive", "HeadMasc", "Plural", "Person3", "Common", "isinaka"],
+ ["HeadNominative", "HeadFem", "Singular", "Person1", "Common", "ic̆(i)"],
+ ["HeadNominative", "HeadFem", "Singular", "Person2", "Common", "s̆ic̆(i)"],
+ ["HeadNominative", "HeadFem", "Singular", "Person3", "Masc", "isic̆(i)"],
+ ["HeadNominative", "HeadFem", "Singular", "Person3", "Fem", "is̆ic̆(i)"],
+ ["HeadNominative", "HeadFem", "Plural", "Person1", "Common", "ninc̆(i)"],
+ ["HeadNominative", "HeadFem", "Plural", "Person2", "Common", "s̆inc̆(i)"],
+ ["HeadNominative", "HeadFem", "Plural", "Person3", "Common", "isinac̆(i)"],
+ ["HeadNominative", "HeadMasc", "Singular", "Person1", "Common", "iiyu"],
+ ["HeadNominative", "HeadMasc", "Singular", "Person2", "Common", "s̆iiyu"],
+ ["HeadNominative", "HeadMasc", "Singular", "Person3", "Masc", "isaku"],
+ ["HeadNominative", "HeadMasc", "Singular", "Person3", "Fem", "is̆eeku"],
+ ["HeadNominative", "HeadMasc", "Plural", "Person1", "Common", "ninku"],
+ ["HeadNominative", "HeadMasc", "Plural", "Person2", "Common", "s̆inku"],
+ ["HeadNominative", "HeadMasc", "Plural", "Person3", "Common", "isinaku"]]
+},
+{
+"label": "burji-VAffImperfect-mar",
+"note": "WC85p.115 :: Cf. Sass-Straube1977 p. 255",
+"common": {"lexeme": "mar",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfect",
+ "vmorphClass": "Finite"},
+"terms":  
+[["proType", "number", "person", "gender", "token"],
+ ["CPro", "Singular", "Person1", "Common", "mara"],
+ ["CPro", "Singular", "Person2", "Common", "marda"],
+ ["CPro", "Singular", "Person3", "Masc", "mara"],
+ ["CPro", "Singular", "Person3", "Fem", "marda"],
+ ["CPro", "Plural", "Person1", "Common", "marra"],
+ ["CPro", "Plural", "Person2", "Common", "marsingoo"],
+ ["WPro", "Plural", "Person3", "Common", "mara"],
+ ["WoPro", "Plural", "Person3", "Common", "marringoo"]]
+}]
+}
